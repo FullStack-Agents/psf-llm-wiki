@@ -10,6 +10,8 @@
 
 Bitcoin Cash (BCH) is a distributed, peer-to-peer system that operates without a central server or control point (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_2.md). It provides a technological framework for securing digital asset ownership through distributed computation.
 
+It originated from the 2008 publication of "Bitcoin: A Peer-to-Peer Electronic Cash System" by Satoshi Nakamoto, who combined previous innovations like b-money and HashCash to create a fully decentralized system (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_4.md).
+
 It is the culmination of decades of cryptographic and distributed systems research, combining four key innovations (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_3.md):
 1. A decentralized peer-to-peer network protocol.
 2. A public transaction ledger ([[blockchain]]).
