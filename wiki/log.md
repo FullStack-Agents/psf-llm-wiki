@@ -1,1 +1,3 @@
 2026-04-16: Ingested mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_2.md. Created pages: bitcoin-cash, decentralization, mining, monetary-policy, and mastering-bitcoin-cash-chapter-1. Updated index.md.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_3.md. Created pages: double-spending, blockchain, and transaction-script. Updated bitcoin-cash, decentralization, and mastering-bitcoin-cash-chapter-1. Updated index.md.
+2026-04-16: Linting and Audit. Merged Chapter 1 summary fragments, created private-keys, updated digital-wallets, and cleaned up index.md.
