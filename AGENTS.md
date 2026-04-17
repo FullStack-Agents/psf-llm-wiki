@@ -51,12 +51,12 @@ Every wiki page should follow this structure:
 
 Main content goes here. Use clear headings and short paragraphs.
 
-Link to related concepts using [[wiki-links]] throughout the text.
+Link to related concepts using [wiki-links](path/to/file.md) throughout the text.
 
 ## Related pages
 
-- [[related-concept-1]]
-- [[related-concept-2]]
+- [related-concept-1](related-concept-1.md)
+- [related-concept-2](related-concept-2.md)
 ```
 
 
