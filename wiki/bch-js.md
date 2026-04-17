@@ -1,6 +1,6 @@
 # bch-js
 
-**Summary**: A JavaScript npm library for building web and mobile applications that interact with the [Bitcoin Cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)) blockchain. It serves as the Interface Library layer in the [Cash Stack](cash-stack-layers.md).
+**Summary**: A JavaScript npm library for building web and mobile applications that interact with the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) ([BCH](bitcoin-cash.md)) [blockchain](blockchain.md). It serves as the Interface Library layer in the [Cash Stack](cash-stack-layers.md).
 
 **Sources**: bch-js.md, [psf-bch-api](psf-bch-api.md).md
 
@@ -15,7 +15,7 @@ It sits at the **Interface Library** layer of the [Cash Stack](cash-stack-layers
 
 ### Key Features
 - **Wallet Management**: Supports creating HD wallets using [BIP39](digital-wallets.md) and [BIP44](digital-wallets.md) standards (source: bch-js.md).
-- **Blockchain Interaction**: Tools for checking balances, listing [UTXOs](utxo.md), and building/broadcasting [BCH](bitcoin-cash.md) transactions (source: bch-js.md).
+- **[blockchain](blockchain.md) Interaction**: Tools for checking balances, listing [[utxo](utxo.md)s](utxo.md), and building/broadcasting [BCH](bitcoin-cash.md) transactions (source: bch-js.md).
 - **[SLP](slp-token-protocol.md) & [NFT](slp-token-protocol.md) Support**: Full support for the [Simple Ledger Protocol](slp-token-protocol.md) ([SLP](slp-token-protocol.md)), including creating and managing fungible tokens and NFTs according to the NFT1 specification (source: bch-js.md).
 - **Cryptographic Utilities**: Capabilities for message signing and verification, as well as [address](addresses.md) conversion between Cash Address, legacy, and [SLP](slp-token-protocol.md) formats (source: bch-js.md).
 - **Integration Testing**: Used for end-to-end testing of `[psf-bch-api](psf-bch-api.md)` installations to verify connectivity to [BCHN](bchn-full-node.md) Full Nodes, [Fulcrum](fulcrum-indexer.md) Indexers, and [SLP](slp-token-protocol.md) Token Indexers (source: [psf-bch-api](psf-bch-api.md).md).

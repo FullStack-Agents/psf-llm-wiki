@@ -1,6 +1,6 @@
 # Transaction Process
 
-**Summary**: The mechanism by which [Bitcoin Cash](bitcoin-cash.md) is transferred from sender to recipient, including signing, propagation, and confirmation.
+**Summary**: The mechanism by which [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) is transferred from sender to recipient, including signing, propagation, and confirmation.
 
 **Sources**: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_9.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_6.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_7.md
 
@@ -8,12 +8,12 @@
 
 ---
 
-Sending [Bitcoin Cash](bitcoin-cash.md) involves creating a transaction that assigns a specific amount of [BCH](bitcoin-cash.md) from the sender's [address](addresses.md) to the recipient's [address](addresses.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_9.md).
+Sending [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) involves creating a transaction that assigns a specific amount of [BCH](bitcoin-cash.md) from the sender's [address](addresses.md) to the recipient's [address](addresses.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_9.md).
 
 ### The Transaction Lifecycle
 1. **Authorization**: The transaction is signed using the sender's [private-keys](private-keys.md), which authorizes the movement of funds from their wallet.
 2. **Propagation**: The transaction is broadcast across the network using a peer-to-peer protocol. Nodes that receive a valid, unseen transaction immediately forward it to others, using a "flooding" approach to ensure the transaction reaches most nodes within seconds (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md).
-3. **Visibility**: Transactions can be monitored in real-time via blockchain explorers.
+3. **Visibility**: Transactions can be monitored in real-time via [blockchain](blockchain.md) explorers.
 4. **State - Unconfirmed**: When a transaction is first broadcast, it is marked as "Unconfirmed." It is visible to the network but not yet part of the ledger.
 5. **Confirmation**: A transaction is confirmed when a miner includes it in a new block. This happens approximately every 10 minutes.
 
@@ -21,16 +21,16 @@ Sending [Bitcoin Cash](bitcoin-cash.md) involves creating a transaction that ass
 Each block built on top of a block containing a transaction adds one "confirmation" to that transaction (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_6.md). 
 - **Single Confirmation**: Occurs when a transaction is first included in a block.
 - **Irreversibility**: By convention, transactions with **six or more confirmations** are considered irreversible, as reversing them would require an impractical amount of computational power (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_6.md).
-- **Simplified Payment Verification (SPV)**: Lightweight clients use this method to confirm a transaction's existence and confirmation count in the blockchain without needing a full copy of the ledger (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_7.md).
+- **Simplified Payment Verification (SPV)**: Lightweight clients use this method to confirm a transaction's existence and confirmation count in the [blockchain](blockchain.md) without needing a full copy of the ledger (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_7.md).
 
 ### Validation and Trust
 Recipients can independently verify that a transaction is well-formed, uses previously unspent inputs ([utxo](utxo.md)), and includes sufficient fees. For small-value transactions, merchants may accept "zero confirmation" transactions, as the risk is considered comparable to certain traditional payment methods (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md).
 
-The confirmation process is critical as it prevents [double-spending](double-spending.md) and ensures the overall integrity of the [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_9.md).
+The confirmation process is critical as it prevents [double-spending](double-spending.md) and ensures the overall integrity of the [[blockchain](blockchain.md)]([blockchain](blockchain.md).md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_9.md).
 
 ## Related pages
 
-- [blockchain](blockchain.md)
+- [[blockchain](blockchain.md)]([blockchain](blockchain.md).md)
 - [mining](mining.md)
 - [private-keys](private-keys.md)
 - [double-spending](double-spending.md)

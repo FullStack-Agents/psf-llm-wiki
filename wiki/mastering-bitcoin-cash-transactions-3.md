@@ -1,6 +1,6 @@
 # mastering-bitcoin-cash-transactions-3
 
-**Summary**: Description of the [Bitcoin Cash](bitcoin-cash.md) transaction data structure and the function of the locktime field.
+**Summary**: Description of the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) transaction data structure and the function of the locktime field.
 
 **Sources**: mastering-bitcoin-cash_transactions_3.md
 
@@ -10,7 +10,7 @@
 
 ## Transaction Data Structure
 
-A [Bitcoin Cash](bitcoin-cash.md) transaction is a data structure consisting of the following fields:
+A [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) transaction is a data structure consisting of the following fields:
 
 | Size | Field | Description |
 | :--- | :--- | :--- |

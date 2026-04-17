@@ -1,6 +1,6 @@
 # Introduction to the [Cash Stack](cash-stack-layers.md)
 
-**Summary**: Overview of the [Cash Stack](cash-stack-layers.md) framework for building blockchain-based applications, focusing on [Bitcoin Cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)) and the goals of the Permissionless Software Foundation (PSF).
+**Summary**: Overview of the [Cash Stack](cash-stack-layers.md) framework for building [blockchain](blockchain.md)-based applications, focusing on [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) ([BCH](bitcoin-cash.md)) and the goals of the Permissionless Software Foundation (PSF).
 
 **Sources**: intro.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-The [Cash Stack](cash-stack-layers.md) is a framework designed for building blockchain-based web and phone applications. It enables "web2" applications to utilize "web3" primitives such as money transfer via [Bitcoin Cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)), tokenization (NFTs/fungible tokens), file hosting via IPFS, encrypted messaging, and social media via Nostr (source: intro.md).
+The [Cash Stack](cash-stack-layers.md) is a framework designed for building [blockchain](blockchain.md)-based web and phone applications. It enables "web2" applications to utilize "web3" primitives such as money transfer via [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) ([BCH](bitcoin-cash.md)), tokenization (NFTs/fungible tokens), file hosting via IPFS, encrypted messaging, and social media via Nostr (source: intro.md).
 
 The framework emphasizes:
 - **Censorship Resistance**: Avoiding state or corporate tampering (source: intro.md).
@@ -24,10 +24,10 @@ Inspired by the OSI model, the [Cash Stack](cash-stack-layers.md) is divided int
 1. **Application**: End-user software (UI) and application libraries containing business logic.
 2. **Interface Library**: Libraries like `[bch-js](bch-js.md)` or `bch-consumer` used by application libraries.
 3. **API**: REST API or JSON RPC servers providing a single interface to backend services.
-4. **Indexers**: Search engines for blockchain data (e.g., [Fulcrum](fulcrum-indexer.md) for balances/UTXOs, `psf-slp-indexer` for [SLP](slp-token-protocol.md) tokens).
-5. **Full Nodes**: Basic blockchain software for broadcasting and verifying blocks.
+4. **Indexers**: Search engines for [blockchain](blockchain.md) data (e.g., [Fulcrum](fulcrum-indexer.md) for balances/[utxo](utxo.md)s, `psf-slp-indexer` for [SLP](slp-token-protocol.md) tokens).
+5. **Full Nodes**: Basic [blockchain](blockchain.md) software for broadcasting and verifying blocks.
 
-The [psf-bch-api]([psf-bch-api](psf-bch-api.md).md) serves as the central REST API server connecting the blockchain infrastructure (Full node, [Fulcrum](fulcrum-indexer.md), [SLP](slp-token-protocol.md) Token Indexer) to the web interface (source: intro.md).
+The [psf-bch-api]([psf-bch-api](psf-bch-api.md).md) serves as the central REST API server connecting the [blockchain](blockchain.md) infrastructure (Full node, [Fulcrum](fulcrum-indexer.md), [SLP](slp-token-protocol.md) Token Indexer) to the web interface (source: intro.md).
 
 ## Related pages
 

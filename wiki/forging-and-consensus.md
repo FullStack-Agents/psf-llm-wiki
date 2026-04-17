@@ -8,7 +8,7 @@
 
 ---
 
-In [Bitcoin Cash](bitcoin-cash.md), the process of adding a new block to the blockchain is often referred to as "forging." This is a computational competition where miners strive to create a block that meets the network's difficulty requirements (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_9.md).
+In [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md), the process of adding a new block to the [blockchain](blockchain.md) is often referred to as "forging." This is a computational competition where miners strive to create a block that meets the network's difficulty requirements (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_9.md).
 
 ### The Forging Process
 To forge a block, a miner must:
@@ -17,7 +17,7 @@ To forge a block, a miner must:
 3. Solve the PoW puzzle by finding a nonce that, when hashed with the header using SHA-256, results in a value below the target threshold.
 
 ### Network Consensus
-Consensus is the process by which all nodes in the decentralized network agree on a single version of the blockchain.
+Consensus is the process by which all nodes in the decentralized network agree on a single version of the [blockchain](blockchain.md).
 
 - **Propagation**: When a miner finds a valid block, they broadcast it to the network.
 - **Validation**: Other nodes verify the block's PoW and the validity of the included transactions.
@@ -27,6 +27,6 @@ Consensus is the process by which all nodes in the decentralized network agree o
 
 - [mining](mining.md)
 - [proof-of-work](proof-of-work.md)
-- [blockchain](blockchain.md)
+- [[blockchain](blockchain.md)]([blockchain](blockchain.md).md)
 - [decentralization](decentralization.md)
 - [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md)

@@ -1,6 +1,6 @@
 # psf-bch-api
 
-**Summary**: A REST API server written in Node.js that provides a common web2 interface for developers to build blockchain-based business applications by abstracting underlying blockchain infrastructure.
+**Summary**: A REST API server written in Node.js that provides a common web2 interface for developers to build [blockchain](blockchain.md)-based business applications by abstracting underlying [blockchain](blockchain.md) infrastructure.
 
 **Sources**: psf-bch-api.md
 
@@ -8,14 +8,14 @@
 
 ---
 
-`psf-bch-api` is the heart of the [Cash Stack](cash-stack-layers.md), acting as a single web2 REST API that allows developers to access blockchain infrastructure without interacting directly with low-level nodes (source: psf-bch-api.md). It is written in Node.js using the Express.js framework and follows the Clean Architecture design pattern (source: psf-bch-api.md).
+`psf-bch-api` is the heart of the [Cash Stack](cash-stack-layers.md), acting as a single web2 REST API that allows developers to access [blockchain](blockchain.md) infrastructure without interacting directly with low-level nodes (source: psf-bch-api.md). It is written in Node.js using the Express.js framework and follows the Clean Architecture design pattern (source: psf-bch-api.md).
 
 ## Architecture and Dependencies
 
-The server sits atop several critical pieces of blockchain infrastructure (source: psf-bch-api.md):
+The server sits atop several critical pieces of [blockchain](blockchain.md) infrastructure (source: psf-bch-api.md):
 - **[BCHN](bchn-full-node.md) [Full Node](bchn-full-node.md)**: The base layer that validates transactions and blocks.
-- **[Fulcrum](fulcrum-indexer.md) Indexer**: An [address](addresses.md) indexer tracking balances, transaction histories, and UTXOs.
-- **[SLP](slp-token-protocol.md) Token Indexer**: Tracks all [SLP](slp-token-protocol.md) tokens on the blockchain.
+- **[Fulcrum](fulcrum-indexer.md) Indexer**: An [address](addresses.md) indexer tracking balances, transaction histories, and [utxo](utxo.md)s.
+- **[SLP](slp-token-protocol.md) Token Indexer**: Tracks all [SLP](slp-token-protocol.md) tokens on the [blockchain](blockchain.md).
 
 Front-end applications typically interact with `psf-bch-api` using libraries such as [bch-js]([bch-js](bch-js.md).md) or [bch-consumer](bch-consumer.md) (source: psf-bch-api.md).
 

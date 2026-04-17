@@ -1,4 +1,4 @@
-# Blockchain
+# 
 
 **Summary**: A public transaction ledger that records all transactions and prevents double-spending.
 
@@ -8,9 +8,9 @@
 
 ---
 
-The blockchain is a public transaction ledger that serves as one of the four key innovations of [Bitcoin Cash](bitcoin-cash.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_3.md). 
+The  is a public transaction ledger that serves as one of the four key innovations of [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_3.md). 
 
-By maintaining a transparent and distributed record of all transactions, the blockchain allows the network to verify asset ownership, ensure [auditability](auditability.md), and prevent [double-spending](double-spending.md) without the need for a central authority.
+By maintaining a transparent and distributed record of all transactions, the  allows the network to verify asset ownership, ensure [auditability](auditability.md), and prevent [double-spending](double-spending.md) without the need for a central authority.
 
 ## Related pages
 

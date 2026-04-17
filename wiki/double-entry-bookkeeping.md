@@ -1,6 +1,6 @@
 # Double-Entry Bookkeeping
 
-**Summary**: The accounting model used by [Bitcoin Cash](bitcoin-cash.md) to ensure the integrity and conservation of coins during transfers.
+**Summary**: The accounting model used by [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) to ensure the integrity and conservation of coins during transfers.
 
 **Sources**: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_11.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-[Bitcoin Cash](bitcoin-cash.md)'s transaction structure is essentially a distributed double-entry bookkeeping system. 
+[[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md)'s transaction structure is essentially a distributed double-entry bookkeeping system. 
 
 ### Mechanics
 - **Debits**: Transaction inputs represent the funds being moved.

@@ -1,6 +1,6 @@
 # x402-bch
 
-**Summary**: A protocol for facilitating per-call payments for API access using [Bitcoin Cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)).
+**Summary**: A protocol for facilitating per-call payments for API access using [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) ([BCH](bitcoin-cash.md)).
 
 **Sources**: [psf-bch-api](psf-bch-api.md).md
 

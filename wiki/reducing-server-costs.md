@@ -17,10 +17,10 @@ TBD
 
 ---
 
-The "Reduce Server Costs" strategy is a practical application of the **Web 3 Cash Stack**, moving resource-intensive blockchain infrastructure from centralized cloud providers to home-hosted hardware.
+The "Reduce Server Costs" strategy is a practical application of the **Web 3 Cash Stack**, moving resource-intensive [blockchain](blockchain.md) infrastructure from centralized cloud providers to home-hosted hardware.
 
 ## The Problem: The "Cloud Tax"
-Traditional Web 2.0 deployments of blockchain infrastructure (Full Node, Indexer, API Server) result in:
+Traditional Web 2.0 deployments of [blockchain](blockchain.md) infrastructure (Full Node, Indexer, API Server) result in:
 - **High Recurring Costs**: Approximately $50/month per instance.
 - **High Barriers to Entry**: Cost is a deterrent for developers in developing countries.
 - **Centralization Risks**: Vulnerability to corporate or government censorship on cloud platforms (AWS, Hetzner, etc.).
@@ -43,11 +43,11 @@ The PSF introduced an **IPFS networking layer** between the API and the front-en
 ## Strategic Benefits Beyond Cost
 - **Censorship Resistance**: Infrastructure is no longer subject to cloud provider Terms of Service or political pressure.
 - **Decentralized Resilience**: The network is a mesh of community-run `ipfs-bch-wallet-service` instances. If one goes offline, applications can switch to another provider on the IPFS subnetwork.
-- **Accessibility**: Lowers the financial threshold for hobbyists and entrepreneurs to launch blockchain services.
+- **Accessibility**: Lowers the financial threshold for hobbyists and entrepreneurs to launch [blockchain](blockchain.md) services.
 
 ## Related Pages
-- [cash-stack-layers](wiki/cash-stack-layers.md)
-- [ipfs-bch-wallet-service](wiki/ipfs-bch-wallet-service.md)
-- [ipfs-bch-wallet-consumer](wiki/ipfs-bch-wallet-consumer.md)
-- [circuit-relays](wiki/circuit-relays.md)
-- [permissionless-software-foundation](wiki/permissionless-software-foundation.md)
+- [cash-stack-layers](cash-stack-layers.md)
+- [ipfs-bch-wallet-service](ipfs-bch-wallet-service.md)
+- [ipfs-bch-wallet-consumer](ipfs-bch-wallet-consumer.md)
+- [circuit-relays](circuit-relays.md)
+- [permissionless-software-foundation](permissionless-software-foundation.md)

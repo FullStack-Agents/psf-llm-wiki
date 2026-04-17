@@ -1,6 +1,6 @@
 # Transaction Chaining
 
-**Summary**: The relationship between parent and child transactions in [Bitcoin Cash](bitcoin-cash.md).
+**Summary**: The relationship between parent and child transactions in [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md).
 
 **Sources**: mastering-bitcoin-cash_transactions_7.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-Transactions form chains where a "child" transaction spends the outputs produced by a "parent" transaction (source: mastering-bitcoin-cash_transactions_7.md). This interdependence is a core part of how value flows through the blockchain.
+Transactions form chains where a "child" transaction spends the outputs produced by a "parent" transaction (source: mastering-bitcoin-cash_transactions_7.md). This interdependence is a core part of how value flows through the [blockchain](blockchain.md).
 
 Complex workflows may involve the simultaneous creation of multiple interdependent transactions forming a chain (source: mastering-bitcoin-cash_transactions_7.md).
 

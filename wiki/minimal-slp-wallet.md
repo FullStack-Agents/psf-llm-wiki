@@ -1,6 +1,6 @@
 # minimal-slp-wallet
 
-**Summary**: A high-level JavaScript wallet engine for building web, mobile, and Node.js applications on [Bitcoin Cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)), providing a simplified API for common wallet operations.
+**Summary**: A high-level JavaScript wallet engine for building web, mobile, and Node.js applications on [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) ([BCH](bitcoin-cash.md)), providing a simplified API for common wallet operations.
 
 **Sources**: minimal-slp-wallet.md
 
@@ -18,7 +18,7 @@ It operates at the **Application Library** layer of the [Cash Stack](cash-stack-
 - **Token Awareness**: Built-in support for all [SLP](slp-token-protocol.md) tokens and NFTs, including tools to retrieve metadata using IPFS CIDs and supporting specifications like PS002 and PS007 (source: minimal-slp-wallet.md).
 - **Dual Infrastructure Support**: Can connect to both Web 2 (via [psf-bch-api]([psf-bch-api](psf-bch-api.md).md) REST API) and Web 3 (via `ipfs-bch-wallet-consumer` JSON RPC) back ends (source: minimal-slp-wallet.md).
 - **Embedded [bch-js](bch-js.md)**: Includes an instance of [bch-js]([bch-js](bch-js.md).md), allowing developers to access low-level functions when fine-grained control is required (source: minimal-slp-wallet.md).
-- **Wallet Management**: Supports [HD wallet](digital-wallets.md) creation via mnemonics, mnemonic encryption for secure storage, and wallet optimization to consolidate [UTXOs](utxo.md) (source: minimal-slp-wallet.md).
+- **Wallet Management**: Supports [HD wallet](digital-wallets.md) creation via mnemonics, mnemonic encryption for secure storage, and wallet optimization to consolidate [[utxo](utxo.md)s](utxo.md) (source: minimal-slp-wallet.md).
 
 ### Comparison: minimal-slp-wallet vs [bch-js](bch-js.md)
 | Feature | minimal-slp-wallet | [bch-js](bch-js.md) |

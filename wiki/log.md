@@ -16,4 +16,4 @@
 - 2026-04-17: Ingested `bch-js.md`. Updated `bch-js.md` and `index.md`. Moved source to `processed/`.
 - 2026-04-17: Ingested `minimal-slp-wallet.md`. Created `minimal-slp-wallet.md` and updated `index.md`. Moved source to `processed/`.
 - 2026-04-17: Performed wiki audit and linting actions. Created `bch-consumer.md` and `ipfs-bch-wallet-consumer.md`. Updated `index.md`. Performed initial linking pass on core Cash Stack pages.
-- 2026-04-17: Executed a global deep-linking pass across all wiki pages. Implemented a mapping of 23 high-value concepts (UTXO, SLP, Bitcoin Cash, etc.) to their respective wiki pages to eliminate orphan pages and create a dense knowledge graph.
+- 2026-04-17: Executed a global deep-linking pass across all wiki pages. Implemented a mapping of 23 high-value concepts ([utxo](utxo.md), SLP, [bitcoin-cash](bitcoin-cash.md), etc.) to their respective wiki pages to eliminate orphan pages and create a dense knowledge graph.

@@ -10,7 +10,7 @@
 
 ## Script Execution Process
 
-When a [Bitcoin Cash](bitcoin-cash.md) node validates a transaction, it executes the unlocking and locking scripts in a specific sequence (source: mastering-bitcoin-cash_transactions_11.md):
+When a [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) node validates a transaction, it executes the unlocking and locking scripts in a specific sequence (source: mastering-bitcoin-cash_transactions_11.md):
 
 1. **Unlocking Script Execution**: The unlocking script is executed first. If it executes without errors, the main stack is copied for the next step.
 2. **Locking Script Execution**: The locking script is then executed using the state of the stack left by the unlocking script.

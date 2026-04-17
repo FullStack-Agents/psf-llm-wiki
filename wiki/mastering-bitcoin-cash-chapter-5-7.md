@@ -1,4 +1,4 @@
-# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 5 Part 7
+# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 5 Part 7
 
 **Summary**: Detail on how SPV nodes use Bloom filters to interact with peers, including the specific P2P messages used and the trade-off between privacy and efficiency.
 

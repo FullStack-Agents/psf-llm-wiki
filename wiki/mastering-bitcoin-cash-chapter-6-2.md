@@ -2,13 +2,13 @@
 
 **Summary**: Detailed breakdown of block structure, including the block header, size, and identifiers (hash and height).
 
-**Sources**: mastering-bitcoin-cash_chapter-6-the-blockchain_2.md
+**Sources**: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_2.md
 
 **Last updated**: 2026-04-17
 
 ---
 
-A block is a container that aggregates transactions. A full 32MB [Bitcoin Cash](bitcoin-cash.md) block can contain nearly 128,000 transactions (source: mastering-bitcoin-cash_chapter-6-the-blockchain_2.md).
+A block is a container that aggregates transactions. A full 32MB [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) block can contain nearly 128,000 transactions (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_2.md).
 
 ## Block Anatomy
 A block consists of the following components:
@@ -22,15 +22,15 @@ A block consists of the following components:
 The 80-byte header includes:
 1. Reference to the previous block hash.
 2. Mining competition data: includes the timestamp, difficulty, and nonce.
-3. The **[Merkle Tree](merkle-tree.md) Root**: A summary of all transactions in the block (source: mastering-bitcoin-cash_chapter-6-the-blockchain_2.md).
+3. The **[Merkle Tree](merkle-tree.md) Root**: A summary of all transactions in the block (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_2.md).
 
 ## Block Identification
 Blocks are identified in two ways:
 - **Block Hash**: A unique cryptographic fingerprint derived from the header. This is the only truly unique identifier.
-- **Block Height**: The position in the chain. Note that during [blockchain-forks](blockchain-fork.md), multiple blocks can exist at the same height (source: mastering-bitcoin-cash_chapter-6-the-blockchain_2.md).
+- **Block Height**: The position in the chain. Note that during [[blockchain](blockchain.md)-forks]([blockchain](blockchain.md)-fork.md), multiple blocks can exist at the same height (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_2.md).
 
 ## Related pages
-- [blockchain-data-structure](blockchain-data-structure.md)
+- [[blockchain](blockchain.md)-data-structure]([blockchain](blockchain.md)-data-structure.md)
 - [merkle-root](merkle-root.md)
-- [blockchain-fork](blockchain-fork.md)
+- [[blockchain](blockchain.md)-fork]([blockchain](blockchain.md)-fork.md)
 - [mastering-bitcoin-cash-chapter-6-1](mastering-bitcoin-cash-chapter-6-1.md)

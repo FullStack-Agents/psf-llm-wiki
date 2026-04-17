@@ -24,8 +24,8 @@ TBD
 - **Subnets**: Uses pubsub channels to create on-the-fly subnetworks.
 - **Peer Discovery**: Automatic discovery of other peers within a subnetwork.
 - **End-to-End Encryption (E2EE)**: Secure communication using Elliptic Curve cryptography.
-- **Censorship Resistance**: Utilizes [Circuit Relays](wiki/circuit-relays.md) to tunnel through firewalls.
-- **Payments**: Integrates [Bitcoin Cash](wiki/bitcoin-cash.md) (via `minimal-slp-wallet`) for peer-to-peer payments for services.
+- **Censorship Resistance**: Utilizes [Circuit Relays](circuit-relays.md) to tunnel through firewalls.
+- **Payments**: Integrates [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) (via `minimal-slp-wallet`) for peer-to-peer payments for services.
 
 ## Architecture
 
@@ -49,8 +49,8 @@ The "self-healing" nature of the network is maintained by:
 - `managePeers()`: Restoring disconnected peer connections.
 
 ## Related Pages
-- [minimal-slp-wallet](wiki/minimal-slp-wallet.md)
-- [circuit-relays](wiki/circuit-relays.md)
-- [bitcoin-cash](wiki/bitcoin-cash.md)
-- [permissionless-software-foundation](wiki/permissionless-software-foundation.md)
-- [cash-stack-layers](wiki/cash-stack-layers.md)
+- [minimal-slp-wallet](minimal-slp-wallet.md)
+- [circuit-relays](circuit-relays.md)
+- [bitcoin-cash](bitcoin-cash.md)
+- [permissionless-software-foundation](permissionless-software-foundation.md)
+- [cash-stack-layers](cash-stack-layers.md)

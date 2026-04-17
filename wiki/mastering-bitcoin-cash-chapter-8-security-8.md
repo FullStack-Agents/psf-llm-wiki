@@ -1,4 +1,4 @@
-# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 8 Security 8
+# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 8 Security 8
 
 **Summary**: Discussion on the balance between security and accessibility, warning against over-securing funds to the point of loss, and recommending risk diversification.
 

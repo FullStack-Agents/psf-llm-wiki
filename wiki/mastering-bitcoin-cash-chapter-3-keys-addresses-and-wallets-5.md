@@ -1,6 +1,6 @@
 # mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-5
 
-**Summary**: This document provides a technical deep dive into the secp256k1 elliptic curve used by [Bitcoin Cash](bitcoin-cash.md), including its equation and the properties of point addition and multiplication.
+**Summary**: This document provides a technical deep dive into the secp256k1 elliptic curve used by [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md), including its equation and the properties of point addition and multiplication.
 
 **Sources**: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_5.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-[Bitcoin Cash](bitcoin-cash.md) utilizes the **secp256k1** elliptic curve, defined by the equation $y^2 = (x^3 + 7) \pmod p$, where $p$ is a specific large prime number.
+[[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) utilizes the **secp256k1** elliptic curve, defined by the equation $y^2 = (x^3 + 7) \pmod p$, where $p$ is a specific large prime number.
 
 ### Mathematical Properties
 - **Finite Field**: The curve is defined over a finite field of prime order, meaning it consists of a discrete set of points rather than a continuous line.

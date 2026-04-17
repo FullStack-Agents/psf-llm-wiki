@@ -13,7 +13,7 @@ Transaction pools are essential for the flow of transactions between the time th
 ### The Mempool
 The **memory pool**, or [mempool](mempool.md), is a local, volatile list of unconfirmed transactions. Nodes use this pool to:
 - **Relay**: Propagate transactions to peers to ensure network-wide coverage.
-- **Monitor**: Allow wallets to see "unconfirmed" funds that have been sent but not yet included in the blockchain (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_8.md).
+- **Monitor**: Allow wallets to see "unconfirmed" funds that have been sent but not yet included in the [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_8.md).
 
 ### Orphan Handling
 An **orphan transaction** is one that arrives at a node before its parent transaction has been seen. To handle this, nodes use an **orphan pool**:

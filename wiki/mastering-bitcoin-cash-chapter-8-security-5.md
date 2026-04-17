@@ -1,4 +1,4 @@
-# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 8 Security 5
+# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 8 Security 5
 
 **Summary**: Exploration of the security challenges posed by general-purpose computing and the resulting innovations in cryptocurrency security.
 
@@ -9,10 +9,10 @@
 ---
 
 ## Challenges of General-Purpose Computing
-Modern operating systems pose significant risks to [Bitcoin Cash](bitcoin-cash.md) users. Because computers maintain constant internet connectivity and execute thousands of software components from various authors, a single malicious program can compromise keyboards or access files, enabling the theft of funds from wallet applications (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_5.md).
+Modern operating systems pose significant risks to [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) users. Because computers maintain constant internet connectivity and execute thousands of software components from various authors, a single malicious program can compromise keyboards or access files, enabling the theft of funds from wallet applications (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_5.md).
 
 ## High Incentive for Attacks
-[Bitcoin Cash](bitcoin-cash.md) assets have intrinsic value that can be stolen and transferred instantly and irrevocably. This creates a massive incentive for hackers. Unlike traditional financial theft, which requires the conversion of stolen credentials into value, [Bitcoin Cash](bitcoin-cash.md) *is* immediate value, effectively removing the need for laundering or "fencing" stolen goods (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_5.md).
+[[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) assets have intrinsic value that can be stolen and transferred instantly and irrevocably. This creates a massive incentive for hackers. Unlike traditional financial theft, which requires the conversion of stolen credentials into value, [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) *is* immediate value, effectively removing the need for laundering or "fencing" stolen goods (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_5.md).
 
 ## Innovations in Security
 The high risk associated with digital assets has accelerated the development of more robust security solutions. Innovations driven by cryptocurrency adoption include:

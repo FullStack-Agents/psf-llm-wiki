@@ -1,21 +1,21 @@
 # Genesis Block
 
-**Summary**: The first block in a blockchain, serving as the common ancestor for all subsequent blocks.
+**Summary**: The first block in a [blockchain](blockchain.md), serving as the common ancestor for all subsequent blocks.
 
-**Sources**: mastering-bitcoin-cash_chapter-6-the-blockchain_1.md, mastering-bitcoin-cash_chapter-6-the-blockchain_3.md
+**Sources**: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_1.md, mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_3.md
 
 **Last updated**: 2026-04-17
 
 ---
 
-The genesis block is the first block of the blockchain. It is the starting point from which the "height" of all other blocks is measured (source: mastering-bitcoin-cash_chapter-6-the-blockchain_1.md).
+The genesis block is the first block of the [blockchain](blockchain.md). It is the starting point from which the "height" of all other blocks is measured (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_1.md).
 
 ## Technical Details
 - **Hash**: `000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f`
-- **Coinbase Message**: Contains the text "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks," providing a timestamp and historical context (source: mastering-bitcoin-cash_chapter-6-the-blockchain_3.md).
-- **Implementation**: Statically encoded in the software of every [Bitcoin Cash](bitcoin-cash.md) node (source: mastering-bitcoin-cash_chapter-6-the-blockchain_3.md).
+- **Coinbase Message**: Contains the text "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks," providing a timestamp and historical context (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_3.md).
+- **Implementation**: Statically encoded in the software of every [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) node (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_3.md).
 
 ## Related pages
-- [blockchain-data-structure](blockchain-data-structure.md)
+- [[blockchain](blockchain.md)-data-structure]([blockchain](blockchain.md)-data-structure.md)
 - [mastering-bitcoin-cash-chapter-6-1](mastering-bitcoin-cash-chapter-6-1.md)
 - [mastering-bitcoin-cash-chapter-6-3](mastering-bitcoin-cash-chapter-6-3.md)

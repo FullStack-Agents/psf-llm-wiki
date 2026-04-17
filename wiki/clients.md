@@ -1,6 +1,6 @@
-# [Bitcoin Cash](bitcoin-cash.md) Clients
+# [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Clients
 
-**Summary**: The different types of software implementations used to interact with the [Bitcoin Cash](bitcoin-cash.md) network, varying by the level of control and trust.
+**Summary**: The different types of software implementations used to interact with the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network, varying by the level of control and trust.
 
 **Sources**: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_6.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-To interact with the [Bitcoin Cash](bitcoin-cash.md) network, users employ different types of clients. The reference implementation is maintained as an open-source project, originally derived from [Satoshi](utxo.md) Nakamoto's code (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_6.md).
+To interact with the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network, users employ different types of clients. The reference implementation is maintained as an open-source project, originally derived from [Satoshi](utxo.md) Nakamoto's code (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_6.md).
 
 ### Client Types
 The choice of client typically involves a trade-off between ease of use and control/security.

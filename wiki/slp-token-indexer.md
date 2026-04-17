@@ -1,6 +1,6 @@
 # slp-token-indexer
 
-**Summary**: A blockchain indexer that tracks [SLP](slp-token-protocol.md) token transactions according to Type 1 and NFT1 specifications, providing the necessary data for token-related operations in the [Cash Stack](cash-stack-layers.md).
+**Summary**: A [blockchain](blockchain.md) indexer that tracks [SLP](slp-token-protocol.md) token transactions according to Type 1 and NFT1 specifications, providing the necessary data for token-related operations in the [Cash Stack](cash-stack-layers.md).
 
 **Sources**: slp-indexer-software.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-The **[SLP](slp-token-protocol.md) Token Indexer** crawls the blockchain to index [SLP](slp-token-protocol.md) token transactions, similar to how the [fulcrum-indexer](fulcrum-indexer.md) indexes [BCH](bitcoin-cash.md) addresses and balances (source: slp-indexer-software.md). It specifically tracks tokens following the Type 1 and NFT1 specifications (source: slp-indexer-software.md).
+The **[SLP](slp-token-protocol.md) Token Indexer** crawls the [blockchain](blockchain.md) to index [SLP](slp-token-protocol.md) token transactions, similar to how the [fulcrum-indexer](fulcrum-indexer.md) indexes [BCH](bitcoin-cash.md) addresses and balances (source: slp-indexer-software.md). It specifically tracks tokens following the Type 1 and NFT1 specifications (source: slp-indexer-software.md).
 
 Together with the [bchn-full-node](bchn-full-node.md) and the [fulcrum-indexer](fulcrum-indexer.md), it forms the core back-end infrastructure of the [Cash Stack](cash-stack-layers.md) (source: slp-indexer-software.md).
 

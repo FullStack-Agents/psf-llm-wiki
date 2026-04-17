@@ -1,4 +1,4 @@
-# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 5 Part 6
+# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 5 Part 6
 
 **Summary**: Explanation of Bloom Filters in the context of SPV nodes, detailing how they provide privacy when requesting transactions from peers.
 
@@ -8,7 +8,7 @@
 
 ---
 
-SPV nodes face a privacy challenge: requesting specific transactions from peers can reveal the addresses in the node's wallet to third parties (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_6.md). To mitigate this, [Bitcoin Cash](bitcoin-cash.md) uses **Bloom Filters**.
+SPV nodes face a privacy challenge: requesting specific transactions from peers can reveal the addresses in the node's wallet to third parties (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_6.md). To mitigate this, [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) uses **Bloom Filters**.
 
 ## What is a Bloom Filter?
 

@@ -29,7 +29,7 @@ In the `helia-coord` library, relays are treated as a special subset of peers.
 
 ## Operating a Circuit Relay in the Cash Stack
 
-In the Cash Stack, Circuit Relays are operated using the [ipfs-service-provider](wiki/ipfs-service-provider.md) software. These relays allow others to enjoy a high-uptime, censorship-resistant experience without every node needing to run a relay.
+In the Cash Stack, Circuit Relays are operated using the [ipfs-service-provider](ipfs-service-provider.md) software. These relays allow others to enjoy a high-uptime, censorship-resistant experience without every node needing to run a relay.
 
 ### Requirements for Operators
 To successfully operate a Circuit Relay, the following network configuration is required:
@@ -38,6 +38,6 @@ To successfully operate a Circuit Relay, the following network configuration is 
 - **Web Access**: To provide network access to browser-based IPFS nodes, the relay must be available over secure websockets, requiring a registered domain name with an SSL certificate.
 
 ## Related Pages
-- [helia-coord](wiki/helia-coord.md)
-- [ipfs-service-provider](wiki/ipfs-service-provider.md)
-- [network-discovery](wiki/network-discovery.md)
+- [helia-coord](helia-coord.md)
+- [ipfs-service-provider](ipfs-service-provider.md)
+- [network-discovery](network-discovery.md)

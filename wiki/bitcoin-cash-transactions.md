@@ -1,6 +1,6 @@
-# [Bitcoin Cash](bitcoin-cash.md) Transactions
+# [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Transactions
 
-**Summary**: Overview of how value is transferred on the [Bitcoin Cash](bitcoin-cash.md) network.
+**Summary**: Overview of how value is transferred on the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network.
 
 **Sources**: mastering-bitcoin-cash_transactions_1.md
 
@@ -25,4 +25,4 @@ See [mastering-bitcoin-cash-transactions-1](mastering-bitcoin-cash-transactions-
 - [mastering-bitcoin-cash-transactions-8](mastering-bitcoin-cash-transactions-8.md)
 - [mastering-bitcoin-cash-transactions-9](mastering-bitcoin-cash-transactions-9.md)
 - [mastering-bitcoin-cash-transactions-1](mastering-bitcoin-cash-transactions-1.md)
-- [blockchain-ledger](blockchain-ledger.md)
+- [[blockchain](blockchain.md)-ledger]([blockchain](blockchain.md)-ledger.md)

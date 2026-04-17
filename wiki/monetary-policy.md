@@ -1,6 +1,6 @@
 # Monetary Policy
 
-**Summary**: The predetermined rules governing the creation and total supply of [Bitcoin Cash](bitcoin-cash.md).
+**Summary**: The predetermined rules governing the creation and total supply of [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md).
 
 **Sources**: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_2.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-The monetary policy of [Bitcoin Cash](bitcoin-cash.md) is designed to be inherently deflationary by preventing arbitrary inflation (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_2.md).
+The monetary policy of [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) is designed to be inherently deflationary by preventing arbitrary inflation (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_2.md).
 
 ### Key Constraints
 - **Supply Cap**: The total supply is capped at 21 million coins, which is projected to be reached by the year 2140 (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_2.md).

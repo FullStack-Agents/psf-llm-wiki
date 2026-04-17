@@ -1,6 +1,6 @@
 # Digital Wallets
 
-**Summary**: Software or hardware used to store cryptographic keys for managing [Bitcoin Cash](bitcoin-cash.md) and managing the construction of transactions.
+**Summary**: Software or hardware used to store cryptographic keys for managing [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) and managing the construction of transactions.
 
 **Sources**: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_1.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_8.md
 
@@ -8,9 +8,9 @@
 
 ---
 
-Digital wallets are used to store the cryptographic keys required to prove ownership of [Bitcoin Cash](bitcoin-cash.md). The [private-keys](private-keys.md) stored within the wallet are the essential requirement to unlock and spend bitcoins (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_1.md). 
+Digital wallets are used to store the cryptographic keys required to prove ownership of [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md). The [private-keys](private-keys.md) stored within the wallet are the essential requirement to unlock and spend bitcoins (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_1.md). 
 
-Wallets are independent of the [Bitcoin Cash](bitcoin-cash.md) protocol and can be generated without an internet connection or blockchain access (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
+Wallets are independent of the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) protocol and can be generated without an internet connection or [blockchain](blockchain.md) access (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
 
 ### Functionality
 Wallets vary in how they manage keys:
@@ -27,7 +27,7 @@ When a user initiates a payment, the wallet application automatically handles th
 - Applying digital signatures.
 
 ### Offline Transactions
-A key feature of [Bitcoin Cash](bitcoin-cash.md) wallets is the ability to construct transactions offline. A transaction can be signed and created while disconnected from the network and transmitted to the peer-to-peer network once connectivity is available (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_8.md).
+A key feature of [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) wallets is the ability to construct transactions offline. A transaction can be signed and created while disconnected from the network and transmitted to the peer-to-peer network once connectivity is available (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_8.md).
 
 ## Related pages
 

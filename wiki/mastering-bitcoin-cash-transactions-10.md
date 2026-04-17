@@ -35,7 +35,7 @@ P2SH addresses use Base58Check encoding with a prefix of "5", meaning they typic
 - **Fee Distribution**: The burden of the transaction fee for complex scripts is shifted from the sender to the recipient (source: mastering-bitcoin-cash_transactions_10.md).
 
 ### Risks
-The network accepts P2SH hashes without knowing if the underlying redeem script is valid. This creates a risk where funds can be locked into a script that is impossible to satisfy, rendering the [Bitcoin Cash](bitcoin-cash.md) unspendable (source: mastering-bitcoin-cash_transactions_10.md).
+The network accepts P2SH hashes without knowing if the underlying redeem script is valid. This creates a risk where funds can be locked into a script that is impossible to satisfy, rendering the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) unspendable (source: mastering-bitcoin-cash_transactions_10.md).
 
 ## Related pages
 

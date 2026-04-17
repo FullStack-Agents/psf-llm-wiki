@@ -1,6 +1,6 @@
 # Coinbase Transaction
 
-**Summary**: A special type of transaction that creates new [Bitcoin Cash](bitcoin-cash.md) coins.
+**Summary**: A special type of transaction that creates new [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) coins.
 
 **Sources**: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_11.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-The coinbase transaction is the unique exception to the double-entry balance rule in [Bitcoin Cash](bitcoin-cash.md). 
+The coinbase transaction is the unique exception to the double-entry balance rule in [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md). 
 
 While regular transactions must balance inputs and outputs, a coinbase transaction mints new coins according to the protocol's predetermined issuance schedule. Each block contains one such transaction.
 

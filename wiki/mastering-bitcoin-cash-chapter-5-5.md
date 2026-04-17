@@ -1,4 +1,4 @@
-# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 5 Part 5
+# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 5 Part 5
 
 **Summary**: Detailed explanation of Simplified Payment Verification (SPV) nodes, their operational mechanism using block headers and Merkle paths, and their associated security trade-offs.
 
@@ -8,14 +8,14 @@
 
 ---
 
-Simplified Payment Verification (SPV) allows [Bitcoin Cash](bitcoin-cash.md) clients to operate on resource-constrained devices (e.g., smartphones) without storing the entire blockchain (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_5.md).
+Simplified Payment Verification (SPV) allows [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) clients to operate on resource-constrained devices (e.g., smartphones) without storing the entire [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_5.md).
 
 ## How SPV Works
 
-SPV nodes, or lightweight clients, optimize storage by downloading only **block headers** instead of full blocks containing all transactions. This results in a data set approximately 1,000 times smaller than the full blockchain (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_5.md).
+SPV nodes, or lightweight clients, optimize storage by downloading only **block headers** instead of full blocks containing all transactions. This results in a data set approximately 1,000 times smaller than the full [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_5.md).
 
 ### Transaction Verification
-Instead of tracking all UTXOs, SPV nodes verify transactions using a proxy method:
+Instead of tracking all [utxo](utxo.md)s, SPV nodes verify transactions using a proxy method:
 1. **Merkle Path**: The node establishes a cryptographic link between a specific transaction and the block header it resides in using a Merkle path (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_5.md).
 2. **Confirmation Depth**: The node verifies the transaction's validity by confirming that a sufficient number of blocks (typically six) have been built on top of the containing block. This proves that the transaction is deeply embedded in the chain and unlikely to be a double-spend (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_5.md).
 

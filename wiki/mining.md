@@ -1,6 +1,6 @@
 # Mining
 
-**Summary**: The process of verifying transactions and adding them to the blockchain.
+**Summary**: The process of verifying transactions and adding them to the [blockchain](blockchain.md).
 
 **Sources**: mastering-bitcoin-cash_transactions_1.md
 

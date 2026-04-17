@@ -8,7 +8,7 @@
 
 ---
 
-Vanity addresses are valid [Bitcoin Cash](bitcoin-cash.md) addresses that contain a specifically chosen, human-readable pattern of characters at the beginning.
+Vanity addresses are valid [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) addresses that contain a specifically chosen, human-readable pattern of characters at the beginning.
 
 ### Generation Process
 Creating a vanity [address](addresses.md) is a brute-force process: a software generates and tests billions of private keys until one produces an [address](addresses.md) containing the desired character pattern.

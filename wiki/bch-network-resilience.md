@@ -1,6 +1,6 @@
 # [BCH](bitcoin-cash.md) Network Resilience
 
-**Summary**: Analysis of the mechanisms that ensure the stability and availability of the [Bitcoin Cash](bitcoin-cash.md) P2P network.
+**Summary**: Analysis of the mechanisms that ensure the stability and availability of the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) P2P network.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_11.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-Resilience in the [Bitcoin Cash](bitcoin-cash.md) network is achieved through dynamic adaptation to the availability of peers.
+Resilience in the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network is achieved through dynamic adaptation to the availability of peers.
 
 ### Connection Maintenance
 Nodes periodically send messages to maintain activity on existing connections. If a connection shows no activity for more than 90 minutes, the node presumes it is disconnected and seeks a new peer (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_11.md).

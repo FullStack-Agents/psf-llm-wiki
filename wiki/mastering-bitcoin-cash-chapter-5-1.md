@@ -1,6 +1,6 @@
-# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 5 Part 1
+# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 5 Part 1
 
-**Summary**: Introduction to the [Bitcoin Cash](bitcoin-cash.md) P2P network architecture, describing its flat topology and the concept of the "extended [Bitcoin Cash](bitcoin-cash.md) network."
+**Summary**: Introduction to the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) P2P network architecture, describing its flat topology and the concept of the "extended [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network."
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_1.md
 
@@ -8,11 +8,11 @@
 
 ---
 
-[Bitcoin Cash](bitcoin-cash.md) utilizes a peer-to-peer (P2P) network architecture where all computers are equal peers. This flat topology ensures the network is resilient, decentralized, and open, which is critical for achieving decentralized control (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_1.md).
+[[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) utilizes a peer-to-peer (P2P) network architecture where all computers are equal peers. This flat topology ensures the network is resilient, decentralized, and open, which is critical for achieving decentralized control (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_1.md).
 
 The network is categorized into two layers:
-1. **[Bitcoin Cash](bitcoin-cash.md) P2P Network**: Nodes running the core [Bitcoin Cash](bitcoin-cash.md) P2P protocol.
-2. **Extended [Bitcoin Cash](bitcoin-cash.md) Network**: This includes the P2P network plus additional protocols like Stratum (used for mining and lightweight wallets). Gateway routing servers bridge these different protocols together (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_1.md).
+1. **[[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) P2P Network**: Nodes running the core [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) P2P protocol.
+2. **Extended [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Network**: This includes the P2P network plus additional protocols like Stratum (used for mining and lightweight wallets). Gateway routing servers bridge these different protocols together (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_1.md).
 
 ## Related pages
 

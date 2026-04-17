@@ -10,7 +10,7 @@
 
 The [Cash Stack](cash-stack-layers.md) consists of multiple interdependent services, each communicating over specific ports. This page serves as a technical reference for network configuration and troubleshooting (source: ports.md).
 
-## Core Blockchain Infrastructure
+## Core [blockchain](blockchain.md) Infrastructure
 
 | Component | Container Name | Port | Function |
 | :--- | :--- | :--- | :--- |

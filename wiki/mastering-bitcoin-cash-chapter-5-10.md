@@ -1,6 +1,6 @@
-# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 5 Part 10
+# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 5 Part 10
 
-**Summary**: Overview of the [Bitcoin Cash](bitcoin-cash.md) P2P network communication flow, focusing on the message-based protocol and the exchange of blocks, headers, and transactions.
+**Summary**: Overview of the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) P2P network communication flow, focusing on the message-based protocol and the exchange of blocks, headers, and transactions.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md
 
@@ -8,11 +8,11 @@
 
 ---
 
-[Bitcoin Cash](bitcoin-cash.md) nodes use a simple, extensible message-based protocol to communicate. Every message consists of a header (specifying the `command` or message type) and a payload (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md). This design allows nodes to ignore unrecognized messages, ensuring backward compatibility during protocol upgrades (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md).
+[[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) nodes use a simple, extensible message-based protocol to communicate. Every message consists of a header (specifying the `command` or message type) and a payload (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md). This design allows nodes to ignore unrecognized messages, ensuring backward compatibility during protocol upgrades (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md).
 
 ## Block and Header Synchronization
 
-Nodes requesting blockchain updates follow a specific request-response pattern:
+Nodes requesting [blockchain](blockchain.md) updates follow a specific request-response pattern:
 
 ### Full Nodes
 1. **Request Inventories**: Nodes use `getblocks` to request a list of block inventories.
@@ -33,5 +33,5 @@ Nodes requesting blockchain updates follow a specific request-response pattern:
 ## Related pages
 
 - [bitcoin-cash-network](bitcoin-cash-network.md)
-- [blockchain-synchronization](blockchain-synchronization.md)
+- [[blockchain](blockchain.md)-synchronization]([blockchain](blockchain.md)-synchronization.md)
 - [mastering-bitcoin-cash-chapter-5-10](mastering-bitcoin-cash-chapter-5-10.md)

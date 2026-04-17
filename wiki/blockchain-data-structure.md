@@ -1,14 +1,14 @@
-# Blockchain Data Structure
+# [blockchain](blockchain.md) Data Structure
 
-**Summary**: The fundamental organization of the blockchain as a linked list of blocks.
+**Summary**: The fundamental organization of the [blockchain](blockchain.md) as a linked list of blocks.
 
-**Sources**: mastering-bitcoin-cash_chapter-6-the-blockchain_1.md
+**Sources**: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_1.md
 
 **Last updated**: 2026-04-17
 
 ---
 
-The blockchain is a sequential ledger where each block points to its predecessor. This creates a chain back to the [genesis-block](genesis-block.md). 
+The [blockchain](blockchain.md) is a sequential ledger where each block points to its predecessor. This creates a chain back to the [genesis-block](genesis-block.md). 
 
 Key characteristics include:
 - **Ordered sequence**: Blocks are added one after another.

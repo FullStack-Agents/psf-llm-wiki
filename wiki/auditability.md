@@ -1,6 +1,6 @@
 # Auditability
 
-**Summary**: The ability to trace the history of funds on the [Bitcoin Cash](bitcoin-cash.md) blockchain while maintaining user pseudonymity.
+**Summary**: The ability to trace the history of funds on the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) [blockchain](blockchain.md) while maintaining user pseudonymity.
 
 **Sources**: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_11.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-Because of the double-entry bookkeeping model, the [Bitcoin Cash](bitcoin-cash.md) ledger is inherently auditable.
+Because of the double-entry bookkeeping model, the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) ledger is inherently auditable.
 
 ### Transparency vs. Pseudonymity
 - **Transparency**: The flow of funds can be traced back through the entire transaction history to the original point where the coins were mined (the [coinbase-transaction](coinbase-transaction.md)).

@@ -23,7 +23,7 @@ To increase security, HD wallets use "hardened" derivation (denoted by a prime s
 BIP0044 defines a standardized path for HD wallets to ensure interoperability:
 `m / purpose' / coin_type' / account' / change / address_index`
 
-For [Bitcoin Cash](bitcoin-cash.md), the `coin_type` is `145'`. For example, the path `M/44'/145'/0'/0/2` represents the third receiving [address](addresses.md) for the primary account.
+For [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md), the `coin_type` is `145'`. For example, the path `M/44'/145'/0'/0/2` represents the third receiving [address](addresses.md) for the primary account.
 
 ## Related pages
 
