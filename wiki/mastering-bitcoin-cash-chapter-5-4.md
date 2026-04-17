@@ -1,4 +1,4 @@
-# Mastering Bitcoin Cash Chapter 5 Part 4
+# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 5 Part 4
 
 **Summary**: Explanation of the blockchain synchronization process for new or returning nodes, focusing on block height comparison and the `getblocks` / `inv` / `getdata` workflow.
 

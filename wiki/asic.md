@@ -1,6 +1,6 @@
 # ASIC
 
-**Summary**: Application-Specific Integrated Circuits designed specifically for mining Bitcoin Cash.
+**Summary**: Application-Specific Integrated Circuits designed specifically for mining [Bitcoin Cash](bitcoin-cash.md).
 
 **Sources**: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_5.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-ASICs are specialized hardware components designed for the sole purpose of executing a specific algorithm—in the case of Bitcoin Cash, the SHA-256 hashing algorithm.
+ASICs are specialized hardware components designed for the sole purpose of executing a specific algorithm—in the case of [Bitcoin Cash](bitcoin-cash.md), the SHA-256 hashing algorithm.
 
 ### Evolution of Mining
 - **Early Mining**: Initially, mining was performed using CPUs and later GPUs.

@@ -13,7 +13,7 @@ The genesis block is the first block of the blockchain. It is the starting point
 ## Technical Details
 - **Hash**: `000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f`
 - **Coinbase Message**: Contains the text "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks," providing a timestamp and historical context (source: mastering-bitcoin-cash_chapter-6-the-blockchain_3.md).
-- **Implementation**: Statically encoded in the software of every Bitcoin Cash node (source: mastering-bitcoin-cash_chapter-6-the-blockchain_3.md).
+- **Implementation**: Statically encoded in the software of every [Bitcoin Cash](bitcoin-cash.md) node (source: mastering-bitcoin-cash_chapter-6-the-blockchain_3.md).
 
 ## Related pages
 - [blockchain-data-structure](blockchain-data-structure.md)

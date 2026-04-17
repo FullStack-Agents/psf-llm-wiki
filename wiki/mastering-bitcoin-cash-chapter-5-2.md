@@ -1,6 +1,6 @@
-# Mastering Bitcoin Cash Chapter 5 Part 2
+# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 5 Part 2
 
-**Summary**: Exploration of node types and their roles within the Bitcoin Cash network, including full nodes, lightweight (SPV) nodes, and mining nodes.
+**Summary**: Exploration of node types and their roles within the [Bitcoin Cash](bitcoin-cash.md) network, including full nodes, lightweight (SPV) nodes, and mining nodes.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-A Bitcoin Cash node consists of several core functions: routing, blockchain database management, mining, and wallet services. Every node must implement routing to participate in the network, which involves validating/propagating blocks and transactions and maintaining peer connections (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md).
+A [Bitcoin Cash](bitcoin-cash.md) node consists of several core functions: routing, blockchain database management, mining, and wallet services. Every node must implement routing to participate in the network, which involves validating/propagating blocks and transactions and maintaining peer connections (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md).
 
 ## Node Specializations
 

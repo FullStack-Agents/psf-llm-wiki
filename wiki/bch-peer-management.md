@@ -1,6 +1,6 @@
-# BCH Peer Management
+# [BCH](bitcoin-cash.md) Peer Management
 
-**Summary**: How Bitcoin Cash nodes discover, maintain, and bootstrap connections to other peers.
+**Summary**: How [Bitcoin Cash](bitcoin-cash.md) nodes discover, maintain, and bootstrap connections to other peers.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_11.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-Nodes in the Bitcoin Cash network manage their connections to ensure diverse paths into the network and reliable connectivity.
+Nodes in the [Bitcoin Cash](bitcoin-cash.md) network manage their connections to ensure diverse paths into the network and reliable connectivity.
 
 ### Peer Discovery and Bootstrapping
 - **Bootstrapping**: For initial entry or after a failure of known peers, nodes use seed nodes to bootstrap their connection list (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_11.md).

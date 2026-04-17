@@ -1,6 +1,6 @@
 # fulcrum-indexer
 
-**Summary**: A blockchain indexer that functions like a search engine for the Bitcoin Cash blockchain, tracking address balances, UTXOs, and transaction histories.
+**Summary**: A blockchain indexer that functions like a search engine for the [Bitcoin Cash](bitcoin-cash.md) blockchain, tracking [address](addresses.md) balances, UTXOs, and transaction histories.
 
 **Sources**: fulcrum-indexer.md
 
@@ -8,11 +8,11 @@
 
 ---
 
-The **Fulcrum Indexer** is a critical component of the Cash Stack that complements the BCHN Full Node (source: fulcrum-indexer.md). While the full node tracks transactions, it does not track high-level data such as address balances or UTXOs; Fulcrum fills this gap by crawling the blockchain and indexing this metadata into a database (source: fulcrum-indexer.md).
+The **Fulcrum Indexer** is a critical component of the [Cash Stack](cash-stack-layers.md) that complements the [BCHN](bchn-full-node.md) [Full Node](bchn-full-node.md) (source: fulcrum-indexer.md). While the full node tracks transactions, it does not track high-level data such as [address](addresses.md) balances or UTXOs; Fulcrum fills this gap by crawling the blockchain and indexing this metadata into a database (source: fulcrum-indexer.md).
 
 ## Technical Implementation
 
-Fulcrum implements the [Electrum protocol](https://electrumx.readthedocs.io/en/latest/protocol.html) (source: fulcrum-indexer.md). To make this data accessible to web2 applications, the Permissionless Software Foundation (PSF) provides Docker containers that wrap the Electrum protocol into a REST API, which then interfaces with [psf-bch-api](psf-bch-api.md) (source: fulcrum-indexer.md).
+Fulcrum implements the [Electrum protocol](https://electrumx.readthedocs.io/en/latest/protocol.html) (source: fulcrum-indexer.md). To make this data accessible to web2 applications, the Permissionless Software Foundation (PSF) provides Docker containers that wrap the Electrum protocol into a REST API, which then interfaces with [psf-bch-api]([psf-bch-api](psf-bch-api.md).md) (source: fulcrum-indexer.md).
 
 ## Deployment and Requirements
 
@@ -27,6 +27,6 @@ Fulcrum requires a fully synced [BCHN Full Node](bchn-full-node.md) to be runnin
 ## Related pages
 
 - [bchn-full-node](bchn-full-node.md)
-- [psf-bch-api](psf-bch-api.md)
+- [psf-bch-api]([psf-bch-api](psf-bch-api.md).md)
 - [cash-stack-layers](cash-stack-layers.md)
 - [permissionless-software-foundation](permissionless-software-foundation.md)

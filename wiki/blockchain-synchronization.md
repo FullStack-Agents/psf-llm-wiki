@@ -1,6 +1,6 @@
 # Blockchain Synchronization
 
-**Summary**: The process by which a full node downloads and verifies missing blocks to catch up with the current state of the Bitcoin Cash network.
+**Summary**: The process by which a full node downloads and verifies missing blocks to catch up with the current state of the [Bitcoin Cash](bitcoin-cash.md) network.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_4.md
 

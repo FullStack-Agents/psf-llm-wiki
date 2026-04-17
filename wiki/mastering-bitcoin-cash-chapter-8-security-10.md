@@ -1,6 +1,6 @@
-# Mastering Bitcoin Cash Chapter 8 Security 10
+# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 8 Security 10
 
-**Summary**: Analysis of inheritance and continuity planning for Bitcoin Cash, addressing the risk of funds becoming permanently inaccessible due to the strict privacy and security of keys.
+**Summary**: Analysis of inheritance and continuity planning for [Bitcoin Cash](bitcoin-cash.md), addressing the risk of funds becoming permanently inaccessible due to the strict privacy and security of keys.
 
 **Sources**: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_10.md
 
@@ -9,7 +9,7 @@
 ---
 
 ## The Risk of Permanent Inaccessibility
-The very practices that secure Bitcoin Cash—such as using complex passwords and maintaining strict key privacy—can lead to funds becoming permanently inaccessible in the event of the keyholder's incapacity or death. Family members may be unaware of the holdings or lack the technical means to retrieve them (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_10.md).
+The very practices that secure [Bitcoin Cash](bitcoin-cash.md)—such as using complex passwords and maintaining strict key privacy—can lead to funds becoming permanently inaccessible in the event of the keyholder's incapacity or death. Family members may be unaware of the holdings or lack the technical means to retrieve them (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_10.md).
 
 ## Continuity Planning Strategies
 To ensure fund availability for heirs, users with significant holdings should implement a continuity plan:

@@ -13,3 +13,7 @@
 - 2026-04-17: Ingested `slp-indexer-software.md`. Created `slp-token-indexer.md`. Updated `index.md` and `log.md`.
 - 2026-04-17: Ingested `why-slp.md`. Created `slp-token-protocol.md`. Updated `index.md` and `log.md`.
 - 2026-04-17: Ingested `ports.md`. Created `cash-stack-ports.md`. Updated `index.md` and `log.md`.
+- 2026-04-17: Ingested `bch-js.md`. Updated `bch-js.md` and `index.md`. Moved source to `processed/`.
+- 2026-04-17: Ingested `minimal-slp-wallet.md`. Created `minimal-slp-wallet.md` and updated `index.md`. Moved source to `processed/`.
+- 2026-04-17: Performed wiki audit and linting actions. Created `bch-consumer.md` and `ipfs-bch-wallet-consumer.md`. Updated `index.md`. Performed initial linking pass on core Cash Stack pages.
+- 2026-04-17: Executed a global deep-linking pass across all wiki pages. Implemented a mapping of 23 high-value concepts (UTXO, SLP, Bitcoin Cash, etc.) to their respective wiki pages to eliminate orphan pages and create a dense knowledge graph.

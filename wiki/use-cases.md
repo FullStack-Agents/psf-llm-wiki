@@ -1,14 +1,14 @@
-# Bitcoin Cash Use Cases
+# [Bitcoin Cash](bitcoin-cash.md) Use Cases
 
-**Summary**: Examples of how Bitcoin Cash is utilized in retail, high-value trade, international payments, charity, and mining.
+**Summary**: Examples of how [Bitcoin Cash](bitcoin-cash.md) is utilized in retail, high-value trade, international payments, charity, and mining.
 
-**Sources**: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_5.md
+**Sources**: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_5.md
 
 **Last updated**: 2026-04-16
 
 ---
 
-Bitcoin Cash provides innovative solutions to global economic challenges by enabling trustless and efficient value transfer across various sectors (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_5.md).
+[Bitcoin Cash](bitcoin-cash.md) provides innovative solutions to global economic challenges by enabling trustless and efficient value transfer across various sectors (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_5.md).
 
 ### Practical Applications
 - **Retail Payments**: Used for everyday purchases, such as coffee at local cafés.

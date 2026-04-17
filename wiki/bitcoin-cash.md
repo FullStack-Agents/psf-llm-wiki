@@ -1,6 +1,6 @@
 # Bitcoin Cash (BCH)
 
-**Summary**: The primary blockchain used by the Cash Stack for money transfer and as the basis for tokenization and other web3 primitives.
+**Summary**: The primary blockchain used by the [Cash Stack](cash-stack-layers.md) for money transfer and as the basis for tokenization and other web3 primitives.
 
 **Sources**: intro.md
 
@@ -8,11 +8,11 @@
 
 ---
 
-Bitcoin Cash (BCH) is the primary blockchain focused on by the Cash Stack framework (source: intro.md). It is used for:
+Bitcoin Cash (BCH) is the primary blockchain focused on by the [Cash Stack](cash-stack-layers.md) framework (source: intro.md). It is used for:
 - Money transfer (source: intro.md).
 - Tokenization to create NFTs and fungible tokens (source: intro.md).
 
-While the focus is currently on BCH, the infrastructure may expand to others like eCash (XEC), AVAX X-Chain, and other UTXO-based blockchains (source: intro.md).
+While the focus is currently on BCH, the infrastructure may expand to others like eCash (XEC), AVAX X-Chain, and other [UTXO](utxo.md)-based blockchains (source: intro.md).
 
 ## Related pages
 

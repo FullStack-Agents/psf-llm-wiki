@@ -12,12 +12,12 @@ Private keys require a balance between absolute confidentiality and availability
 
 ### Key Encryption (BIP0038)
 BIP0038 is a standard for encrypting private keys with a passphrase. This allows users to securely back up or transport keys between wallets.
-- **Process**: It takes a private key in WIF format and a passphrase, using the Advanced Encryption Standard (AES).
+- **Process**: It takes a [private key](private-keys.md) in WIF format and a passphrase, using the Advanced Encryption Standard (AES).
 - **Identification**: Encrypted keys produced by this standard start with the prefix `6P`.
 - **Decryption**: The encrypted key can only be restored to a usable WIF format if the correct passphrase is provided.
 
 ### Paper Wallets
-Paper wallets are a form of **cold storage** where the private key and its corresponding address are printed on physical paper.
+Paper wallets are a form of **cold storage** where the [private key](private-keys.md) and its corresponding [address](addresses.md) are printed on physical paper.
 - **Security**: Because the keys are kept offline, they are immune to digital attacks.
 - **Storage**: They are often stored in physical safes, sometimes using tamper-evident materials or holographic seals to ensure integrity.
 

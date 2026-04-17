@@ -12,7 +12,9 @@
 - [addresses](addresses.md): The alphanumeric strings used as identifiers for receiving Bitcoin Cash. A Bitcoin Cash address functions as a digital fingerprint of a public key and serves as the beneficiary name on a transaction (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
 - [asic](asic.md): Application-Specific Integrated Circuits designed specifically for mining Bitcoin Cash.
 - [auditability](auditability.md): The ability to trace the history of funds on the Bitcoin Cash blockchain while maintaining user pseudonymity.
-- [bch-js](bch-js.md): A JavaScript library used by front-end applications to interact with the `psf-bch-api` REST server.
+- [bch-consumer](bch-consumer.md): A JavaScript library that provides a JSON RPC interface for interacting with the `ipfs-bch-wallet-consumer` back end.
+- [ipfs-bch-wallet-consumer](ipfs-bch-wallet-consumer.md): A Web 3 back-end infrastructure component that provides a JSON RPC interface for Bitcoin Cash wallet operations, often delivered via IPFS.
+- [bch-js](bch-js.md): A JavaScript npm library for building web and mobile applications that interact with the Bitcoin Cash (BCH) blockchain. It serves as the Interface Library layer in the Cash Stack.
 - [bch-network-resilience](bch-network-resilience.md): Analysis of the mechanisms that ensure the stability and availability of the Bitcoin Cash P2P network.
 - [bch-node-configuration](bch-node-configuration.md): Configuration options for controlling the behavior of a Bitcoin Cash node.
 - [bch-peer-management](bch-peer-management.md): How Bitcoin Cash nodes discover, maintain, and bootstrap connections to other peers.
@@ -129,3 +131,4 @@
 - [use-cases](use-cases.md): Examples of how Bitcoin Cash is utilized in retail, high-value trade, international payments, charity, and mining.
 - [utxo](utxo.md): Unspent Transaction Output; the fundamental unit of currency in Bitcoin Cash.
 - [x402-bch](x402-bch.md): A protocol for facilitating per-call payments for API access using Bitcoin Cash (BCH).
+- [minimal-slp-wallet](minimal-slp-wallet.md): A high-level JavaScript wallet engine for building web, mobile, and Node.js applications on Bitcoin Cash (BCH), providing a simplified API for common wallet operations.

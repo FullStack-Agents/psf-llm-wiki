@@ -1,6 +1,6 @@
 # Network Discovery
 
-**Summary**: The process by which Bitcoin Cash nodes locate and connect to each other to form a P2P network.
+**Summary**: The process by which [Bitcoin Cash](bitcoin-cash.md) nodes locate and connect to each other to form a P2P network.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_3.md
 

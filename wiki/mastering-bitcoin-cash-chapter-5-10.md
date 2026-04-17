@@ -1,6 +1,6 @@
-# Mastering Bitcoin Cash Chapter 5 Part 10
+# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 5 Part 10
 
-**Summary**: Overview of the Bitcoin Cash P2P network communication flow, focusing on the message-based protocol and the exchange of blocks, headers, and transactions.
+**Summary**: Overview of the [Bitcoin Cash](bitcoin-cash.md) P2P network communication flow, focusing on the message-based protocol and the exchange of blocks, headers, and transactions.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-Bitcoin Cash nodes use a simple, extensible message-based protocol to communicate. Every message consists of a header (specifying the `command` or message type) and a payload (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md). This design allows nodes to ignore unrecognized messages, ensuring backward compatibility during protocol upgrades (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md).
+[Bitcoin Cash](bitcoin-cash.md) nodes use a simple, extensible message-based protocol to communicate. Every message consists of a header (specifying the `command` or message type) and a payload (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md). This design allows nodes to ignore unrecognized messages, ensuring backward compatibility during protocol upgrades (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md).
 
 ## Block and Header Synchronization
 

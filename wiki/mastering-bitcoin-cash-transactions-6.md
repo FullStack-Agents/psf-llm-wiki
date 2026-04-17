@@ -1,6 +1,6 @@
 # mastering-bitcoin-cash-transactions-6
 
-**Summary**: Explanation of transaction fees in Bitcoin Cash, how they are calculated, and their role in network security.
+**Summary**: Explanation of transaction fees in [Bitcoin Cash](bitcoin-cash.md), how they are calculated, and their role in network security.
 
 **Sources**: mastering-bitcoin-cash_transactions_6.md
 
@@ -16,21 +16,21 @@ Transaction fees are not explicitly stated in a transaction but are implied. The
 
 ## Purpose of Fees
 
-Fees serve two primary purposes in the Bitcoin Cash network:
+Fees serve two primary purposes in the [Bitcoin Cash](bitcoin-cash.md) network:
 1. **Incentive**: They compensate miners for the work of securing the network and including transactions in blocks (source: mastering-bitcoin-cash_transactions_6.md).
 2. **Spam Prevention**: They act as a disincentive against network spam (source: mastering-bitcoin-cash_transactions_6.md).
 
 ## Fee Determination and Prioritization
 
-Fees are based on the **transaction size in kilobytes**, rather than the transaction's value in Bitcoin Cash (source: mastering-bitcoin-cash_transactions_6.md). 
+Fees are based on the **transaction size in kilobytes**, rather than the transaction's value in [Bitcoin Cash](bitcoin-cash.md) (source: mastering-bitcoin-cash_transactions_6.md). 
 
 Miners prioritize transactions that offer sufficient fees. Transactions with insufficient fees may experience delays or may not be processed at all (source: mastering-bitcoin-cash_transactions_6.md).
 
 ## The Importance of Change Outputs
 
-When creating a transaction, it is critical to account for the full value of all consumed [utxo](utxo.md)s. If a user consumes a large UTXO but only specifies a small output to the recipient without a change output, the remaining balance is automatically treated as a transaction fee for the miner (source: mastering-bitcoin-cash_transactions_6.md).
+When creating a transaction, it is critical to account for the full value of all consumed [utxo](utxo.md)s. If a user consumes a large [UTXO](utxo.md) but only specifies a small output to the recipient without a change output, the remaining balance is automatically treated as a transaction fee for the miner (source: mastering-bitcoin-cash_transactions_6.md).
 
-*Example*: Consuming a 20 BCH UTXO for a 1 BCH payment without a change output results in a 19 BCH fee (source: mastering-bitcoin-cash_transactions_6.md).
+*Example*: Consuming a 20 [BCH](bitcoin-cash.md) [UTXO](utxo.md) for a 1 [BCH](bitcoin-cash.md) payment without a change output results in a 19 [BCH](bitcoin-cash.md) fee (source: mastering-bitcoin-cash_transactions_6.md).
 
 ## Related pages
 

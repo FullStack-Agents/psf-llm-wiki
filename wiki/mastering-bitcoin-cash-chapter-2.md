@@ -1,6 +1,6 @@
-# Mastering Bitcoin Cash Chapter 2
+# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 2
 
-**Summary**: A technical overview of how Bitcoin Cash works, focusing on the interplay between users, wallets, transactions, miners, and the blockchain to establish trust in a decentralized system.
+**Summary**: A technical overview of how [Bitcoin Cash](bitcoin-cash.md) works, focusing on the interplay between users, wallets, transactions, miners, and the blockchain to establish trust in a decentralized system.
 
 **Sources**: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_1.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_2.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_3.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_5.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_6.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_7.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_8.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_9.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_10.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-This chapter provides a deeper technical dive into the operational mechanics of Bitcoin Cash. It describes the system as one where trust is not centralized but emerges from the interactions between three primary entities: users, transactions, and miners (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_1.md).
+This chapter provides a deeper technical dive into the operational mechanics of [Bitcoin Cash](bitcoin-cash.md). It describes the system as one where trust is not centralized but emerges from the interactions between three primary entities: users, transactions, and miners (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_1.md).
 
 ## Core Interaction Model
 The network operates through a continuous cycle:
@@ -17,7 +17,7 @@ The network operates through a continuous cycle:
 3. **Miners** collect these transactions and use competitive computation to produce blocks.
 4. **The Blockchain** acts as the final, authoritative ledger that records these blocks permanently.
 
-This distributed consensus mechanism ensures that Bitcoin Cash can operate securely without a central trusted authority.
+This distributed consensus mechanism ensures that [Bitcoin Cash](bitcoin-cash.md) can operate securely without a central trusted authority.
 
 ## Transaction Mechanics
 The chapter further details the structural "anatomy" of these transactions, explaining the role of inputs and outputs, the creation of a chain of ownership via digital signatures, and the derivation of miner fees from the difference between inputs and outputs (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_2.md).
@@ -29,7 +29,7 @@ Additionally, it covers the **propagation and validation** phase, explaining the
 ## The Mining Process and Block Confirmation
 The chapter explores the competitive nature of [mining](mining.md), describing the use of the SHA256 algorithm to solve cryptographic puzzles and the transition from CPU-based mining to the use of specialized ASIC hardware and mining pools (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_5.md).
 
-It further details the **block creation process**, where miners select transactions from the mempool and include a "coinbase transaction" to claim a block reward (currently 12.5 BCH). It explains how blocks build upon each other to provide confirmations, with six confirmations typically denoting irreversibility (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_6.md).
+It further details the **block creation process**, where miners select transactions from the [mempool](mempool.md) and include a "coinbase transaction" to claim a block reward (currently 12.5 [BCH](bitcoin-cash.md)). It explains how blocks build upon each other to provide confirmations, with six confirmations typically denoting irreversibility (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_6.md).
 
 ## The Distributed Ledger and Verification
 The chapter concludes by explaining how transactions become part of the distributed ledger, creating an ongoing chain of ownership. It contrasts how full-index clients track the entire history of funds versus how lightweight clients use Simplified Payment Verification (SPV) to confirm transactions without a full copy of the blockchain (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_7.md).

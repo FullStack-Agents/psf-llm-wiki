@@ -1,6 +1,6 @@
-# Mastering Bitcoin Cash Chapter 5 Part 8
+# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 5 Part 8
 
-**Summary**: Detailed explanation of the transaction pool (mempool) and orphan pool, explaining how unconfirmed transactions are tracked and reconstructed.
+**Summary**: Detailed explanation of the transaction pool ([mempool](mempool.md)) and orphan pool, explaining how unconfirmed transactions are tracked and reconstructed.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_8.md
 
@@ -8,10 +8,10 @@
 
 ---
 
-Most Bitcoin Cash nodes maintain a temporary storage area for transactions that have been broadcast to the network but not yet included in a block, known as the **memory pool (mempool)** or **transaction pool** (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_8.md).
+Most [Bitcoin Cash](bitcoin-cash.md) nodes maintain a temporary storage area for transactions that have been broadcast to the network but not yet included in a block, known as the **memory pool ([mempool](mempool.md))** or **transaction pool** (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_8.md).
 
 ## The Transaction Pool (Mempool)
-The mempool is used by nodes to:
+The [mempool](mempool.md) is used by nodes to:
 - Track unconfirmed transactions.
 - Monitor incoming payments that lack confirmation (crucial for wallet-holding nodes).
 - Relay verified transactions to neighboring nodes for network-wide propagation (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_8.md).

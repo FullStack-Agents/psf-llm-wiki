@@ -8,7 +8,7 @@
 
 ---
 
-A block is a container that aggregates transactions. A full 32MB Bitcoin Cash block can contain nearly 128,000 transactions (source: mastering-bitcoin-cash_chapter-6-the-blockchain_2.md).
+A block is a container that aggregates transactions. A full 32MB [Bitcoin Cash](bitcoin-cash.md) block can contain nearly 128,000 transactions (source: mastering-bitcoin-cash_chapter-6-the-blockchain_2.md).
 
 ## Block Anatomy
 A block consists of the following components:
@@ -22,7 +22,7 @@ A block consists of the following components:
 The 80-byte header includes:
 1. Reference to the previous block hash.
 2. Mining competition data: includes the timestamp, difficulty, and nonce.
-3. The **Merkle Tree Root**: A summary of all transactions in the block (source: mastering-bitcoin-cash_chapter-6-the-blockchain_2.md).
+3. The **[Merkle Tree](merkle-tree.md) Root**: A summary of all transactions in the block (source: mastering-bitcoin-cash_chapter-6-the-blockchain_2.md).
 
 ## Block Identification
 Blocks are identified in two ways:

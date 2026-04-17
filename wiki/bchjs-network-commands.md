@@ -12,7 +12,7 @@ The `bchjs` library provides tools to monitor the state of the node's network co
 
 ### getPeerInfo
 The `getPeerInfo()` method allows users to retrieve detailed information about all currently connected peers. This includes:
-- Peer address
+- Peer [address](addresses.md)
 - Version
 - Connection time
 - Data transmission statistics (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_11.md)

@@ -1,6 +1,6 @@
 # Blockchain Ledger
 
-**Summary**: The global record of all transactions in the Bitcoin Cash network.
+**Summary**: The global record of all transactions in the [Bitcoin Cash](bitcoin-cash.md) network.
 
 **Sources**: mastering-bitcoin-cash_transactions_1.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-The Bitcoin Cash blockchain functions as a global double-entry bookkeeping ledger (source: mastering-bitcoin-cash_transactions_1.md), where each transaction becomes a public entry.
+The [Bitcoin Cash](bitcoin-cash.md) blockchain functions as a global double-entry bookkeeping ledger (source: mastering-bitcoin-cash_transactions_1.md), where each transaction becomes a public entry.
 
 ## Related pages
 

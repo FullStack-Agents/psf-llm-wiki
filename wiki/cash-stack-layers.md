@@ -11,12 +11,12 @@
 The Cash Stack architecture is inspired by the OSI model to facilitate technical discussion and issue isolation (source: intro.md). It consists of the following layers:
 
 - **Application Layer**: End-user UI and application libraries with business logic.
-- **Interface Library Layer**: Libraries such as `bch-js` and `bch-consumer` (source: intro.md).
+- **Interface Library Layer**: Libraries such as `[bch-js](bch-js.md)` and `bch-consumer` (source: intro.md).
 - **API Layer**: REST API or JSON RPC servers.
-- **Indexer Layer**: Search engines for blockchain data, such as Fulcrum (tracking balances and UTXOs) and `psf-slp-indexer` (tracking SLP tokens) (source: intro.md).
-- **Full Node Layer**: Base blockchain software for verifying and broadcasting blocks.
+- **Indexer Layer**: Search engines for blockchain data, such as [Fulcrum](fulcrum-indexer.md) (tracking balances and UTXOs) and `psf-slp-indexer` (tracking [SLP](slp-token-protocol.md) tokens) (source: intro.md).
+- **[Full Node](bchn-full-node.md) Layer**: Base blockchain software for verifying and broadcasting blocks.
 
 ## Related pages
 
 - [intro](intro.md)
-- [psf-bch-api](psf-bch-api.md)
+- [psf-bch-api]([psf-bch-api](psf-bch-api.md).md)

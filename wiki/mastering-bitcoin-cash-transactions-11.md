@@ -10,7 +10,7 @@
 
 ## Script Execution Process
 
-When a Bitcoin Cash node validates a transaction, it executes the unlocking and locking scripts in a specific sequence (source: mastering-bitcoin-cash_transactions_11.md):
+When a [Bitcoin Cash](bitcoin-cash.md) node validates a transaction, it executes the unlocking and locking scripts in a specific sequence (source: mastering-bitcoin-cash_transactions_11.md):
 
 1. **Unlocking Script Execution**: The unlocking script is executed first. If it executes without errors, the main stack is copied for the next step.
 2. **Locking Script Execution**: The locking script is then executed using the state of the stack left by the unlocking script.
@@ -23,12 +23,12 @@ In a Pay-to-Public-Key-Hash (P2PKH) transaction, the combined execution sequence
 
 ### Step-by-Step Execution:
 1. **Signature**: The signature is pushed onto the stack.
-2. **Public Key**: The public key is pushed onto the stack.
-3. **Duplicate**: `OP_DUP` duplicates the public key on the stack.
-4. **Hashing**: `OP_HASH160` hashes the public key.
-5. **Locking Hash**: The public key hash from the locking script is pushed onto the stack.
+2. **Public Key**: The [public key](addresses.md) is pushed onto the stack.
+3. **Duplicate**: `OP_DUP` duplicates the [public key](addresses.md) on the stack.
+4. **Hashing**: `OP_HASH160` hashes the [public key](addresses.md).
+5. **Locking Hash**: The [public key](addresses.md) hash from the locking script is pushed onto the stack.
 6. **Comparison**: `OP_EQUAL` compares the two hashes for equality.
-7. **Verification**: `OP_CHECKSIG` verifies the signature against the public key (source: mastering-bitcoin-cash_transactions_11.md).
+7. **Verification**: `OP_CHECKSIG` verifies the signature against the [public key](addresses.md) (source: mastering-bitcoin-cash_transactions_11.md).
 
 This systematic approach ensures that funds can only be spent by parties who provide valid signatures that match the specific conditions defined in the locking script.
 

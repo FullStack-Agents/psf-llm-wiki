@@ -10,7 +10,7 @@
 
 A Merkle Tree is a data structure where leaf nodes (transaction hashes) are recursively paired and hashed until a single root is reached.
 
-## Technical Implementation in BCH
+## Technical Implementation in [BCH](bitcoin-cash.md)
 - **Hashing Algorithm**: Double-SHA256 (SHA256 applied twice).
 - **Balancing**: If there's an odd number of leaf nodes, the last node is duplicated to ensure a balanced binary tree.
 - **Verification Complexity**: The complexity to verify a transaction's inclusion is $O(\log N)$, specifically $2 \cdot \log_2(N)$ calculations for $N$ transactions (source: mastering-bitcoin-cash_chapter-6-the-blockchain_4.md).

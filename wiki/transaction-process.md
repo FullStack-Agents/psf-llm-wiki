@@ -1,14 +1,14 @@
 # Transaction Process
 
-**Summary**: The mechanism by which Bitcoin Cash is transferred from sender to recipient, including signing, propagation, and confirmation.
+**Summary**: The mechanism by which [Bitcoin Cash](bitcoin-cash.md) is transferred from sender to recipient, including signing, propagation, and confirmation.
 
-**Sources**: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_9.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_6.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_7.md
+**Sources**: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_9.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_6.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_7.md
 
 **Last updated**: 2026-04-16
 
 ---
 
-Sending Bitcoin Cash involves creating a transaction that assigns a specific amount of BCH from the sender's address to the recipient's address (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_9.md).
+Sending [Bitcoin Cash](bitcoin-cash.md) involves creating a transaction that assigns a specific amount of [BCH](bitcoin-cash.md) from the sender's [address](addresses.md) to the recipient's [address](addresses.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_9.md).
 
 ### The Transaction Lifecycle
 1. **Authorization**: The transaction is signed using the sender's [private-keys](private-keys.md), which authorizes the movement of funds from their wallet.
@@ -26,7 +26,7 @@ Each block built on top of a block containing a transaction adds one "confirmati
 ### Validation and Trust
 Recipients can independently verify that a transaction is well-formed, uses previously unspent inputs ([utxo](utxo.md)), and includes sufficient fees. For small-value transactions, merchants may accept "zero confirmation" transactions, as the risk is considered comparable to certain traditional payment methods (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md).
 
-The confirmation process is critical as it prevents [double-spending](double-spending.md) and ensures the overall integrity of the [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_9.md).
+The confirmation process is critical as it prevents [double-spending](double-spending.md) and ensures the overall integrity of the [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_9.md).
 
 ## Related pages
 

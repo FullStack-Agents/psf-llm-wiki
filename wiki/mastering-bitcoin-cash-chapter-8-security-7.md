@@ -1,4 +1,4 @@
-# Mastering Bitcoin Cash Chapter 8 Security 7
+# Mastering [Bitcoin Cash](bitcoin-cash.md) Chapter 8 Security 7
 
 **Summary**: Analysis of hardware wallets, their purpose-built design, and how they protect private keys by separating the signing process from general-purpose computers.
 
@@ -15,7 +15,7 @@ Hardware wallets are purpose-built devices designed specifically for the secure 
 The primary security advantage of hardware wallets is the physical separation of the signing process from the computer used to initiate the transaction. This ensures that private keys never leave the secure environment of the device, even during the transaction process (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_7.md).
 
 ## User Adoption
-Devices such as Trezor provide high levels of security that are accessible even to non-technical users. Because of this combination of security and usability, hardware wallets are expected to become the predominant storage method for security-conscious Bitcoin Cash users (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_7.md).
+Devices such as Trezor provide high levels of security that are accessible even to non-technical users. Because of this combination of security and usability, hardware wallets are expected to become the predominant storage method for security-conscious [Bitcoin Cash](bitcoin-cash.md) users (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_7.md).
 
 ## Related pages
 

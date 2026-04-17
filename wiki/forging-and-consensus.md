@@ -8,11 +8,11 @@
 
 ---
 
-In Bitcoin Cash, the process of adding a new block to the blockchain is often referred to as "forging." This is a computational competition where miners strive to create a block that meets the network's difficulty requirements (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_9.md).
+In [Bitcoin Cash](bitcoin-cash.md), the process of adding a new block to the blockchain is often referred to as "forging." This is a computational competition where miners strive to create a block that meets the network's difficulty requirements (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_9.md).
 
 ### The Forging Process
 To forge a block, a miner must:
-1. Collect a set of valid transactions from the mempool.
+1. Collect a set of valid transactions from the [mempool](mempool.md).
 2. Create a block header.
 3. Solve the PoW puzzle by finding a nonce that, when hashed with the header using SHA-256, results in a value below the target threshold.
 

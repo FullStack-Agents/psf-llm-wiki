@@ -1,6 +1,6 @@
 # Network Communication Protocol
 
-**Summary**: The message-based communication system used by Bitcoin Cash nodes to propagate blocks, transactions, and headers.
+**Summary**: The message-based communication system used by [Bitcoin Cash](bitcoin-cash.md) nodes to propagate blocks, transactions, and headers.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-The Bitcoin Cash network operates on a request-response communication protocol that prioritizes efficiency and backward compatibility.
+The [Bitcoin Cash](bitcoin-cash.md) network operates on a request-response communication protocol that prioritizes efficiency and backward compatibility.
 
 ### Message Structure
 Messages are structured with a header containing a `command` name (identifying the message type) and a payload. This extensibility allows nodes to ignore messages they do not recognize, facilitating seamless protocol upgrades (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md).

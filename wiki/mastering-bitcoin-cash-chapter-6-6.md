@@ -22,7 +22,7 @@ When an SPV node needs to verify a transaction, it performs the following steps:
 5. **Chain Verification**: The node uses the block header to confirm the block is part of the canonical blockchain (source: mastering-bitcoin-cash_chapter-6-the-blockchain_6.md).
 
 ## Efficiency
-The amount of data required for verification is less than a kilobyte (block header + merkle path), whereas a full block can be 1MB or larger. This is what makes BCH wallets viable on mobile phones (source: mastering-bitcoin-cash_chapter-6-the-blockchain_6.md).
+The amount of data required for verification is less than a kilobyte (block header + merkle path), whereas a full block can be 1MB or larger. This is what makes [BCH](bitcoin-cash.md) wallets viable on mobile phones (source: mastering-bitcoin-cash_chapter-6-the-blockchain_6.md).
 
 ## Related pages
 - [merkle-tree](merkle-tree.md)

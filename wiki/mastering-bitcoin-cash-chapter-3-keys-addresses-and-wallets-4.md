@@ -8,9 +8,9 @@
 
 ---
 
-A private key in Bitcoin Cash is a random number between 1 and $n-1$ (where $n \approx 1.158 \times 10^{77}$), generated using a secure source of entropy typically passed through the SHA256 hash algorithm to create a 256-bit number.
+A [private key](private-keys.md) in [Bitcoin Cash](bitcoin-cash.md) is a random number between 1 and $n-1$ (where $n \approx 1.158 \times 10^{77}$), generated using a secure source of entropy typically passed through the SHA256 hash algorithm to create a 256-bit number.
 
-The public key ($K$) is derived from the private key ($k$) using the formula $K = k \times G$, where $G$ is a generator point. This elliptic curve multiplication is a one-way operation; calculating $k$ from $K$ (the discrete logarithm problem) is computationally infeasible.
+The [public key](addresses.md) ($K$) is derived from the [private key](private-keys.md) ($k$) using the formula $K = k \times G$, where $G$ is a generator point. This elliptic curve multiplication is a one-way operation; calculating $k$ from $K$ (the discrete logarithm problem) is computationally infeasible.
 
 ## Related pages
 

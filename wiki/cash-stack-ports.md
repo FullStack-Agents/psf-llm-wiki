@@ -1,6 +1,6 @@
 # cash-stack-ports
 
-**Summary**: A comprehensive reference of the default network ports used by the various components of the Cash Stack infrastructure.
+**Summary**: A comprehensive reference of the default network ports used by the various components of the [Cash Stack](cash-stack-layers.md) infrastructure.
 
 **Sources**: ports.md
 
@@ -8,15 +8,15 @@
 
 ---
 
-The Cash Stack consists of multiple interdependent services, each communicating over specific ports. This page serves as a technical reference for network configuration and troubleshooting (source: ports.md).
+The [Cash Stack](cash-stack-layers.md) consists of multiple interdependent services, each communicating over specific ports. This page serves as a technical reference for network configuration and troubleshooting (source: ports.md).
 
 ## Core Blockchain Infrastructure
 
 | Component | Container Name | Port | Function |
 | :--- | :--- | :--- | :--- |
-| **BCHN Full Node** | `bchn-main` | 8332 | JSON RPC |
+| **[BCHN](bchn-full-node.md) [Full Node](bchn-full-node.md)** | `bchn-main` | 8332 | JSON RPC |
 | | | 8333 | p2p node communication |
-| **Fulcrum Indexer** | `fulcrum-mainnet` | 50001 | Electrum TCP |
+| **[Fulcrum](fulcrum-indexer.md) Indexer** | `fulcrum-mainnet` | 50001 | Electrum TCP |
 | | | 50002 | Electrum SSL |
 | | `fulcrum-rest-api` | 3001 | REST API |
 | **psf-slp-indexer** | `slp-indexer` | 5010 | REST API |
@@ -29,7 +29,7 @@ The Cash Stack consists of multiple interdependent services, each communicating 
 | :--- | :--- | :--- | :--- |
 | **ipfs-file-pin-service** | `file-service` | 4001 | IPFS TCP |
 | | | 4003 | IPFS WS |
-| | | 5031 | REST API (Target for SLP indexer webhooks) |
+| | | 5031 | REST API (Target for [SLP](slp-token-protocol.md) indexer webhooks) |
 | | `mongo-file-service` | 5556 | MongoDB Connection |
 | **psffpp-client** | N/A | 4201 | IPFS TCP |
 | | | 4203 | IPFS WS |
@@ -52,5 +52,5 @@ The Cash Stack consists of multiple interdependent services, each communicating 
 - [bchn-full-node](bchn-full-node.md)
 - [fulcrum-indexer](fulcrum-indexer.md)
 - [slp-token-indexer](slp-token-indexer.md)
-- [psf-bch-api](psf-bch-api.md)
+- [psf-bch-api]([psf-bch-api](psf-bch-api.md).md)
 - [cash-stack-layers](cash-stack-layers.md)

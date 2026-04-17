@@ -1,6 +1,6 @@
-# Mastering Bitcoin Cash: Chapter 5 - Network Resilience and Dynamic Adaptation
+# Mastering [Bitcoin Cash](bitcoin-cash.md): Chapter 5 - Network Resilience and Dynamic Adaptation
 
-**Summary**: This page summarizes the mechanisms Bitcoin Cash uses to maintain network stability and peer connectivity.
+**Summary**: This page summarizes the mechanisms [Bitcoin Cash](bitcoin-cash.md) uses to maintain network stability and peer connectivity.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_11.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-The Bitcoin Cash network is designed for resilience through dynamic self-adjustment. It manages peer connections organically without central coordination to ensure the network remains robust despite transient node availability.
+The [Bitcoin Cash](bitcoin-cash.md) network is designed for resilience through dynamic self-adjustment. It manages peer connections organically without central coordination to ensure the network remains robust despite transient node availability.
 
 Key aspects include:
 - **Heartbeat Mechanisms**: Periodic messaging to maintain active connections.

@@ -1,6 +1,6 @@
 # Transaction Locktime
 
-**Summary**: The mechanism used to delay the validity of a Bitcoin Cash transaction.
+**Summary**: The mechanism used to delay the validity of a [Bitcoin Cash](bitcoin-cash.md) transaction.
 
 **Sources**: mastering-bitcoin-cash_transactions_3.md
 

@@ -18,16 +18,16 @@ The value of SLP's loose coupling is evident when compared to historical token p
 | :--- | :--- | :--- | :--- |
 | **Counterparty** | BTC | Hostility from blockchain developers | Developers can change rules to discourage tokens (source: why-slp.md). |
 | **ERC20** | Ethereum | Prohibitively high transaction fees | High fees reduce economic viability for many businesses (source: why-slp.md). |
-| **Wormhole** | BCH | Tight coupling to a specific node fork | When the node wasn't updated for a hard fork, the ecosystem died (source: why-slp.md). |
-| **CashTokens** | BCH | Tight coupling to the full node | High "platform risk"; locked into a single blockchain (source: why-slp.md). |
+| **Wormhole** | [BCH](bitcoin-cash.md) | Tight coupling to a specific node fork | When the node wasn't updated for a hard fork, the ecosystem died (source: why-slp.md). |
+| **CashTokens** | [BCH](bitcoin-cash.md) | Tight coupling to the full node | High "platform risk"; locked into a single blockchain (source: why-slp.md). |
 
 ## Advantages of SLP
 
 ### 1. Reduced Platform Risk
-Because it is loosely coupled, SLP can be adapted to any blockchain that supports a text field in transactions (e.g., Bitcoin Cash, eCash, Nexa, Radiant, AVAX X-chain, Qortal). This allows businesses to migrate their token ecosystem to a different blockchain if the current platform becomes hostile or too expensive (source: why-slp.md).
+Because it is loosely coupled, SLP can be adapted to any blockchain that supports a text field in transactions (e.g., [Bitcoin Cash](bitcoin-cash.md), eCash, Nexa, Radiant, AVAX X-chain, Qortal). This allows businesses to migrate their token ecosystem to a different blockchain if the current platform becomes hostile or too expensive (source: why-slp.md).
 
 ### 2. Mature Ecosystem
-Despite the risk of accidental token burning (which CashTokens avoids through miner validation), SLP has a mature infrastructure. Open-source tools like `minimal-slp-wallet` and the PSF web wallet provide stable implementations that have functioned without significant burning issues for years (source: why-slp.md).
+Despite the risk of accidental token burning (which CashTokens avoids through miner validation), SLP has a mature infrastructure. Open-source tools like `[minimal-slp-wallet](minimal-slp-wallet.md)` and the PSF web wallet provide stable implementations that have functioned without significant burning issues for years (source: why-slp.md).
 
 ## Scaling and Management
 
