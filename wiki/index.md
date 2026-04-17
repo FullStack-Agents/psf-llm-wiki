@@ -130,5 +130,7 @@
 - [transaction-validation](transaction-validation.md): The process by which nodes verify the validity of a transaction before propagating it.
 - [use-cases](use-cases.md): Examples of how  is utilized in retail, high-value trade, international payments, charity, and mining.
 - : Unspent Transaction Output; the fundamental unit of currency in .
-- [x402-bch](x402-bch.md): A protocol for facilitating per-call payments for API access using  (BCH).
+- [decentralized-file-hosting](decentralized-file-hosting.md): Overview of decentralized file hosting using the PSF File Pinning Protocol (PSFFPP) and IPFS, bridging the Bitcoin Cash ledger with distributed storage.
+- [decentralized-file-storage](decentralized-file-storage.md): Concept page focusing on the technical and architectural aspects of decentralized storage, primarily using IPFS and the Cash Stack.
+- [ipfs-file-pin-service](ipfs-file-pin-service.md): An optional Cash Stack component that provides paid IPFS file pinning, implementing the PSF File Pinning Protocol (PS010) to create censorship-resistant, redundant file storage.
 - [minimal-slp-wallet](minimal-slp-wallet.md): A high-level JavaScript wallet engine for building web, mobile, and Node.js applications on  (BCH), providing a simplified API for common wallet operations.
