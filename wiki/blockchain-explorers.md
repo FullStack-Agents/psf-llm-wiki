@@ -24,7 +24,7 @@ Commonly used explorers include:
 
 ## Related pages
 
-- [[blockchain]]
-- [[transaction-process]]
-- [[addresses]]
-- [[mastering-bitcoin-cash-chapter-2]]
+- [blockchain](blockchain.md)
+- [transaction-process](transaction-process.md)
+- [addresses](addresses.md)
+- [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md)

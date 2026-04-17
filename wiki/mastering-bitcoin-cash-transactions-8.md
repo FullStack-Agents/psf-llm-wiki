@@ -33,7 +33,7 @@ These limitations ensure that execution times are predictable and prevent the po
 
 ## Related pages
 
-- [[transaction-scripts]]
-- [[transaction-validation]]
-- [[mastering-bitcoin-cash-transactions-7]]
-- [[utxo]]
+- [transaction-scripts](transaction-scripts.md)
+- [transaction-validation](transaction-validation.md)
+- [mastering-bitcoin-cash-transactions-7](mastering-bitcoin-cash-transactions-7.md)
+- [utxo](utxo.md)

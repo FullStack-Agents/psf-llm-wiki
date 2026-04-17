@@ -31,7 +31,7 @@ P2SH addresses use Base58Check encoding with a prefix of "5", meaning they typic
 ### Benefits
 - **Efficiency**: Produces shorter transaction outputs (source: mastering-bitcoin-cash_transactions_10.md).
 - **Simplicity for Senders**: Complexity is hidden from the sender (source: mastering-bitcoin-cash_transactions_10.md).
-- **Resource Optimization**: Reduces data storage in the [[utxo]] set and defers storage of complex scripts until they are spent (source: mastering-bitcoin-cash_transactions_10.md).
+- **Resource Optimization**: Reduces data storage in the [utxo](utxo.md) set and defers storage of complex scripts until they are spent (source: mastering-bitcoin-cash_transactions_10.md).
 - **Fee Distribution**: The burden of the transaction fee for complex scripts is shifted from the sender to the recipient (source: mastering-bitcoin-cash_transactions_10.md).
 
 ### Risks
@@ -39,8 +39,8 @@ The network accepts P2SH hashes without knowing if the underlying redeem script 
 
 ## Related pages
 
-- [[p2sh]]
-- [[standard-transaction-types]]
-- [[transaction-scripts]]
-- [[utxo]]
-- [[mastering-bitcoin-cash-transactions-9]]
+- [p2sh](p2sh.md)
+- [standard-transaction-types](standard-transaction-types.md)
+- [transaction-scripts](transaction-scripts.md)
+- [utxo](utxo.md)
+- [mastering-bitcoin-cash-transactions-9](mastering-bitcoin-cash-transactions-9.md)

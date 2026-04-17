@@ -20,7 +20,7 @@ There are several ways for individuals to acquire their first Bitcoin Cash, each
 
 ## Related pages
 
-- [[bitcoin-cash]]
-- [[digital-wallets]]
-- [[addresses]]
-- [[mastering-bitcoin-cash-chapter-1]]
+- [bitcoin-cash](bitcoin-cash.md)
+- [digital-wallets](digital-wallets.md)
+- [addresses](addresses.md)
+- [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)

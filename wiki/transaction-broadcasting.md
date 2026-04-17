@@ -17,6 +17,6 @@ Transactions can be transmitted over any secure or insecure network because they
 
 ## Related pages
 
-- [[bitcoin-cash-transactions]]
-- [[transaction-validation]]
-- [[mastering-bitcoin-cash-transactions-2]]
+- [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
+- [transaction-validation](transaction-validation.md)
+- [mastering-bitcoin-cash-transactions-2](mastering-bitcoin-cash-transactions-2.md)

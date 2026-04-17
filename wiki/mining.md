@@ -12,5 +12,5 @@ Mining nodes are responsible for verifying transactions and including them in bl
 
 ## Related pages
 
-- [[bitcoin-cash-transactions]]
-- [[mastering-bitcoin-cash-transactions-1]]
+- [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
+- [mastering-bitcoin-cash-transactions-1](mastering-bitcoin-cash-transactions-1.md)

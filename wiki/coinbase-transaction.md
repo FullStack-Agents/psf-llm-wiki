@@ -14,4 +14,4 @@ While regular transactions must balance inputs and outputs, a coinbase transacti
 
 ## Related pages
 
-- [[double-entry-bookkeeping]]
+- [double-entry-bookkeeping](double-entry-bookkeeping.md)

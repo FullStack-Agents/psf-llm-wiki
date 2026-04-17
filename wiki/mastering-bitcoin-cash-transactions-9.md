@@ -33,7 +33,7 @@ Allows complex scripts to be referenced by a hash, simplifying the process of us
 
 ## Related pages
 
-- [[standard-transaction-types]]
-- [[transaction-scripts]]
-- [[utxo]]
-- [[mastering-bitcoin-cash-transactions-8]]
+- [standard-transaction-types](standard-transaction-types.md)
+- [transaction-scripts](transaction-scripts.md)
+- [utxo](utxo.md)
+- [mastering-bitcoin-cash-transactions-8](mastering-bitcoin-cash-transactions-8.md)

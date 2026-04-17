@@ -10,10 +10,10 @@
 
 Ownership in Bitcoin Cash is managed through a system of digital keys and addresses. Control over funds is established by the possession of a private key, which is used to generate the signatures required for every transaction.
 
-Keys are managed by users in [[digital-wallets]] and exist independently of the network and protocol. The relationship between keys and addresses is central to the system: a private key generates a public key, which is then represented as a Bitcoin Cash [[addresses]].
+Keys are managed by users in [digital-wallets](digital-wallets.md) and exist independently of the network and protocol. The relationship between keys and addresses is central to the system: a private key generates a public key, which is then represented as a Bitcoin Cash [addresses](addresses.md).
 
 ## Related pages
 
-- [[private-keys]]
-- [[addresses]]
-- [[digital-wallets]]
+- [private-keys](private-keys.md)
+- [addresses](addresses.md)
+- [digital-wallets](digital-wallets.md)

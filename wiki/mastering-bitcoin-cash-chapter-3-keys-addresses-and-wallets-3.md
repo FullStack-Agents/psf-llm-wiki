@@ -17,6 +17,6 @@ The derivation sequence is as follows:
 
 ## Related pages
 
-- [[private-keys]]
-- [[addresses]]
-- [[transaction-scripts]]
+- [private-keys](private-keys.md)
+- [addresses](addresses.md)
+- [transaction-scripts](transaction-scripts.md)

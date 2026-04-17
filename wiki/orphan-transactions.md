@@ -20,6 +20,6 @@ To mitigate denial-of-service (DoS) attacks, the number of orphan transactions s
 
 ## Related pages
 
-- [[transaction-chaining]]
-- [[transaction-validation]]
-- [[mastering-bitcoin-cash-transactions-7]]
+- [transaction-chaining](transaction-chaining.md)
+- [transaction-validation](transaction-validation.md)
+- [mastering-bitcoin-cash-transactions-7](mastering-bitcoin-cash-transactions-7.md)

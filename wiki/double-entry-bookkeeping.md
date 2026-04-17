@@ -19,5 +19,5 @@ This model ensures that coins are neither created nor destroyed in regular trans
 
 ## Related pages
 
-- [[coinbase-transaction]]
-- [[auditability]]
+- [coinbase-transaction](coinbase-transaction.md)
+- [auditability](auditability.md)

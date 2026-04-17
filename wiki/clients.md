@@ -21,7 +21,7 @@ Mobile clients may implement any of these three architectures and can sometimes 
 
 ## Related pages
 
-- [[bitcoin-cash]]
-- [[digital-wallets]]
-- [[decentralization]]
-- [[mastering-bitcoin-cash-chapter-1]]
+- [bitcoin-cash](bitcoin-cash.md)
+- [digital-wallets](digital-wallets.md)
+- [decentralization](decentralization.md)
+- [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)

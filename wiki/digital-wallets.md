@@ -8,7 +8,7 @@
 
 ---
 
-Digital wallets are used to store the cryptographic keys required to prove ownership of Bitcoin Cash. The [[private-keys]] stored within the wallet are the essential requirement to unlock and spend bitcoins (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_1.md). 
+Digital wallets are used to store the cryptographic keys required to prove ownership of Bitcoin Cash. The [private-keys](private-keys.md) stored within the wallet are the essential requirement to unlock and spend bitcoins (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_1.md). 
 
 Wallets are independent of the Bitcoin Cash protocol and can be generated without an internet connection or blockchain access (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
 
@@ -18,9 +18,9 @@ Wallets vary in how they manage keys:
 - **Deterministic**: All keys are derived from a single seed; backing up the seed recovers all keys (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_8.md).
 - **Hierarchical Deterministic (HD)**: Keys are organized in a tree structure (BIP0032/BIP0044), often backed up using mnemonic phrases (BIP0039) of 12-24 words (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_8.md). HD wallets use a Child Key Derivation (CKD) function and can utilize "hardened" derivation to prevent compromised child keys from revealing other keys in the tree (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_9.md).
 
-Contrary to a physical wallet, a digital wallet does not store "coins" but rather manages the keys and tracks [[utxo]] (Unspent Transaction Outputs) associated with those keys to identify available funds (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_8.md).
+Contrary to a physical wallet, a digital wallet does not store "coins" but rather manages the keys and tracks [utxo](utxo.md) (Unspent Transaction Outputs) associated with those keys to identify available funds (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_8.md).
 
-When a user initiates a payment, the wallet application automatically handles the complexities of the [[transaction-process]], including:
+When a user initiates a payment, the wallet application automatically handles the complexities of the [transaction-process](transaction-process.md), including:
 - Selecting appropriate inputs.
 - Creating outputs.
 - Calculating change.
@@ -31,9 +31,9 @@ A key feature of Bitcoin Cash wallets is the ability to construct transactions o
 
 ## Related pages
 
-- [[bitcoin-cash]]
-- [[private-keys]]
-- [[utxo]]
-- [[transaction-process]]
-- [[mastering-bitcoin-cash-chapter-1]]
-- [[mastering-bitcoin-cash-chapter-2]]
+- [bitcoin-cash](bitcoin-cash.md)
+- [private-keys](private-keys.md)
+- [utxo](utxo.md)
+- [transaction-process](transaction-process.md)
+- [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)
+- [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md)

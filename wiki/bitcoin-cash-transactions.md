@@ -10,9 +10,9 @@
 
 Transactions encode value transfers between participants in the network (source: mastering-bitcoin-cash_transactions_1.md). They are the fundamental building blocks of the system.
 
-See [[mastering-bitcoin-cash-transactions-1]] for the specific lifecycle of a transaction.
+See [mastering-bitcoin-cash-transactions-1](mastering-bitcoin-cash-transactions-1.md) for the specific lifecycle of a transaction.
 
 ## Related pages
 
-- [[mastering-bitcoin-cash-transactions-1]]
-- [[blockchain-ledger]]
+- [mastering-bitcoin-cash-transactions-1](mastering-bitcoin-cash-transactions-1.md)
+- [blockchain-ledger](blockchain-ledger.md)

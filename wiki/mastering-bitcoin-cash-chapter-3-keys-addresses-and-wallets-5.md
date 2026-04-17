@@ -17,5 +17,5 @@ Bitcoin Cash utilizes the **secp256k1** elliptic curve, defined by the equation 
 
 ## Related pages
 
-- [[private-keys]]
-- [[transaction-scripts]]
+- [private-keys](private-keys.md)
+- [transaction-scripts](transaction-scripts.md)

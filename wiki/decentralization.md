@@ -16,6 +16,6 @@ This architecture allows any network participant to contribute as a miner, utili
 
 ## Related pages
 
-- [[bitcoin-cash]]
-- [[mining]]
-- [[mastering-bitcoin-cash-chapter-1]]
+- [bitcoin-cash](bitcoin-cash.md)
+- [mining](mining.md)
+- [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)

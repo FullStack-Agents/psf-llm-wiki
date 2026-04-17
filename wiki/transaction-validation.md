@@ -14,6 +14,6 @@ Each node validates transactions independently, which serves as a security measu
 
 ## Related pages
 
-- [[transaction-broadcasting]]
-- [[bitcoin-cash-transactions]]
-- [[mastering-bitcoin-cash-transactions-2]]
+- [transaction-broadcasting](transaction-broadcasting.md)
+- [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
+- [mastering-bitcoin-cash-transactions-2](mastering-bitcoin-cash-transactions-2.md)

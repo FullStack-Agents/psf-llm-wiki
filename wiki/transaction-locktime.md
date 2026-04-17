@@ -19,5 +19,5 @@ This functionality allows transactions to act like postdated checks, where they 
 
 ## Related pages
 
-- [[mastering-bitcoin-cash-transactions-3]]
-- [[bitcoin-cash-transactions]]
+- [mastering-bitcoin-cash-transactions-3](mastering-bitcoin-cash-transactions-3.md)
+- [bitcoin-cash-transactions](bitcoin-cash-transactions.md)

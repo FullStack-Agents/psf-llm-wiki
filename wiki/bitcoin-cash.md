@@ -14,15 +14,15 @@ It originated from the 2008 publication of "Bitcoin: A Peer-to-Peer Electronic C
 
 It is the culmination of decades of cryptographic and distributed systems research, combining four key innovations (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_3.md):
 1. A decentralized peer-to-peer network protocol.
-2. A public transaction ledger ([[blockchain]]).
-3. A deterministic and decentralized currency issuance mechanism ([[mining]]).
-4. A decentralized transaction verification system ([[transaction-scripts]]).
+2. A public transaction ledger ([blockchain](blockchain.md)).
+3. A deterministic and decentralized currency issuance mechanism ([mining](mining.md)).
+4. A decentralized transaction verification system ([transaction-scripts](transaction-scripts.md)).
 
-The system is characterized by its [[decentralization]], its use of [[mining]] to secure the network, and a predetermined [[monetary-policy]].
+The system is characterized by its [decentralization](decentralization.md), its use of [mining](mining.md) to secure the network, and a predetermined [monetary-policy](monetary-policy.md).
 
 ## Related pages
 
-- [[decentralization]]
-- [[mining]]
-- [[monetary-policy]]
-- [[mastering-bitcoin-cash-chapter-1]]
+- [decentralization](decentralization.md)
+- [mining](mining.md)
+- [monetary-policy](monetary-policy.md)
+- [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)

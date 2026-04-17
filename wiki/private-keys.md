@@ -24,7 +24,7 @@ Private keys can be represented in multiple formats for easier transcription, su
 
 ## Related pages
 
-- [[digital-wallets]]
-- [[bitcoin-cash]]
-- [[transaction-scripts]]
-- [[mastering-bitcoin-cash-chapter-1]]
+- [digital-wallets](digital-wallets.md)
+- [bitcoin-cash](bitcoin-cash.md)
+- [transaction-scripts](transaction-scripts.md)
+- [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)

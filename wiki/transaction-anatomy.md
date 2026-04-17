@@ -11,7 +11,7 @@
 Transactions are the fundamental units of value transfer in the Bitcoin Cash system, functioning as a chain of ownership where value moves from one address to another (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_2.md).
 
 ### Structure of a Transaction
-A transaction consists of two primary components, following a [[double-entry-bookkeeping]] model:
+A transaction consists of two primary components, following a [double-entry-bookkeeping](double-entry-bookkeeping.md) model:
 - **Inputs (Debits)**: These refer to outputs from previous transactions that the sender is now spending.
 - **Outputs (Credits)**: These define the amount of BCH and the address of the recipient(s).
 
@@ -27,8 +27,8 @@ To spend BCH, a user must provide a digital signature as cryptographic proof of 
 
 ## Related pages
 
-- [[transaction-process]]
-- [[private-keys]]
-- [[mining]]
-- [[bitcoin-cash]]
-- [[mastering-bitcoin-cash-chapter-2]]
+- [transaction-process](transaction-process.md)
+- [private-keys](private-keys.md)
+- [mining](mining.md)
+- [bitcoin-cash](bitcoin-cash.md)
+- [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md)

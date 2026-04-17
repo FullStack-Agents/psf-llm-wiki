@@ -23,7 +23,7 @@ A transaction output defines how much value is being transferred and the conditi
 
 ## Transaction Inputs
 
-Transaction inputs act as pointers to [[utxo]]s being spent. They reference specific UTXOs using a transaction hash and an output index (source: mastering-bitcoin-cash_transactions_5.md). To successfully spend a UTXO, the input must provide an unlocking script that satisfies the requirements of the UTXO's locking script (source: mastering-bitcoin-cash_transactions_5.md).
+Transaction inputs act as pointers to [utxo](utxo.md)s being spent. They reference specific UTXOs using a transaction hash and an output index (source: mastering-bitcoin-cash_transactions_5.md). To successfully spend a UTXO, the input must provide an unlocking script that satisfies the requirements of the UTXO's locking script (source: mastering-bitcoin-cash_transactions_5.md).
 
 ### Input Structure
 | Size | Field | Description |
@@ -38,7 +38,7 @@ Transaction inputs act as pointers to [[utxo]]s being spent. They reference spec
 
 ## Related pages
 
-- [[transaction-scripts]]
-- [[utxo]]
-- [[bitcoin-cash-transactions]]
-- [[mastering-bitcoin-cash-transactions-4]]
+- [transaction-scripts](transaction-scripts.md)
+- [utxo](utxo.md)
+- [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
+- [mastering-bitcoin-cash-transactions-4](mastering-bitcoin-cash-transactions-4.md)

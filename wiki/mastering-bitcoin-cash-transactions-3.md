@@ -35,6 +35,6 @@ Transactions with future locktimes are held until they become valid, behaving si
 
 ## Related pages
 
-- [[bitcoin-cash-transactions]]
-- [[transaction-locktime]]
-- [[mastering-bitcoin-cash-transactions-2]]
+- [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
+- [transaction-locktime](transaction-locktime.md)
+- [mastering-bitcoin-cash-transactions-2](mastering-bitcoin-cash-transactions-2.md)

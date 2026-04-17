@@ -20,5 +20,5 @@ HD wallets typically use a mnemonic phrase (12-24 English words) to represent th
 
 ## Related pages
 
-- [[digital-wallets]]
-- [[private-keys]]
+- [digital-wallets](digital-wallets.md)
+- [private-keys](private-keys.md)
