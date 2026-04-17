@@ -14,5 +14,5 @@ The public key ($K$) is derived from the private key ($k$) using the formula $K 
 
 ## Related pages
 
-- [[private-keys]]
-- [[digital-wallets]]
+- [private-keys](private-keys.md)
+- [digital-wallets](digital-wallets.md)

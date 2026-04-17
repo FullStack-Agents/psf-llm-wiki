@@ -28,7 +28,7 @@ To prevent denial-of-service (DoS) attacks, nodes have a limit on the number of 
 
 ## Related pages
 
-- [[transaction-chaining]]
-- [[orphan-transactions]]
-- [[transaction-validation]]
-- [[mastering-bitcoin-cash-transactions-6]]
+- [transaction-chaining](transaction-chaining.md)
+- [orphan-transactions](orphan-transactions.md)
+- [transaction-validation](transaction-validation.md)
+- [mastering-bitcoin-cash-transactions-6](mastering-bitcoin-cash-transactions-6.md)

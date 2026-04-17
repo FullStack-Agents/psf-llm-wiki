@@ -24,6 +24,6 @@ The mathematical representation of this process is:
 
 ## Related pages
 
-- [[addresses]]
-- [[private-keys]]
-- [[transaction-scripts]]
+- [addresses](addresses.md)
+- [private-keys](private-keys.md)
+- [transaction-scripts](transaction-scripts.md)

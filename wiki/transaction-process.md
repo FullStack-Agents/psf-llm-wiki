@@ -11,7 +11,7 @@
 Sending Bitcoin Cash involves creating a transaction that assigns a specific amount of BCH from the sender's address to the recipient's address (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_9.md).
 
 ### The Transaction Lifecycle
-1. **Authorization**: The transaction is signed using the sender's [[private-keys]], which authorizes the movement of funds from their wallet.
+1. **Authorization**: The transaction is signed using the sender's [private-keys](private-keys.md), which authorizes the movement of funds from their wallet.
 2. **Propagation**: The transaction is broadcast across the network using a peer-to-peer protocol. Nodes that receive a valid, unseen transaction immediately forward it to others, using a "flooding" approach to ensure the transaction reaches most nodes within seconds (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md).
 3. **Visibility**: Transactions can be monitored in real-time via blockchain explorers.
 4. **State - Unconfirmed**: When a transaction is first broadcast, it is marked as "Unconfirmed." It is visible to the network but not yet part of the ledger.
@@ -24,17 +24,17 @@ Each block built on top of a block containing a transaction adds one "confirmati
 - **Simplified Payment Verification (SPV)**: Lightweight clients use this method to confirm a transaction's existence and confirmation count in the blockchain without needing a full copy of the ledger (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_7.md).
 
 ### Validation and Trust
-Recipients can independently verify that a transaction is well-formed, uses previously unspent inputs ([[utxo]]), and includes sufficient fees. For small-value transactions, merchants may accept "zero confirmation" transactions, as the risk is considered comparable to certain traditional payment methods (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md).
+Recipients can independently verify that a transaction is well-formed, uses previously unspent inputs ([utxo](utxo.md)), and includes sufficient fees. For small-value transactions, merchants may accept "zero confirmation" transactions, as the risk is considered comparable to certain traditional payment methods (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md).
 
-The confirmation process is critical as it prevents [[double-spending]] and ensures the overall integrity of the [[blockchain]] (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_9.md).
+The confirmation process is critical as it prevents [double-spending](double-spending.md) and ensures the overall integrity of the [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_9.md).
 
 ## Related pages
 
-- [[blockchain]]
-- [[mining]]
-- [[private-keys]]
-- [[double-spending]]
-- [[utxo]]
-- [[bitcoin-cash]]
-- [[mastering-bitcoin-cash-chapter-1]]
-- [[mastering-bitcoin-cash-chapter-2]]
+- [blockchain](blockchain.md)
+- [mining](mining.md)
+- [private-keys](private-keys.md)
+- [double-spending](double-spending.md)
+- [utxo](utxo.md)
+- [bitcoin-cash](bitcoin-cash.md)
+- [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)
+- [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md)

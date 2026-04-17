@@ -22,11 +22,11 @@ Bitcoin Cash defines five standard transaction types to manage different spendin
 
 ### Detailed Notes
 - **P2PKH** is the most prevalent type (source: mastering-bitcoin-cash_transactions_9.md).
-- **OP_RETURN** outputs are uniquely unspendable and do not enter the [[utxo]] set (source: mastering-bitcoin-cash_transactions_9.md).
+- **OP_RETURN** outputs are uniquely unspendable and do not enter the [utxo](utxo.md) set (source: mastering-bitcoin-cash_transactions_9.md).
 - **Multi-sig** is limited to 15 public keys in standard scripts (source: mastering-bitcoin-cash_transactions_9.md).
 
 ## Related pages
 
-- [[mastering-bitcoin-cash-transactions-9]]
-- [[transaction-scripts]]
-- [[utxo]]
+- [mastering-bitcoin-cash-transactions-9](mastering-bitcoin-cash-transactions-9.md)
+- [transaction-scripts](transaction-scripts.md)
+- [utxo](utxo.md)

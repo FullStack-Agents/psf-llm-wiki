@@ -20,7 +20,7 @@ A Bitcoin Cash address is a long string of letters and numbers used to receive f
 
 ## Related pages
 
-- [[digital-wallets]]
-- [[private-keys]]
-- [[bitcoin-cash]]
-- [[mastering-bitcoin-cash-chapter-1]]
+- [digital-wallets](digital-wallets.md)
+- [private-keys](private-keys.md)
+- [bitcoin-cash](bitcoin-cash.md)
+- [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)

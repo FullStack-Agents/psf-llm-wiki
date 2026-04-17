@@ -31,7 +31,7 @@ When a transaction reaches a node, it is validated. If it is valid, the node pro
 
 ## Related pages
 
-- [[bitcoin-cash-transactions]]
-- [[transaction-broadcasting]]
-- [[transaction-validation]]
-- [[mastering-bitcoin-cash-transactions-1]]
+- [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
+- [transaction-broadcasting](transaction-broadcasting.md)
+- [transaction-validation](transaction-validation.md)
+- [mastering-bitcoin-cash-transactions-1](mastering-bitcoin-cash-transactions-1.md)

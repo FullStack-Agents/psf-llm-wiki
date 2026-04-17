@@ -27,6 +27,6 @@ For Bitcoin Cash, the `coin_type` is `145'`. For example, the path `M/44'/145'/0
 
 ## Related pages
 
-- [[digital-wallets]]
-- [[private-keys]]
-- [[transaction-scripts]]
+- [digital-wallets](digital-wallets.md)
+- [private-keys](private-keys.md)
+- [transaction-scripts](transaction-scripts.md)

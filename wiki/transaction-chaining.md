@@ -14,6 +14,6 @@ Complex workflows may involve the simultaneous creation of multiple interdepende
 
 ## Related pages
 
-- [[orphan-transactions]]
-- [[mastering-bitcoin-cash-transactions-7]]
-- [[utxo]]
+- [orphan-transactions](orphan-transactions.md)
+- [mastering-bitcoin-cash-transactions-7](mastering-bitcoin-cash-transactions-7.md)
+- [utxo](utxo.md)

@@ -25,6 +25,6 @@ Bitcoin Cash does not utilize accounts or balances. Instead, a user's "balance" 
 
 ## Related pages
 
-- [[utxo]]
-- [[bitcoin-cash-transactions]]
-- [[mastering-bitcoin-cash-transactions-3]]
+- [utxo](utxo.md)
+- [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
+- [mastering-bitcoin-cash-transactions-3](mastering-bitcoin-cash-transactions-3.md)

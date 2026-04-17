@@ -17,6 +17,6 @@ A UTXO (Unspent Transaction Output) is an indivisible chunk of currency locked t
 
 ## Related pages
 
-- [[mastering-bitcoin-cash-transactions-4]]
-- [[bitcoin-cash-transactions]]
-- [[blockchain-ledger]]
+- [mastering-bitcoin-cash-transactions-4](mastering-bitcoin-cash-transactions-4.md)
+- [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
+- [blockchain-ledger](blockchain-ledger.md)

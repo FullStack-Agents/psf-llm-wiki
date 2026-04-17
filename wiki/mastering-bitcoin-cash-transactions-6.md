@@ -28,13 +28,13 @@ Miners prioritize transactions that offer sufficient fees. Transactions with ins
 
 ## The Importance of Change Outputs
 
-When creating a transaction, it is critical to account for the full value of all consumed [[utxo]]s. If a user consumes a large UTXO but only specifies a small output to the recipient without a change output, the remaining balance is automatically treated as a transaction fee for the miner (source: mastering-bitcoin-cash_transactions_6.md).
+When creating a transaction, it is critical to account for the full value of all consumed [utxo](utxo.md)s. If a user consumes a large UTXO but only specifies a small output to the recipient without a change output, the remaining balance is automatically treated as a transaction fee for the miner (source: mastering-bitcoin-cash_transactions_6.md).
 
 *Example*: Consuming a 20 BCH UTXO for a 1 BCH payment without a change output results in a 19 BCH fee (source: mastering-bitcoin-cash_transactions_6.md).
 
 ## Related pages
 
-- [[transaction-fees]]
-- [[utxo]]
-- [[mining]]
-- [[mastering-bitcoin-cash-transactions-5]]
+- [transaction-fees](transaction-fees.md)
+- [utxo](utxo.md)
+- [mining](mining.md)
+- [mastering-bitcoin-cash-transactions-5](mastering-bitcoin-cash-transactions-5.md)

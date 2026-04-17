@@ -10,10 +10,10 @@
 
 This source describes how Bitcoin Cash implements a distributed double-entry bookkeeping system. It emphasizes that funds are moved from inputs (debits) to outputs (credits), and that the total must balance, accounting for transaction fees.
 
-Key concepts include the role of [[coinbase-transaction]] in minting new coins and the overall [[auditability]] provided by the transparent ledger.
+Key concepts include the role of [coinbase-transaction](coinbase-transaction.md) in minting new coins and the overall [auditability](auditability.md) provided by the transparent ledger.
 
 ## Related pages
 
-- [[double-entry-bookkeeping]]
-- [[coinbase-transaction]]
-- [[auditability]]
+- [double-entry-bookkeeping](double-entry-bookkeeping.md)
+- [coinbase-transaction](coinbase-transaction.md)
+- [auditability](auditability.md)

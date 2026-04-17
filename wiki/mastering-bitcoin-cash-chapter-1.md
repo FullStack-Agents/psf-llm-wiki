@@ -10,18 +10,18 @@
 
 This chapter introduces Bitcoin Cash as a decentralized, peer-to-peer electronic cash system that allows for the transfer of digital value across the Internet, functioning similarly to conventional currencies for the buying and selling of goods (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_1.md). 
 
-It covers the fundamental mechanisms of [[mining]], the concept of [[decentralization]], and the strict [[monetary-policy]] that governs the coin's issuance. Ownership of BCH is managed through cryptographic keys stored in [[digital-wallets]], where the possession of a private key is the sole requirement for spending funds.
+It covers the fundamental mechanisms of [mining](mining.md), the concept of [decentralization](decentralization.md), and the strict [monetary-policy](monetary-policy.md) that governs the coin's issuance. Ownership of BCH is managed through cryptographic keys stored in [digital-wallets](digital-wallets.md), where the possession of a private key is the sole requirement for spending funds.
 
-It also explores the history of digital currency, detailing the challenges of authenticity and [[double-spending]] that hindered early centralized efforts, and how Bitcoin Cash solves these through its combination of a P2P network, the [[blockchain]], and [[transaction-scripts]].
+It also explores the history of digital currency, detailing the challenges of authenticity and [double-spending](double-spending.md) that hindered early centralized efforts, and how Bitcoin Cash solves these through its combination of a P2P network, the [blockchain](blockchain.md), and [transaction-scripts](transaction-scripts.md).
 
-Finally, it discusses the origins of the system, starting with Satoshi Nakamoto's 2008 whitepaper, the use of [[proof-of-work]] to solve the [[byzantine-generals-problem]], the diverse [[use-cases]], the technical implementations via various [[clients]], the practical steps for new users including managing [[addresses]], the various ways to [[acquiring-bch]], the lifecycle of a [[transaction-process]], and the broader [[technical-architecture]] that ensures the network's robustness.
+Finally, it discusses the origins of the system, starting with Satoshi Nakamoto's 2008 whitepaper, the use of [proof-of-work](proof-of-work.md) to solve the [byzantine-generals-problem](byzantine-generals-problem.md), the diverse [use-cases](use-cases.md), the technical implementations via various [clients](clients.md), the practical steps for new users including managing [addresses](addresses.md), the various ways to [acquiring-bch](acquiring-bch.md), the lifecycle of a [transaction-process](transaction-process.md), and the broader [technical-architecture](technical-architecture.md) that ensures the network's robustness.
 
 ## Key Concepts
 - The "Internet of money" concept.
 - The process of creating new coins via mining.
 - The mathematical constraints on supply and timing.
 - The evolution from centralized digital currencies to decentralized systems.
-- Management of funds via [[digital-wallets]] and [[private-keys]].
+- Management of funds via [digital-wallets](digital-wallets.md) and [private-keys](private-keys.md).
 - Solving the Byzantine Generals' Problem via Proof-of-Work.
 - Real-world utility across retail, B2B, and philanthropic sectors.
 - The spectrum of control and trust between full, lightweight, and web clients.
@@ -32,20 +32,20 @@ Finally, it discusses the origins of the system, starting with Satoshi Nakamoto'
 
 ## Related pages
 
-- [[bitcoin-cash]]
-- [[mining]]
-- [[monetary-policy]]
-- [[decentralization]]
-- [[blockchain]]
-- [[double-spending]]
-- [[transaction-scripts]]
-- [[digital-wallets]]
-- [[private-keys]]
-- [[proof-of-work]]
-- [[byzantine-generals-problem]]
-- [[use-cases]]
-- [[clients]]
-- [[addresses]]
-- [[acquiring-bch]]
-- [[transaction-process]]
-- [[technical-architecture]]
+- [bitcoin-cash](bitcoin-cash.md)
+- [mining](mining.md)
+- [monetary-policy](monetary-policy.md)
+- [decentralization](decentralization.md)
+- [blockchain](blockchain.md)
+- [double-spending](double-spending.md)
+- [transaction-scripts](transaction-scripts.md)
+- [digital-wallets](digital-wallets.md)
+- [private-keys](private-keys.md)
+- [proof-of-work](proof-of-work.md)
+- [byzantine-generals-problem](byzantine-generals-problem.md)
+- [use-cases](use-cases.md)
+- [clients](clients.md)
+- [addresses](addresses.md)
+- [acquiring-bch](acquiring-bch.md)
+- [transaction-process](transaction-process.md)
+- [technical-architecture](technical-architecture.md)

@@ -22,5 +22,5 @@ Creating a vanity address is a brute-force process: a software generates and tes
 
 ## Related pages
 
-- [[addresses]]
-- [[private-keys]]
+- [addresses](addresses.md)
+- [private-keys](private-keys.md)

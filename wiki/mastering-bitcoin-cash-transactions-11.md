@@ -34,7 +34,7 @@ This systematic approach ensures that funds can only be spent by parties who pro
 
 ## Related pages
 
-- [[transaction-scripts]]
-- [[transaction-validation]]
-- [[standard-transaction-types]]
-- [[mastering-bitcoin-cash-transactions-10]]
+- [transaction-scripts](transaction-scripts.md)
+- [transaction-validation](transaction-validation.md)
+- [standard-transaction-types](standard-transaction-types.md)
+- [mastering-bitcoin-cash-transactions-10](mastering-bitcoin-cash-transactions-10.md)

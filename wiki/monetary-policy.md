@@ -16,6 +16,6 @@ The monetary policy of Bitcoin Cash is designed to be inherently deflationary by
 
 ## Related pages
 
-- [[bitcoin-cash]]
-- [[mining]]
-- [[mastering-bitcoin-cash-chapter-1]]
+- [bitcoin-cash](bitcoin-cash.md)
+- [mining](mining.md)
+- [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)

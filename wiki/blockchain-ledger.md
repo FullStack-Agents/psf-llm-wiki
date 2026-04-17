@@ -12,5 +12,5 @@ The Bitcoin Cash blockchain functions as a global double-entry bookkeeping ledge
 
 ## Related pages
 
-- [[bitcoin-cash-transactions]]
-- [[mastering-bitcoin-cash-transactions-1]]
+- [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
+- [mastering-bitcoin-cash-transactions-1](mastering-bitcoin-cash-transactions-1.md)

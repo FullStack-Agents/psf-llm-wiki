@@ -25,6 +25,6 @@ Public keys have two primary representations:
 
 ## Related pages
 
-- [[private-keys]]
-- [[addresses]]
-- [[digital-wallets]]
+- [private-keys](private-keys.md)
+- [addresses](addresses.md)
+- [digital-wallets](digital-wallets.md)

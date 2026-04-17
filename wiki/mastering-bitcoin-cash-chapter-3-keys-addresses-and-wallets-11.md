@@ -23,6 +23,6 @@ Paper wallets are a form of **cold storage** where the private key and its corre
 
 ## Related pages
 
-- [[private-keys]]
-- [[digital-wallets]]
-- [[addresses]]
+- [private-keys](private-keys.md)
+- [digital-wallets](digital-wallets.md)
+- [addresses](addresses.md)
