@@ -1,28 +1,72 @@
-# Bitcoin Cash
+# Bitcoin Cash (BCH)
 
-**Summary**: A decentralized digital currency and network for propagating value, often described as the "Internet of money."
+**Summary**: The primary blockchain used by the Cash Stack for money transfer and as the basis for tokenization and other web3 primitives.
 
-**Sources**: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_2.md
+**Sources**: intro.md
 
-**Last updated**: 2026-04-16
+**Last updated**: 2026-04-17
 
 ---
 
-Bitcoin Cash (BCH) is a distributed, peer-to-peer system that operates without a central server or control point (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_2.md). It provides a technological framework for securing digital asset ownership through distributed computation.
+Bitcoin Cash (BCH) is the primary blockchain focused on by the Cash Stack framework (source: intro.md). It is used for:
+- Money transfer (source: intro.md).
+- Tokenization to create NFTs and fungible tokens (source: intro.md).
 
-It originated from the 2008 publication of "Bitcoin: A Peer-to-Peer Electronic Cash System" by Satoshi Nakamoto, who combined previous innovations like b-money and HashCash to create a fully decentralized system (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_4.md).
-
-It is the culmination of decades of cryptographic and distributed systems research, combining four key innovations (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_3.md):
-1. A decentralized peer-to-peer network protocol.
-2. A public transaction ledger ([blockchain](blockchain.md)).
-3. A deterministic and decentralized currency issuance mechanism ([mining](mining.md)).
-4. A decentralized transaction verification system ([transaction-scripts](transaction-scripts.md)).
-
-The system is characterized by its [decentralization](decentralization.md), its use of [mining](mining.md) to secure the network, and a predetermined [monetary-policy](monetary-policy.md). It employs a distributed [double-entry-bookkeeping](double-entry-bookkeeping.md) model via the blockchain to ensure the integrity of value transfers and reaches agreement on the state of the network through [forging-and-consensus](forging-and-consensus.md).
+While the focus is currently on BCH, the infrastructure may expand to others like eCash (XEC), AVAX X-Chain, and other UTXO-based blockchains (source: intro.md).
 
 ## Related pages
 
-- [decentralization](decentralization.md)
-- [mining](mining.md)
-- [monetary-policy](monetary-policy.md)
 - [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)
+- [mastering-bitcoin-cash-chapter-2-how-bitcoin-cash-works-11](mastering-bitcoin-cash-chapter-2-how-bitcoin-cash-works-11.md)
+- [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md)
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10.md)
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-11](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-11.md)
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-12](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-12.md)
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-2](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-2.md)
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-3](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-3.md)
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-4](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-4.md)
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-5](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-5.md)
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-6](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-6.md)
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-7](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-7.md)
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-8](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-8.md)
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-9](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-9.md)
+- [mastering-bitcoin-cash-chapter-5-1](mastering-bitcoin-cash-chapter-5-1.md)
+- [mastering-bitcoin-cash-chapter-5-10](mastering-bitcoin-cash-chapter-5-10.md)
+- [mastering-bitcoin-cash-chapter-5-2](mastering-bitcoin-cash-chapter-5-2.md)
+- [mastering-bitcoin-cash-chapter-5-3](mastering-bitcoin-cash-chapter-5-3.md)
+- [mastering-bitcoin-cash-chapter-5-4](mastering-bitcoin-cash-chapter-5-4.md)
+- [mastering-bitcoin-cash-chapter-5-5](mastering-bitcoin-cash-chapter-5-5.md)
+- [mastering-bitcoin-cash-chapter-5-6](mastering-bitcoin-cash-chapter-5-6.md)
+- [mastering-bitcoin-cash-chapter-5-7](mastering-bitcoin-cash-chapter-5-7.md)
+- [mastering-bitcoin-cash-chapter-5-8](mastering-bitcoin-cash-chapter-5-8.md)
+- [mastering-bitcoin-cash-chapter-5-9](mastering-bitcoin-cash-chapter-5-9.md)
+- [mastering-bitcoin-cash-chapter-5-network-resilience](mastering-bitcoin-cash-chapter-5-network-resilience.md)
+- [mastering-bitcoin-cash-chapter-6-1](mastering-bitcoin-cash-chapter-6-1.md)
+- [mastering-bitcoin-cash-chapter-6-2](mastering-bitcoin-cash-chapter-6-2.md)
+- [mastering-bitcoin-cash-chapter-6-3](mastering-bitcoin-cash-chapter-6-3.md)
+- [mastering-bitcoin-cash-chapter-6-4](mastering-bitcoin-cash-chapter-6-4.md)
+- [mastering-bitcoin-cash-chapter-6-5](mastering-bitcoin-cash-chapter-6-5.md)
+- [mastering-bitcoin-cash-chapter-6-6](mastering-bitcoin-cash-chapter-6-6.md)
+- [mastering-bitcoin-cash-chapter-8-security-1](mastering-bitcoin-cash-chapter-8-security-1.md)
+- [mastering-bitcoin-cash-chapter-8-security-10](mastering-bitcoin-cash-chapter-8-security-10.md)
+- [mastering-bitcoin-cash-chapter-8-security-2](mastering-bitcoin-cash-chapter-8-security-2.md)
+- [mastering-bitcoin-cash-chapter-8-security-3](mastering-bitcoin-cash-chapter-8-security-3.md)
+- [mastering-bitcoin-cash-chapter-8-security-4](mastering-bitcoin-cash-chapter-8-security-4.md)
+- [mastering-bitcoin-cash-chapter-8-security-5](mastering-bitcoin-cash-chapter-8-security-5.md)
+- [mastering-bitcoin-cash-chapter-8-security-6](mastering-bitcoin-cash-chapter-8-security-6.md)
+- [mastering-bitcoin-cash-chapter-8-security-7](mastering-bitcoin-cash-chapter-8-security-7.md)
+- [mastering-bitcoin-cash-chapter-8-security-8](mastering-bitcoin-cash-chapter-8-security-8.md)
+- [mastering-bitcoin-cash-chapter-8-security-9](mastering-bitcoin-cash-chapter-8-security-9.md)
+- [mastering-bitcoin-cash-transactions-1](mastering-bitcoin-cash-transactions-1.md)
+- [mastering-bitcoin-cash-transactions-10](mastering-bitcoin-cash-transactions-10.md)
+- [mastering-bitcoin-cash-transactions-11](mastering-bitcoin-cash-transactions-11.md)
+- [mastering-bitcoin-cash-transactions-2](mastering-bitcoin-cash-transactions-2.md)
+- [mastering-bitcoin-cash-transactions-3](mastering-bitcoin-cash-transactions-3.md)
+- [mastering-bitcoin-cash-transactions-4](mastering-bitcoin-cash-transactions-4.md)
+- [mastering-bitcoin-cash-transactions-5](mastering-bitcoin-cash-transactions-5.md)
+- [mastering-bitcoin-cash-transactions-6](mastering-bitcoin-cash-transactions-6.md)
+- [mastering-bitcoin-cash-transactions-7](mastering-bitcoin-cash-transactions-7.md)
+- [mastering-bitcoin-cash-transactions-8](mastering-bitcoin-cash-transactions-8.md)
+- [mastering-bitcoin-cash-transactions-9](mastering-bitcoin-cash-transactions-9.md)
+- [intro](intro.md)
+- [cash-stack-layers](cash-stack-layers.md)

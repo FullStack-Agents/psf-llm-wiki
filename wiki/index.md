@@ -1,118 +1,131 @@
-# LLM Wiki Index
+# Wiki Index
 
-## Core Concepts
-- [bitcoin-cash](bitcoin-cash.md): General overview of Bitcoin Cash.
-- [blockchain-data-structure](blockchain-data-structure.md): The organization of the blockchain as a linked list.
-- [blockchain-ledger](blockchain-ledger.md): The global double-entry bookkeeping system of BCH.
-- [double-entry-bookkeeping](double-entry-bookkeeping.md): Principles of the double-entry system.
-- [decentralization](decentralization.md): Principles of a decentralized network.
-- [monetary-policy](monetary-policy.md): Rules governing the issuance of BCH.
-- [proof-of-work](proof-of-work.md): The consensus mechanism to secure the network.
-- [byzantine-generals-problem](byzantine-generals-problem.md): The coordination problem solved by PoW.
-- [auditability](auditability.md): The ability to verify the blockchain's state.
-- [double-spending](double-spending.md): The problem of spending the same coins twice.
-- [utxo](utxo.md): Unspent Transaction Output; the fundamental unit of currency.
+**Summary**: Table of contents for the PSF LLM Wiki.
 
-## Transactions
-- [bitcoin-cash-transactions](bitcoin-cash-transactions.md): Overview of value transfer in BCH.
-- [transaction-process](transaction-process.md): The lifecycle of a transaction.
-- [transaction-anatomy](transaction-anatomy.md): Structure of transactions.
-- [transaction-broadcasting](transaction-broadcasting.md): How transactions are sent across the network.
-- [transaction-validation](transaction-validation.md): Node-level verification and propagation.
-- [transaction-locktime](transaction-locktime.md): Mechanics of delaying transaction validity.
-- [transaction-fees](transaction-fees.md): Compensation for miners and spam prevention.
-- [transaction-chaining](transaction-chaining.md): Parent-child relationships between transactions.
-- [orphan-transactions](orphan-transactions.md): Handling of child transactions arriving before parents.
-- [coinbase-transaction](coinbase-transaction.md): The first transaction in a block.
+**Last updated**: 2026-04-17
 
-## Scripting
-- [transaction-scripts](transaction-scripts.md): Locking and unlocking scripts for spending funds.
-- [transaction-script-language](transaction-script-language.md): The stack-based language for BCH scripts.
-- [standard-transaction-types](standard-transaction-types.md): The five standard BCH transaction types.
-- [p2sh](p2sh.md): Pay-to-Script-Hash mechanics and benefits.
+---
 
-## Infrastructure & Tools
-- [asic](asic.md): Specialized hardware for SHA-256 mining.
-- [blockchain-fork](blockchain-fork.md): Temporary splits in the blockchain.
-- [genesis-block](genesis-block.md): The first block in the chain.
-- [google-leveldb](google-leveldb.md): Key-value storage used by Bitcoin ABC.
-- [merkle-root](merkle-root.md): Cryptographic summary of block transactions.
-- [merkle-tree](merkle-tree.md): Binary hash tree for efficient data verification.
-- [simplified-payment-verification](simplified-payment-verification.md): Lightweight transaction verification.
-- [mempool](mempool.md): Storage for unconfirmed transactions.
-- [sha-256](sha-256.md): The cryptographic hash function used by BCH.
-- [mining](mining.md): Verification and block addition process.
-- [clients](clients.md): Software implementations of the BCH protocol.
-- [digital-wallets](digital-wallets.md): Software for managing keys and funds.
-- [private-keys](private-keys.md): Cryptographic keys used for signing.
-- [addresses](addresses.md): BCH address formats and derivation.
-- [blockchain-explorers](blockchain-explorers.md): Tools for searching the blockchain.
-- [technical-architecture](technical-architecture.md): High-level design of the BCH system.
-- [bch-network-resilience](bch-network-resilience.md): Mechanisms ensuring network stability and adaptability.
-- [bch-peer-management](bch-peer-management.md): Peer discovery, bootstrapping, and connectivity.
-- [bchjs-network-commands](bchjs-network-commands.md): Network monitoring commands in bchjs.
-- [bch-node-configuration](bch-node-configuration.md): Node configuration and peer overrides.
-- [bitcoin-cash-network](bitcoin-cash-network.md): The communication infrastructure of Bitcoin Cash.
-- [network-discovery](network-discovery.md): How nodes find and connect to each other.
-- [blockchain-synchronization](blockchain-synchronization.md): How nodes catch up with the blockchain.
-- [bloom-filters](bloom-filters.md): Privacy-preserving search for SPV nodes.
-- [transaction-pools](transaction-pools.md): Management of unconfirmed transactions (mempools).
-- [network-communication-protocol](network-communication-protocol.md): The message-based P2P protocol.
+## Pages
 
-## Learning Materials
-- [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md): Introduction and core concepts.
-- [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md): How Bitcoin Cash works.
-- [mastering-bitcoin-cash-chapter-2-how-bitcoin-cash-works-11](mastering-bitcoin-cash-chapter-2-how-bitcoin-cash-works-11.md): Supplementary material on how BCH works.
-- [mastering-bitcoin-cash-chapter-6-1](mastering-bitcoin-cash-chapter-6-1.md): Blockchain data structure, genesis block, and immutability.
-- [mastering-bitcoin-cash-chapter-6-2](mastering-bitcoin-cash-chapter-6-2.md): Block structure, headers, and identification.
-- [mastering-bitcoin-cash-chapter-6-3](mastering-bitcoin-cash-chapter-6-3.md): Genesis block properties and block linking.
-- [mastering-bitcoin-cash-chapter-6-4](mastering-bitcoin-cash-chapter-6-4.md): Merkle tree fundamentals and transaction verification.
-- [mastering-bitcoin-cash-chapter-6-5](mastering-bitcoin-cash-chapter-6-5.md): Merkle path efficiency and validation.
-- [mastering-bitcoin-cash-chapter-6-6](mastering-bitcoin-cash-chapter-6-6.md): Simplified Payment Verification (SPV) and lightweight clients.
-- [mastering-bitcoin-cash-chapter-5-1](mastering-bitcoin-cash-chapter-5-1.md): Introduction to the Bitcoin Cash P2P network.
-- [mastering-bitcoin-cash-chapter-5-network-resilience](mastering-bitcoin-cash-chapter-5-network-resilience.md): Deep dive into network resilience.
-- [mastering-bitcoin-cash-chapter-5-2](mastering-bitcoin-cash-chapter-5-2.md): Node types and roles.
-- [mastering-bitcoin-cash-chapter-5-3](mastering-bitcoin-cash-chapter-5-3.md): Network discovery process.
-- [mastering-bitcoin-cash-chapter-5-4](mastering-bitcoin-cash-chapter-5-4.md): Blockchain synchronization.
-- [mastering-bitcoin-cash-chapter-5-5](mastering-bitcoin-cash-chapter-5-5.md): Simplified Payment Verification (SPV).
-- [mastering-bitcoin-cash-chapter-5-6](mastering-bitcoin-cash-chapter-5-6.md): Bloom filters for SPV privacy.
-- [mastering-bitcoin-cash-chapter-5-7](mastering-bitcoin-cash-chapter-5-7.md): Bloom filter operation with SPV.
-- [mastering-bitcoin-cash-chapter-5-8](mastering-bitcoin-cash-chapter-5-8.md): Transaction pools and orphans.
-- [mastering-bitcoin-cash-chapter-5-9](mastering-bitcoin-cash-chapter-5-9.md): The UTXO database.
-- [mastering-bitcoin-cash-chapter-5-10](mastering-bitcoin-cash-chapter-5-10.md): Network communication flow.
-- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-2](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-2.md): Keys and addresses.
-- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-3](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-3.md): Wallet mechanics.
-- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-4](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-4.md): Advanced key management.
-- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-5](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-5.md): Addressing.
-- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-6](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-6.md): Script basics.
-- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-7](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-7.md): Complex scripts.
-- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-8](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-8.md): Multi-sig.
-- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-9](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-9.md): P2SH.
-- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10.md): P2SH details.
-- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-11](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-11.md): Script execution.
-- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-12](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-12.md): Practical examples.
-- [mastering-bitcoin-cash-transactions-1](mastering-bitcoin-cash-transactions-1.md): Transaction fundamentals and lifecycle.
-- [mastering-bitcoin-cash-transactions-2](mastering-bitcoin-cash-transactions-2.md): Transaction creation, broadcasting, and validation.
-- [mastering-bitcoin-cash-transactions-3](mastering-bitcoin-cash-transactions-3.md): Transaction structure and locktime.
-- [mastering-bitcoin-cash-transactions-4](mastering-bitcoin-cash-transactions-4.md): UTXO fundamentals and the account-less model.
-- [mastering-bitcoin-cash-transactions-5](mastering-bitcoin-cash-transactions-5.md): Transaction inputs and outputs structure.
-- [mastering-bitcoin-cash-transactions-6](mastering-bitcoin-cash-transactions-6.md): Transaction fee mechanics and implications.
-- [mastering-bitcoin-cash-transactions-7](mastering-bitcoin-cash-transactions-7.md): Transaction chaining and orphan transactions.
-- [mastering-bitcoin-cash-transactions-8](mastering-bitcoin-cash-transactions-8.md): Transaction script language and limitations.
-- [mastering-bitcoin-cash-transactions-9](mastering-bitcoin-cash-transactions-9.md): Standard transaction types (P2PKH, P2PK, etc).
-- [mastering-bitcoin-cash-transactions-10](mastering-bitcoin-cash-transactions-10.md): Detailed look at Pay-to-Script-Hash (P2SH).
-- [mastering-bitcoin-cash-chapter-8-security-1](mastering-bitcoin-cash-chapter-8-security-1.md): Introduction to Bitcoin Cash security and decentralization.
-- [mastering-bitcoin-cash-chapter-8-security-2](mastering-bitcoin-cash-chapter-8-security-2.md): Comparison of decentralized vs. centralized security models.
-- [mastering-bitcoin-cash-chapter-8-security-3](mastering-bitcoin-cash-chapter-8-security-3.md): Developing secure BCH systems and avoiding centralization pitfalls.
-- [mastering-bitcoin-cash-chapter-8-security-4](mastering-bitcoin-cash-chapter-8-security-4.md): Root of Trust architecture in Bitcoin Cash.
-- [mastering-bitcoin-cash-chapter-8-security-5](mastering-bitcoin-cash-chapter-8-security-5.md): Computer security challenges and security innovations.
-- [mastering-bitcoin-cash-chapter-8-security-6](mastering-bitcoin-cash-chapter-8-security-6.md): Cold storage solutions and physical key security.
-- [mastering-bitcoin-cash-chapter-8-security-7](mastering-bitcoin-cash-chapter-8-security-7.md): Hardware wallets and private key protection.
-- [mastering-bitcoin-cash-chapter-8-security-8](mastering-bitcoin-cash-chapter-8-security-8.md): Balancing security with accessibility and risk diversification.
-- [mastering-bitcoin-cash-chapter-8-security-9](mastering-bitcoin-cash-chapter-8-security-9.md): Multi-signature security and key distribution.
-- [mastering-bitcoin-cash-chapter-8-security-10](mastering-bitcoin-cash-chapter-8-security-10.md): Inheritance and continuity planning for digital assets.
-
-## Miscellaneous
-- [use-cases](use-cases.md): Practical applications of Bitcoin Cash.
-- [acquiring-bch](acquiring-bch.md): How to obtain BCH.
-- [forging-and-consensus](forging-and-consensus.md): How the network agrees on the state.
+- [acquiring-bch](acquiring-bch.md): The various methods available for new users to obtain Bitcoin Cash, ranging from free faucets to peer-to-peer exchanges.
+- [addresses](addresses.md): The alphanumeric strings used as identifiers for receiving Bitcoin Cash. A Bitcoin Cash address functions as a digital fingerprint of a public key and serves as the beneficiary name on a transaction (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
+- [asic](asic.md): Application-Specific Integrated Circuits designed specifically for mining Bitcoin Cash.
+- [auditability](auditability.md): The ability to trace the history of funds on the Bitcoin Cash blockchain while maintaining user pseudonymity.
+- [bch-js](bch-js.md): A JavaScript library used by front-end applications to interact with the `psf-bch-api` REST server.
+- [bch-network-resilience](bch-network-resilience.md): Analysis of the mechanisms that ensure the stability and availability of the Bitcoin Cash P2P network.
+- [bch-node-configuration](bch-node-configuration.md): Configuration options for controlling the behavior of a Bitcoin Cash node.
+- [bch-peer-management](bch-peer-management.md): How Bitcoin Cash nodes discover, maintain, and bootstrap connections to other peers.
+- [bchjs-network-commands](bchjs-network-commands.md): Documentation of network-related commands available in bchjs.
+- [bchn-full-node](bchn-full-node.md): The base layer of the Cash Stack, providing the essential blockchain node software that validates transactions and blocks on the Bitcoin Cash (BCH) network.
+- [bitcoin-cash-network](bitcoin-cash-network.md): The communication infrastructure of Bitcoin Cash, comprising the P2P network and extended protocols.
+- [bitcoin-cash-transactions](bitcoin-cash-transactions.md): Overview of how value is transferred on the Bitcoin Cash network.
+- [bitcoin-cash](bitcoin-cash.md): The primary blockchain used by the Cash Stack for money transfer and as the basis for tokenization and other web3 primitives.
+- [blockchain-data-structure](blockchain-data-structure.md): The fundamental organization of the blockchain as a linked list of blocks.
+- [blockchain-explorers](blockchain-explorers.md): Web-based applications that provide a user-friendly interface to search and verify data on the Bitcoin Cash blockchain.
+- [blockchain-fork](blockchain-fork.md): A situation where different miners discover blocks simultaneously, temporarily creating multiple competing paths for the blockchain.
+- [blockchain-ledger](blockchain-ledger.md): The global record of all transactions in the Bitcoin Cash network.
+- [blockchain-synchronization](blockchain-synchronization.md): The process by which a full node downloads and verifies missing blocks to catch up with the current state of the Bitcoin Cash network.
+- [blockchain](blockchain.md): A public transaction ledger that records all transactions and prevents double-spending.
+- [bloom-filters](bloom-filters.md): A probabilistic data structure used by SPV nodes to retrieve transactions while maintaining the privacy of the node's wallet addresses.
+- [byzantine-generals-problem](byzantine-generals-problem.md): A classic problem in distributed computing regarding how to achieve consensus in a network with potentially unreliable participants.
+- [cash-stack-layers](cash-stack-layers.md): The layered architecture of the Cash Stack, inspired by the OSI model, focusing on the path data travels between an app and the blockchain.
+- [cash-stack-ports](cash-stack-ports.md): A comprehensive reference of the default network ports used by the various components of the Cash Stack infrastructure.
+- [clients](clients.md): The different types of software implementations used to interact with the Bitcoin Cash network, varying by the level of control and trust.
+- [coinbase-transaction](coinbase-transaction.md): A special type of transaction that creates new Bitcoin Cash coins.
+- [cold-storage](cold-storage.md): The practice of keeping cryptocurrency private keys completely offline to protect them from digital attacks and unauthorized access.
+- [decentralization](decentralization.md): The architectural principle of operating a system without central servers or controlling authorities.
+- [digital-wallets](digital-wallets.md): Software or hardware used to store cryptographic keys for managing Bitcoin Cash and managing the construction of transactions.
+- [double-entry-bookkeeping](double-entry-bookkeeping.md): The accounting model used by Bitcoin Cash to ensure the integrity and conservation of coins during transfers.
+- [double-spending](double-spending.md): The challenge of ensuring that a digital asset cannot be spent more than once.
+- [forging-and-consensus](forging-and-consensus.md): The cryptographic process of creating a valid block (forging) and the mechanism by which the network reaches consensus on the authoritative chain.
+- [fulcrum-indexer](fulcrum-indexer.md): A blockchain indexer that functions like a search engine for the Bitcoin Cash blockchain, tracking address balances, UTXOs, and transaction histories.
+- [genesis-block](genesis-block.md): The first block in a blockchain, serving as the common ancestor for all subsequent blocks.
+- [google-leveldb](google-leveldb.md): A fast key-value storage library used by Bitcoin ABC for storing the blockchain.
+- [intro](intro.md): Overview of the Cash Stack framework for building blockchain-based applications, focusing on Bitcoin Cash (BCH) and the goals of the Permissionless Software Foundation (PSF).
+- [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md): Introduction to the decentralized architecture, mining process, monetary policy, the evolutionary history of digital currency, the origins of the Bitcoin Cash system, its practical use cases, the different types of network clients, the basics of getting started, methods for acquiring coins, the transaction process, and the overarching technical architecture.
+- [mastering-bitcoin-cash-chapter-2-how-bitcoin-cash-works-11](mastering-bitcoin-cash-chapter-2-how-bitcoin-cash-works-11.md): This document explains the double-entry bookkeeping model used by Bitcoin Cash to manage transactions and ensure the conservation of value.
+- [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md): A technical overview of how Bitcoin Cash works, focusing on the interplay between users, wallets, transactions, miners, and the blockchain to establish trust in a decentralized system.
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10.md): This document explains Pay-to-Script-Hash (P2SH) addresses and multi-signature (multi-sig) configurations, allowing for complex spending conditions beyond a single public key owner.
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-11](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-11.md): This document discusses the secure storage and transport of private keys, focusing on the BIP0038 encryption standard and the use of paper wallets for cold storage.
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-12](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-12.md): This document explains vanity addresses—addresses with human-readable patterns—and the computational effort required to generate them.
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-2](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-2.md): This document covers the fundamentals of ownership in Bitcoin Cash, explaining the roles of keys, addresses, and signatures in controlling funds.
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-3](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-3.md): This document explains the mathematical foundations of Bitcoin Cash ownership, specifically focusing on elliptic curve cryptography and the derivation process from private keys to addresses.
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-4](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-4.md): This document describes the nature of private keys as random numbers, the importance of entropy, and the one-way mathematical relationship between private and public keys.
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-5](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-5.md): This document provides a technical deep dive into the secp256k1 elliptic curve used by Bitcoin Cash, including its equation and the properties of point addition and multiplication.
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-6](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-6.md): This document describes the various formats of Bitcoin Cash addresses, specifically the transition from legacy addresses to the Cash Address format, and the technical process of deriving an address from a public key.
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-7](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-7.md): This document discusses the different encoding formats for private and public keys, including WIF, hexadecimal, and the difference between compressed and uncompressed public keys.
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-8](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-8.md): This document explains different types of Bitcoin Cash wallets, detailing the evolution from nondeterministic (JBOK) wallets to deterministic and Hierarchical Deterministic (HD) wallets.
+- [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-9](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-9.md): This document provides a technical explanation of Hierarchical Deterministic (HD) wallets, their child key derivation (CKD) mechanism, hardened derivation, and the BIP0044 standard for key path organization.
+- [mastering-bitcoin-cash-chapter-5-1](mastering-bitcoin-cash-chapter-5-1.md): Introduction to the Bitcoin Cash P2P network architecture, describing its flat topology and the concept of the "extended Bitcoin Cash network.".
+- [mastering-bitcoin-cash-chapter-5-10](mastering-bitcoin-cash-chapter-5-10.md): Overview of the Bitcoin Cash P2P network communication flow, focusing on the message-based protocol and the exchange of blocks, headers, and transactions.
+- [mastering-bitcoin-cash-chapter-5-2](mastering-bitcoin-cash-chapter-5-2.md): Exploration of node types and their roles within the Bitcoin Cash network, including full nodes, lightweight (SPV) nodes, and mining nodes.
+- [mastering-bitcoin-cash-chapter-5-3](mastering-bitcoin-cash-chapter-5-3.md): Detailed explanation of the network discovery process, handshake protocol, and peer discovery mechanisms in Bitcoin Cash.
+- [mastering-bitcoin-cash-chapter-5-4](mastering-bitcoin-cash-chapter-5-4.md): Explanation of the blockchain synchronization process for new or returning nodes, focusing on block height comparison and the `getblocks` / `inv` / `getdata` workflow.
+- [mastering-bitcoin-cash-chapter-5-5](mastering-bitcoin-cash-chapter-5-5.md): Detailed explanation of Simplified Payment Verification (SPV) nodes, their operational mechanism using block headers and Merkle paths, and their associated security trade-offs.
+- [mastering-bitcoin-cash-chapter-5-6](mastering-bitcoin-cash-chapter-5-6.md): Explanation of Bloom Filters in the context of SPV nodes, detailing how they provide privacy when requesting transactions from peers.
+- [mastering-bitcoin-cash-chapter-5-7](mastering-bitcoin-cash-chapter-5-7.md): Detail on how SPV nodes use Bloom filters to interact with peers, including the specific P2P messages used and the trade-off between privacy and efficiency.
+- [mastering-bitcoin-cash-chapter-5-8](mastering-bitcoin-cash-chapter-5-8.md): Detailed explanation of the transaction pool (mempool) and orphan pool, explaining how unconfirmed transactions are tracked and reconstructed.
+- [mastering-bitcoin-cash-chapter-5-9](mastering-bitcoin-cash-chapter-5-9.md): Exploration of the UTXO database (UTXO pool), explaining its purpose, how it differs from the transaction pool, and its role in transaction validation.
+- [mastering-bitcoin-cash-chapter-5-network-resilience](mastering-bitcoin-cash-chapter-5-network-resilience.md): This page summarizes the mechanisms Bitcoin Cash uses to maintain network stability and peer connectivity.
+- [mastering-bitcoin-cash-chapter-6-1](mastering-bitcoin-cash-chapter-6-1.md): Introduction to the blockchain data structure, describing it as an ordered, back-linked list of blocks starting from a genesis block.
+- [mastering-bitcoin-cash-chapter-6-2](mastering-bitcoin-cash-chapter-6-2.md): Detailed breakdown of block structure, including the block header, size, and identifiers (hash and height).
+- [mastering-bitcoin-cash-chapter-6-3](mastering-bitcoin-cash-chapter-6-3.md): Details regarding the genesis block's properties and the process of block linking in Bitcoin Cash nodes.
+- [mastering-bitcoin-cash-chapter-6-4](mastering-bitcoin-cash-chapter-6-4.md): Explanation of Merkle trees, their construction, and their utility in efficient transaction verification in Bitcoin Cash.
+- [mastering-bitcoin-cash-chapter-6-5](mastering-bitcoin-cash-chapter-6-5.md): Analysis of the efficiency of Merkle paths for verifying transaction inclusion, showing logarithmic growth relative to block size.
+- [mastering-bitcoin-cash-chapter-6-6](mastering-bitcoin-cash-chapter-6-6.md): Explanation of Simplified Payment Verification (SPV), how it leverages Merkle trees and bloom filters for lightweight transaction verification.
+- [mastering-bitcoin-cash-chapter-8-security-1](mastering-bitcoin-cash-chapter-8-security-1.md): Introduction to the unique nature of Bitcoin Cash security, emphasizing its role as digital cash and the central role of decentralization.
+- [mastering-bitcoin-cash-chapter-8-security-10](mastering-bitcoin-cash-chapter-8-security-10.md): Analysis of inheritance and continuity planning for Bitcoin Cash, addressing the risk of funds becoming permanently inaccessible due to the strict privacy and security of keys.
+- [mastering-bitcoin-cash-chapter-8-security-2](mastering-bitcoin-cash-chapter-8-security-2.md): Comparison between decentralized and centralized security models, highlighting why Bitcoin Cash does not require network encryption but places a high burden on private key management.
+- [mastering-bitcoin-cash-chapter-8-security-3](mastering-bitcoin-cash-chapter-8-security-3.md): Guidance on developing secure Bitcoin Cash systems, warning against the pitfalls of applying centralized security models to a decentralized network.
+- [mastering-bitcoin-cash-chapter-8-security-4](mastering-bitcoin-cash-chapter-8-security-4.md): Analysis of the "Root of Trust" architecture, explaining how Bitcoin Cash replaces traditional trusted cores with a decentralized public ledger based on the genesis block.
+- [mastering-bitcoin-cash-chapter-8-security-5](mastering-bitcoin-cash-chapter-8-security-5.md): Exploration of the security challenges posed by general-purpose computing and the resulting innovations in cryptocurrency security.
+- [mastering-bitcoin-cash-chapter-8-security-6](mastering-bitcoin-cash-chapter-8-security-6.md): Discussion of cold storage solutions, detailing how physical storage and offline key generation eliminate network-based security threats.
+- [mastering-bitcoin-cash-chapter-8-security-7](mastering-bitcoin-cash-chapter-8-security-7.md): Analysis of hardware wallets, their purpose-built design, and how they protect private keys by separating the signing process from general-purpose computers.
+- [mastering-bitcoin-cash-chapter-8-security-8](mastering-bitcoin-cash-chapter-8-security-8.md): Discussion on the balance between security and accessibility, warning against over-securing funds to the point of loss, and recommending risk diversification.
+- [mastering-bitcoin-cash-chapter-8-security-9](mastering-bitcoin-cash-chapter-8-security-9.md): Overview of multi-signature security for high-value Bitcoin Cash storage, emphasizing key distribution and corporate security policies.
+- [mastering-bitcoin-cash-transactions-1](mastering-bitcoin-cash-transactions-1.md): Introduction to transaction fundamentals in Bitcoin Cash, detailing the lifecycle from creation and signing to broadcasting and block confirmation.
+- [mastering-bitcoin-cash-transactions-10](mastering-bitcoin-cash-transactions-10.md): In-depth look at Pay-to-Script-Hash (P2SH), how it shifts script complexity to the recipient, and its operational benefits and risks.
+- [mastering-bitcoin-cash-transactions-11](mastering-bitcoin-cash-transactions-11.md): Explanation of the practical execution process of unlocking and locking scripts during transaction validation, including a step-by-step example of P2PKH validation.
+- [mastering-bitcoin-cash-transactions-2](mastering-bitcoin-cash-transactions-2.md): Details on the creation and broadcasting process of Bitcoin Cash transactions, including the role of digital signatures and network propagation.
+- [mastering-bitcoin-cash-transactions-3](mastering-bitcoin-cash-transactions-3.md): Description of the Bitcoin Cash transaction data structure and the function of the locktime field.
+- [mastering-bitcoin-cash-transactions-4](mastering-bitcoin-cash-transactions-4.md): Introduction to Unspent Transaction Outputs (UTXOs) as the fundamental building block of Bitcoin Cash transactions.
+- [mastering-bitcoin-cash-transactions-5](mastering-bitcoin-cash-transactions-5.md): Detailed breakdown of the structure of transaction inputs and outputs in Bitcoin Cash.
+- [mastering-bitcoin-cash-transactions-6](mastering-bitcoin-cash-transactions-6.md): Explanation of transaction fees in Bitcoin Cash, how they are calculated, and their role in network security.
+- [mastering-bitcoin-cash-transactions-7](mastering-bitcoin-cash-transactions-7.md): Explanation of transaction chaining, parent-child relationships, and the handling of orphan transactions in the Bitcoin Cash network.
+- [mastering-bitcoin-cash-transactions-8](mastering-bitcoin-cash-transactions-8.md): Introduction to the Bitcoin Cash transaction script language, its stack-based nature, and the intentional limitations placed on its design.
+- [mastering-bitcoin-cash-transactions-9](mastering-bitcoin-cash-transactions-9.md): Overview of the five standard transaction types accepted by the Bitcoin Cash reference client, including P2PKH, P2PK, Multi-Signature, Data Outputs, and P2SH.
+- [mempool](mempool.md): The local storage on a node for unconfirmed transactions awaiting inclusion in a block.
+- [merkle-root](merkle-root.md): A cryptographic hash that summarizes all transactions within a block, allowing for efficient verification.
+- [merkle-tree](merkle-tree.md): A binary hash tree used to efficiently summarize and verify large sets of data, such as transactions in a block.
+- [mining](mining.md): The process of verifying transactions and adding them to the blockchain.
+- [monetary-policy](monetary-policy.md): The predetermined rules governing the creation and total supply of Bitcoin Cash.
+- [multi-signature](multi-signature.md): A security mechanism that requires multiple independent private keys to authorize a transaction, eliminating single points of failure.
+- [network-communication-protocol](network-communication-protocol.md): The message-based communication system used by Bitcoin Cash nodes to propagate blocks, transactions, and headers.
+- [network-discovery](network-discovery.md): The process by which Bitcoin Cash nodes locate and connect to each other to form a P2P network.
+- [orphan-transactions](orphan-transactions.md): Child transactions that arrive at a node before their parent transactions.
+- [p2sh](p2sh.md): Pay-to-Script-Hash; a method to simplify complex transactions by using a script hash instead of the full script.
+- [permissionless-software-foundation](permissionless-software-foundation.md): The organization that maintains the Cash Stack and works to develop software for privacy, censorship resistance, and economic freedom.
+- [private-keys](private-keys.md): Cryptographic keys used to authorize transactions and prove ownership of Bitcoin Cash. Keys come in pairs: a private key (secret) and a public key (shareable). The private key acts as the control mechanism for funds, similar to a PIN or signature on a check, and is used to generate the signatures required for all transactions (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
+- [proof-of-work](proof-of-work.md): A cryptographic algorithm used to achieve network consensus and prevent double-spending through distributed "elections.".
+- [psf-bch-api](psf-bch-api.md): A REST API server written in Node.js that provides a common web2 interface for developers to build blockchain-based business applications by abstracting underlying blockchain infrastructure.
+- [root-of-trust](root-of-trust.md): The foundational security principle where trust is placed in the smallest and least complex part of a system to ensure overall integrity.
+- [sha-256](sha-256.md): A cryptographic hash function used by Bitcoin Cash for proof-of-work and block hashing.
+- [simplified-payment-verification](simplified-payment-verification.md): A lightweight method for verifying transactions without needing the full blockchain's transaction data.
+- [slp-token-indexer](slp-token-indexer.md): A blockchain indexer that tracks SLP token transactions according to Type 1 and NFT1 specifications, providing the necessary data for token-related operations in the Cash Stack.
+- [slp-token-protocol](slp-token-protocol.md): An analysis of the Simple Ledger Protocol (SLP), highlighting its design philosophy of loose coupling to the blockchain, which reduces platform risk and increases adaptability compared to other token protocols.
+- [standard-transaction-types](standard-transaction-types.md): The categorized set of transaction types accepted by the reference Bitcoin Cash client.
+- [technical-architecture](technical-architecture.md): The overarching structural design of Bitcoin Cash that integrates the blockchain, consensus mechanisms, and cryptographic verification to create a robust, decentralized currency.
+- [transaction-anatomy](transaction-anatomy.md): The structural composition of Bitcoin Cash transactions, including inputs, outputs, cryptographic signatures, and different transaction types.
+- [transaction-broadcasting](transaction-broadcasting.md): The process of transmitting a signed transaction to the Bitcoin Cash network.
+- [transaction-chaining](transaction-chaining.md): The relationship between parent and child transactions in Bitcoin Cash.
+- [transaction-fees](transaction-fees.md): The mechanism for compensating miners and preventing spam in Bitcoin Cash.
+- [transaction-locktime](transaction-locktime.md): The mechanism used to delay the validity of a Bitcoin Cash transaction.
+- [transaction-pools](transaction-pools.md): The temporary storage mechanisms (mempools and orphan pools) used by nodes to manage unconfirmed transactions.
+- [transaction-process](transaction-process.md): The mechanism by which Bitcoin Cash is transferred from sender to recipient, including signing, propagation, and confirmation.
+- [transaction-script-language](transaction-script-language.md): The stack-based, non-Turing-complete language used to define locking and unlocking conditions in Bitcoin Cash.
+- [transaction-scripts](transaction-scripts.md): The locking and unlocking scripts used to secure and spend Bitcoin Cash outputs.
+- [transaction-validation](transaction-validation.md): The process by which nodes verify the validity of a transaction before propagating it.
+- [use-cases](use-cases.md): Examples of how Bitcoin Cash is utilized in retail, high-value trade, international payments, charity, and mining.
+- [utxo](utxo.md): Unspent Transaction Output; the fundamental unit of currency in Bitcoin Cash.
+- [x402-bch](x402-bch.md): A protocol for facilitating per-call payments for API access using Bitcoin Cash (BCH).
