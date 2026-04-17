@@ -2,3 +2,5 @@
 
 This an LLM Wiki based on Andrej Karpathy's concept, applied to the [Permissionless Software Foundation (PSF)](https://psfoundation.info).
 
+- [AGENTS.md](AGENTS.md) - Directions for the AI Agent on how to work with the wiki
+- [wiki/index.md](wiki/index.md) - Table of contents of the entire wiki
