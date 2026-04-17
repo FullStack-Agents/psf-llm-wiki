@@ -18,12 +18,6 @@ It is the culmination of decades of cryptographic and distributed systems resear
 3. A deterministic and decentralized currency issuance mechanism ([mining](mining.md)).
 4. A decentralized transaction verification system ([transaction-scripts](transaction-scripts.md)).
 
-It is the culmination of decades of cryptographic and distributed systems research, combining four key innovations (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_3.md):
-1. A decentralized peer-to-peer network protocol.
-2. A public transaction ledger ([blockchain](blockchain.md)).
-3. A deterministic and decentralized currency issuance mechanism ([mining](mining.md)).
-4. A decentralized transaction verification system ([transaction-scripts](transaction-scripts.md)).
-
 The system is characterized by its [decentralization](decentralization.md), its use of [mining](mining.md) to secure the network, and a predetermined [monetary-policy](monetary-policy.md). It employs a distributed [double-entry-bookkeeping](double-entry-bookkeeping.md) model via the blockchain to ensure the integrity of value transfers and reaches agreement on the state of the network through [forging-and-consensus](forging-and-consensus.md).
 
 ## Related pages

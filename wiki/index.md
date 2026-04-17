@@ -101,7 +101,16 @@
 - [mastering-bitcoin-cash-transactions-8](mastering-bitcoin-cash-transactions-8.md): Transaction script language and limitations.
 - [mastering-bitcoin-cash-transactions-9](mastering-bitcoin-cash-transactions-9.md): Standard transaction types (P2PKH, P2PK, etc).
 - [mastering-bitcoin-cash-transactions-10](mastering-bitcoin-cash-transactions-10.md): Detailed look at Pay-to-Script-Hash (P2SH).
-- [mastering-bitcoin-cash-transactions-11](mastering-bitcoin-cash-transactions-11.md): Practical script execution and P2PKH validation.
+- [mastering-bitcoin-cash-chapter-8-security-1](mastering-bitcoin-cash-chapter-8-security-1.md): Introduction to Bitcoin Cash security and decentralization.
+- [mastering-bitcoin-cash-chapter-8-security-2](mastering-bitcoin-cash-chapter-8-security-2.md): Comparison of decentralized vs. centralized security models.
+- [mastering-bitcoin-cash-chapter-8-security-3](mastering-bitcoin-cash-chapter-8-security-3.md): Developing secure BCH systems and avoiding centralization pitfalls.
+- [mastering-bitcoin-cash-chapter-8-security-4](mastering-bitcoin-cash-chapter-8-security-4.md): Root of Trust architecture in Bitcoin Cash.
+- [mastering-bitcoin-cash-chapter-8-security-5](mastering-bitcoin-cash-chapter-8-security-5.md): Computer security challenges and security innovations.
+- [mastering-bitcoin-cash-chapter-8-security-6](mastering-bitcoin-cash-chapter-8-security-6.md): Cold storage solutions and physical key security.
+- [mastering-bitcoin-cash-chapter-8-security-7](mastering-bitcoin-cash-chapter-8-security-7.md): Hardware wallets and private key protection.
+- [mastering-bitcoin-cash-chapter-8-security-8](mastering-bitcoin-cash-chapter-8-security-8.md): Balancing security with accessibility and risk diversification.
+- [mastering-bitcoin-cash-chapter-8-security-9](mastering-bitcoin-cash-chapter-8-security-9.md): Multi-signature security and key distribution.
+- [mastering-bitcoin-cash-chapter-8-security-10](mastering-bitcoin-cash-chapter-8-security-10.md): Inheritance and continuity planning for digital assets.
 
 ## Miscellaneous
 - [use-cases](use-cases.md): Practical applications of Bitcoin Cash.
