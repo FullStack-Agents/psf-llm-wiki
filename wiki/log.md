@@ -18,3 +18,7 @@
 - 2026-04-17: Performed wiki audit and linting actions. Created `bch-consumer.md` and `ipfs-bch-wallet-consumer.md`. Updated `index.md`. Performed initial linking pass on core Cash Stack pages.
 - 2026-04-17: Ingested `ipfs-file-pin-service.md`. Created `ipfs-file-pin-service.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
 - 2026-04-17: Ingested `decentralized-file-hosting.md` and `decentralized-file-storage.md`. Created `decentralized-file-hosting.md` and `decentralized-file-storage.md`. Updated `index.md` and `log.md`.
+2026-04-17: Ingested hash.md. Created hash.md page, updated sha-256.md and index.md.
+2026-04-17: Ingested blockchain.md. Updated blockchain.md, sha-256.md, and genesis-block.md.
+2026-04-17: Ingested memory-pool.md. Updated mempool.md and blockchain.md.
+2026-04-17: Ingested transaction.md. Created transaction.md and updated transaction-validation.md.

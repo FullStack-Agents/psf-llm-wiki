@@ -1,6 +1,6 @@
 # Genesis Block
 
-**Summary**: The first block in a [blockchain](blockchain.md), serving as the common ancestor for all subsequent blocks.
+**Summary**: - **Genesis Block**: The first block created within the blockchain. The genesis block's [hash](hash.md) is hard-coded into software (source: blockchain.md).
 
 **Sources**: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_1.md, mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_3.md
 

@@ -8,6 +8,7 @@
 
 ## Pages
 
+- [hash](hash.md): Comprehensive overview of hashing algorithms used in the Bitcoin Cash protocol, including SHA-256, RIPEMD-160, and MurmurHash.
 - [bitcoin-cash](bitcoin-cash.md): The primary [blockchain](blockchain.md) used by the [Cash Stack](cash-stack-layers.md) for money transfer and as the basis for tokenization and other web3 primitives.
 - [blockchain](blockchain.md): A public transaction ledger that records all transactions and prevents double-spending.
 - [utxo](utxo.md): Unspent Transaction Output; the fundamental unit of currency in [bitcoin-cash](bitcoin-cash.md).
