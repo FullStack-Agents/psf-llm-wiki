@@ -19,3 +19,13 @@
 2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_9.md. Created page: forging-and-consensus. Updated mastering-bitcoin-cash-chapter-2 and index.md.
 2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_10.md. Created page: blockchain-explorers. Updated mastering-bitcoin-cash-chapter-2 and index.md.
 2026-04-16: Ingested mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_10.md. Created page: technical-architecture. Updated mastering-bitcoin-cash-chapter-1 and index.md.
+2026-04-17: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_11.md. Created pages: auditability, coinbase-transaction, double-entry-bookkeeping, and mastering-bitcoin-cash-chapter-2-how-bitcoin-cash-works-11. Updated index.md.
+2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md. Created page: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-2. Updated: digital-wallets, private-keys, addresses, and index.md.
+2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_3.md. Created page: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-3. Updated: private-keys, addresses, and index.md.
+2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_4.md and _5.md. Created pages: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-4 and -5. Updated private-keys and index.md.
+2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_6.md. Created page: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-6. Updated addresses and index.md.
+2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_7.md. Created page: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-7. Updated private-keys and index.md.
+2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_8.md. Created page: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-8. Updated digital-wallets and index.md.
+2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_9.md. Created page: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-9. Updated digital-wallets and index.md.
+2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_10.md. Created page: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10. Updated addresses and index.md.
+2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_11.md and _12.md. Created pages: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-11 and -12. Updated private-keys and index.md.

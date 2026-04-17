@@ -8,7 +8,7 @@
 
 ---
 
-Mining in Bitcoin Cash involves network participants competing to solve complex mathematical problems while processing transactions (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_2.md). It serves two essential functions: creating new coins through block rewards and establishing trust by requiring computational work to secure the [[blockchain]] (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_5.md).
+Mining in Bitcoin Cash involves network participants competing to solve complex mathematical problems while processing transactions (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_2.md). It serves two essential functions: creating new coins through block rewards (via the [[coinbase-transaction]]) and establishing trust by requiring computational work to secure the [[blockchain]] (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_5.md).
 
 ### The Mining Process
 Mining is a competitive race to solve a cryptographic puzzle that validates a block of transactions. This puzzle is asymmetrically difficult—hard to solve but easy to verify (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_5.md). 

@@ -10,7 +10,7 @@
 
 The blockchain is a public transaction ledger that serves as one of the four key innovations of Bitcoin Cash (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_3.md). 
 
-By maintaining a transparent and distributed record of all transactions, the blockchain allows the network to verify asset ownership and prevent [[double-spending]] without the need for a central authority.
+By maintaining a transparent and distributed record of all transactions, the blockchain allows the network to verify asset ownership, ensure [[auditability]], and prevent [[double-spending]] without the need for a central authority.
 
 ## Related pages
 
