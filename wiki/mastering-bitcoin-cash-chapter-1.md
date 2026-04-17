@@ -12,7 +12,7 @@ This chapter introduces Bitcoin Cash as a decentralized, peer-to-peer electronic
 
 It covers the fundamental mechanisms of [[mining]], the concept of [[decentralization]], and the strict [[monetary-policy]] that governs the coin's issuance. Ownership of BCH is managed through cryptographic keys stored in [[digital-wallets]], where the possession of a private key is the sole requirement for spending funds.
 
-It also explores the history of digital currency, detailing the challenges of authenticity and [[double-spending]] that hindered early centralized efforts, and how Bitcoin Cash solves these through its combination of a P2P network, the [[blockchain]], and [[transaction-script]].
+It also explores the history of digital currency, detailing the challenges of authenticity and [[double-spending]] that hindered early centralized efforts, and how Bitcoin Cash solves these through its combination of a P2P network, the [[blockchain]], and [[transaction-scripts]].
 
 Finally, it discusses the origins of the system, starting with Satoshi Nakamoto's 2008 whitepaper, the use of [[proof-of-work]] to solve the [[byzantine-generals-problem]], the diverse [[use-cases]], the technical implementations via various [[clients]], the practical steps for new users including managing [[addresses]], the various ways to [[acquiring-bch]], the lifecycle of a [[transaction-process]], and the broader [[technical-architecture]] that ensures the network's robustness.
 
@@ -38,7 +38,7 @@ Finally, it discusses the origins of the system, starting with Satoshi Nakamoto'
 - [[decentralization]]
 - [[blockchain]]
 - [[double-spending]]
-- [[transaction-script]]
+- [[transaction-scripts]]
 - [[digital-wallets]]
 - [[private-keys]]
 - [[proof-of-work]]

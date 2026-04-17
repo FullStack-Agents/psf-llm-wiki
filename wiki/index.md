@@ -1,49 +1,71 @@
-# Wiki Index
+# LLM Wiki Index
 
-- [[acquiring-bch]]: Methods for obtaining Bitcoin Cash.
-- [[addresses]]: Alphanumeric strings for receiving Bitcoin Cash.
-- [[bitcoin-cash]]: General overview of Bitcoin Cash and its purpose.
-- [[blockchain]]: The public transaction ledger.
-- [[blockchain-explorers]]: Web applications to search and verify the blockchain.
-- [[byzantine-generals-problem]]: The distributed computing problem solved by BCH.
-- [[clients]]: The different types of software implementations (Full, Light, Web).
-- [[decentralization]]: The P2P architecture and lack of central control.
-- [[digital-wallets]]: Software/hardware for storing cryptographic keys.
-- [[double-spending]]: The problem of spending digital currency more than once.
-- [[forging-and-consensus]]: The process of block creation and network agreement.
-- [[mining]]: The process of securing the network and issuing new coins.
-- [[monetary-policy]]: The rules regarding the 21M coin cap and halvings.
-- [[mastering-bitcoin-cash-chapter-1]]: Summary of the source document "Mastering Bitcoin Cash Chapter 1".
-- [[mastering-bitcoin-cash-chapter-2]]: Summary of the source document "How Bitcoin Cash Works".
-- [[private-keys]]: Cryptographic keys used to authorize spending.
-- [[proof-of-work]]: The algorithm used for network consensus.
-- [[technical-architecture]]: The integrated design of BCH (ledger, consensus, verification).
-- [[transaction-anatomy]]: The structural composition of transactions (inputs/outputs).
-- [[transaction-process]]: The lifecycle of a transaction from signing to confirmation.
-- [[transaction-script]]: The decentralized transaction verification system.
-- [[utxo]]: Unspent Transaction Outputs and their role in ownership.
-- [[auditability]]: Transparency and pseudonymity of the ledger.
-- [[coinbase-transaction]]: Special transactions for minting new coins.
-- [[double-entry-bookkeeping]]: The accounting model for BCH transactions.
-- [[mastering-bitcoin-cash-chapter-2-how-bitcoin-cash-works-11]]: Summary of the source document "How Bitcoin Cash Works (Part 11)".
-- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-2]]: Summary of the source document "Fundamentals of Bitcoin Cash Ownership".
-- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-3]]: Summary of the source document "Public Key Cryptography and Mathematical Foundations".
-- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-4]]: Summary of the source document "Private and Public Keys".
-- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-5]]: Summary of the source document "Elliptic Curve Cryptography".
-- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-6]]: Summary of the source document "Bitcoin Cash Addresses".
-- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-7]]: Summary of the source document "Encoding Formats and Key Representations".
-- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-8]]: Summary of the source document "Wallet Types and Security".
-- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-9]]: Summary of the source document "Hierarchical Deterministic Wallets".
-- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10]]: Summary of the source document "Advanced Address Types and Multi-Signature".
-- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-11]]: Summary of the source document "Encrypted Keys and Paper Wallets".
-- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-12]]: Summary of the source document "Vanity Addresses and Specialized Keys".
+## Core Concepts
+- [[bitcoin-cash]]: General overview of Bitcoin Cash.
+- [[blockchain]]: The fundamental chain of blocks.
+- [[blockchain-ledger]]: The global double-entry bookkeeping system of BCH.
+- [[decentralization]]: Principles of a decentralized network.
+- [[monetary-policy]]: Rules governing the issuance of BCH.
+- [[proof-of-work]]: The consensus mechanism to secure the network.
+- [[byzantine-generals-problem]]: The coordination problem solved by PoW.
+- [[auditability]]: The ability to verify the blockchain's state.
+- [[double-spending]]: The problem of spending the same coins twice.
 
+## Transactions
+- [[bitcoin-cash-transactions]]: Overview of value transfer in BCH.
+- [[utxo]]: Unspent Transaction Output; the fundamental unit of currency.
+- [[transaction-process]]: The lifecycle of a transaction.
+- [[transaction-anatomy]]: Structure of transactions.
+- [[transaction-broadcasting]]: How transactions are sent across the network.
+- [[transaction-validation]]: Node-level verification and propagation.
+- [[transaction-locktime]]: Mechanics of delaying transaction validity.
+- [[transaction-fees]]: Compensation for miners and spam prevention.
+- [[transaction-chaining]]: Parent-child relationships between transactions.
+- [[orphan-transactions]]: Handling of child transactions arriving before parents.
+- [[coinbase-transaction]]: The first transaction in a block.
 
+## Scripting
+- [[transaction-scripts]]: Locking and unlocking scripts for spending funds.
+- [[transaction-script-language]]: The stack-based language for BCH scripts.
+- [[standard-transaction-types]]: The five standard BCH transaction types.
+- [[p2sh]]: Pay-to-Script-Hash mechanics and benefits.
 
+## Infrastructure & Tools
+- [[mining]]: Verification and block addition process.
+- [[clients]]: Software implementations of the BCH protocol.
+- [[digital-wallets]]: Software for managing keys and funds.
+- [[private-keys]]: Cryptographic keys used for signing.
+- [[addresses]]: BCH address formats and derivation.
+- [[blockchain-explorers]]: Tools for searching the blockchain.
+- [[technical-architecture]]: High-level design of the BCH system.
 
+## Learning Materials
+- [[mastering-bitcoin-cash-chapter-1]]: Introduction and core concepts.
+- [[mastering-bitcoin-cash-chapter-2]]: How Bitcoin Cash works.
+- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-2]]: Keys and addresses.
+- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-3]]: Wallet mechanics.
+- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-4]]: Advanced key management.
+- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-5]]: Addressing.
+- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-6]]: Script basics.
+- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-7]]: Complex scripts.
+- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-8]]: Multi-sig.
+- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-9]]: P2SH.
+- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10]]: P2SH details.
+- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-11]]: Script execution.
+- [[mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-12]]: Practical examples.
+- [[mastering-bitcoin-cash-transactions-1]]: Transaction fundamentals and lifecycle.
+- [[mastering-bitcoin-cash-transactions-2]]: Transaction creation, broadcasting, and validation.
+- [[mastering-bitcoin-cash-transactions-3]]: Transaction structure and locktime.
+- [[mastering-bitcoin-cash-transactions-4]]: UTXO fundamentals and the account-less model.
+- [[mastering-bitcoin-cash-transactions-5]]: Transaction inputs and outputs structure.
+- [[mastering-bitcoin-cash-transactions-6]]: Transaction fee mechanics and implications.
+- [[mastering-bitcoin-cash-transactions-7]]: Transaction chaining and orphan transactions.
+- [[mastering-bitcoin-cash-transactions-8]]: Transaction script language and limitations.
+- [[mastering-bitcoin-cash-transactions-9]]: Standard transaction types (P2PKH, P2PK, etc).
+- [[mastering-bitcoin-cash-transactions-10]]: Detailed look at Pay-to-Script-Hash (P2SH).
+- [[mastering-bitcoin-cash-transactions-11]]: Practical script execution and P2PKH validation.
 
-
-
-
-
-
+## Miscellaneous
+- [[use-cases]]: Practical applications of Bitcoin Cash.
+- [[acquiring-bch]]: How to obtain BCH.
+- [[forging-and-consensus]]: How the network agrees on the state.

@@ -26,4 +26,4 @@ The mathematical representation of this process is:
 
 - [[addresses]]
 - [[private-keys]]
-- [[transaction-script]]
+- [[transaction-scripts]]

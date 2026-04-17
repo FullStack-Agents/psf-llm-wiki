@@ -19,4 +19,4 @@ The derivation sequence is as follows:
 
 - [[private-keys]]
 - [[addresses]]
-- [[transaction-script]]
+- [[transaction-scripts]]

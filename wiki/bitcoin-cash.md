@@ -16,7 +16,7 @@ It is the culmination of decades of cryptographic and distributed systems resear
 1. A decentralized peer-to-peer network protocol.
 2. A public transaction ledger ([[blockchain]]).
 3. A deterministic and decentralized currency issuance mechanism ([[mining]]).
-4. A decentralized transaction verification system ([[transaction-script]]).
+4. A decentralized transaction verification system ([[transaction-scripts]]).
 
 The system is characterized by its [[decentralization]], its use of [[mining]] to secure the network, and a predetermined [[monetary-policy]].
 

@@ -27,5 +27,5 @@ This system provides enhanced security for businesses, shared funds, and organiz
 ## Related pages
 
 - [[addresses]]
-- [[transaction-script]]
+- [[transaction-scripts]]
 - [[private-keys]]
