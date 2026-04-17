@@ -8,3 +8,14 @@
 2026-04-16: Ingested mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_8.md. Created page: acquiring-bch. Updated mastering-bitcoin-cash-chapter-1 and index.md.
 2026-04-16: Ingested mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_9.md. Created page: transaction-process. Updated mastering-bitcoin-cash-chapter-1 and index.md.
 2026-04-16: Ingested mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_10.md. Created page: technical-architecture. Updated mastering-bitcoin-cash-chapter-1 and index.md.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_1.md. Created page: mastering-bitcoin-cash-chapter-2. Updated index.md.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_2.md. Created page: transaction-anatomy. Updated mastering-bitcoin-cash-chapter-2 and index.md.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_3.md. Created page: utxo. Updated mastering-bitcoin-cash-chapter-2 and index.md.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md. Updated transaction-process and mastering-bitcoin-cash-chapter-2.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_5.md. Updated mining and mastering-bitcoin-cash-chapter-2.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_6.md. Updated transaction-process and mastering-bitcoin-cash-chapter-2.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_7.md. Updated transaction-process and mastering-bitcoin-cash-chapter-2.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_8.md. Updated digital-wallets and mastering-bitcoin-cash-chapter-2.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_9.md. Created page: forging-and-consensus. Updated mastering-bitcoin-cash-chapter-2 and index.md.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_10.md. Created page: blockchain-explorers. Updated mastering-bitcoin-cash-chapter-2 and index.md.
+2026-04-16: Ingested mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_10.md. Created page: technical-architecture. Updated mastering-bitcoin-cash-chapter-1 and index.md.
