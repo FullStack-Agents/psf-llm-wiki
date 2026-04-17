@@ -10,10 +10,10 @@
 - [byzantine-generals-problem](byzantine-generals-problem.md): The coordination problem solved by PoW.
 - [auditability](auditability.md): The ability to verify the blockchain's state.
 - [double-spending](double-spending.md): The problem of spending the same coins twice.
+- [utxo](utxo.md): Unspent Transaction Output; the fundamental unit of currency.
 
 ## Transactions
 - [bitcoin-cash-transactions](bitcoin-cash-transactions.md): Overview of value transfer in BCH.
-- [utxo](utxo.md): Unspent Transaction Output; the fundamental unit of currency.
 - [transaction-process](transaction-process.md): The lifecycle of a transaction.
 - [transaction-anatomy](transaction-anatomy.md): Structure of transactions.
 - [transaction-broadcasting](transaction-broadcasting.md): How transactions are sent across the network.
@@ -31,6 +31,9 @@
 - [p2sh](p2sh.md): Pay-to-Script-Hash mechanics and benefits.
 
 ## Infrastructure & Tools
+- [asic](asic.md): Specialized hardware for SHA-256 mining.
+- [mempool](mempool.md): Storage for unconfirmed transactions.
+- [sha-256](sha-256.md): The cryptographic hash function used by BCH.
 - [mining](mining.md): Verification and block addition process.
 - [clients](clients.md): Software implementations of the BCH protocol.
 - [digital-wallets](digital-wallets.md): Software for managing keys and funds.
@@ -38,10 +41,30 @@
 - [addresses](addresses.md): BCH address formats and derivation.
 - [blockchain-explorers](blockchain-explorers.md): Tools for searching the blockchain.
 - [technical-architecture](technical-architecture.md): High-level design of the BCH system.
+- [bch-network-resilience](bch-network-resilience.md): Mechanisms ensuring network stability and adaptability.
+- [bch-peer-management](bch-peer-management.md): Peer discovery, bootstrapping, and connectivity.
+- [bchjs-network-commands](bchjs-network-commands.md): Network monitoring commands in bchjs.
+- [bch-node-configuration](bch-node-configuration.md): Node configuration and peer overrides.
+- [bitcoin-cash-network](bitcoin-cash-network.md): The communication infrastructure of Bitcoin Cash.
+- [network-discovery](network-discovery.md): How nodes find and connect to each other.
+- [blockchain-synchronization](blockchain-synchronization.md): How nodes catch up with the blockchain.
+- [bloom-filters](bloom-filters.md): Privacy-preserving search for SPV nodes.
+- [transaction-pools](transaction-pools.md): Management of unconfirmed transactions (mempools).
+- [network-communication-protocol](network-communication-protocol.md): The message-based P2P protocol.
 
 ## Learning Materials
 - [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md): Introduction and core concepts.
 - [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md): How Bitcoin Cash works.
+- [mastering-bitcoin-cash-chapter-5-1](mastering-bitcoin-cash-chapter-5-1.md): Introduction to the Bitcoin Cash P2P network.
+- [mastering-bitcoin-cash-chapter-5-2](mastering-bitcoin-cash-chapter-5-2.md): Node types and roles.
+- [mastering-bitcoin-cash-chapter-5-3](mastering-bitcoin-cash-chapter-5-3.md): Network discovery process.
+- [mastering-bitcoin-cash-chapter-5-4](mastering-bitcoin-cash-chapter-5-4.md): Blockchain synchronization.
+- [mastering-bitcoin-cash-chapter-5-5](mastering-bitcoin-cash-chapter-5-5.md): Simplified Payment Verification (SPV).
+- [mastering-bitcoin-cash-chapter-5-6](mastering-bitcoin-cash-chapter-5-6.md): Bloom filters for SPV privacy.
+- [mastering-bitcoin-cash-chapter-5-7](mastering-bitcoin-cash-chapter-5-7.md): Bloom filter operation with SPV.
+- [mastering-bitcoin-cash-chapter-5-8](mastering-bitcoin-cash-chapter-5-8.md): Transaction pools and orphans.
+- [mastering-bitcoin-cash-chapter-5-9](mastering-bitcoin-cash-chapter-5-9.md): The UTXO database.
+- [mastering-bitcoin-cash-chapter-5-10](mastering-bitcoin-cash-chapter-5-10.md): Network communication flow.
 - [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-2](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-2.md): Keys and addresses.
 - [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-3](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-3.md): Wallet mechanics.
 - [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-4](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-4.md): Advanced key management.
