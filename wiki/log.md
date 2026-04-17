@@ -29,3 +29,4 @@
 2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_9.md. Created page: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-9. Updated digital-wallets and index.md.
 2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_10.md. Created page: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10. Updated addresses and index.md.
 2026-04-17: Ingested mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_11.md and _12.md. Created pages: mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-11 and -12. Updated private-keys and index.md.
+2026-04-17: Updated transaction-script.md to include details on P2SH and multi-sig, linking to mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10.md.
