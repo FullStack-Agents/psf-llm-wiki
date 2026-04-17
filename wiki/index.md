@@ -2,8 +2,9 @@
 
 ## Core Concepts
 - [bitcoin-cash](bitcoin-cash.md): General overview of Bitcoin Cash.
-- [blockchain](blockchain.md): The fundamental chain of blocks.
+- [blockchain-data-structure](blockchain-data-structure.md): The organization of the blockchain as a linked list.
 - [blockchain-ledger](blockchain-ledger.md): The global double-entry bookkeeping system of BCH.
+- [double-entry-bookkeeping](double-entry-bookkeeping.md): Principles of the double-entry system.
 - [decentralization](decentralization.md): Principles of a decentralized network.
 - [monetary-policy](monetary-policy.md): Rules governing the issuance of BCH.
 - [proof-of-work](proof-of-work.md): The consensus mechanism to secure the network.
@@ -32,6 +33,12 @@
 
 ## Infrastructure & Tools
 - [asic](asic.md): Specialized hardware for SHA-256 mining.
+- [blockchain-fork](blockchain-fork.md): Temporary splits in the blockchain.
+- [genesis-block](genesis-block.md): The first block in the chain.
+- [google-leveldb](google-leveldb.md): Key-value storage used by Bitcoin ABC.
+- [merkle-root](merkle-root.md): Cryptographic summary of block transactions.
+- [merkle-tree](merkle-tree.md): Binary hash tree for efficient data verification.
+- [simplified-payment-verification](simplified-payment-verification.md): Lightweight transaction verification.
 - [mempool](mempool.md): Storage for unconfirmed transactions.
 - [sha-256](sha-256.md): The cryptographic hash function used by BCH.
 - [mining](mining.md): Verification and block addition process.
@@ -55,7 +62,15 @@
 ## Learning Materials
 - [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md): Introduction and core concepts.
 - [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md): How Bitcoin Cash works.
+- [mastering-bitcoin-cash-chapter-2-how-bitcoin-cash-works-11](mastering-bitcoin-cash-chapter-2-how-bitcoin-cash-works-11.md): Supplementary material on how BCH works.
+- [mastering-bitcoin-cash-chapter-6-1](mastering-bitcoin-cash-chapter-6-1.md): Blockchain data structure, genesis block, and immutability.
+- [mastering-bitcoin-cash-chapter-6-2](mastering-bitcoin-cash-chapter-6-2.md): Block structure, headers, and identification.
+- [mastering-bitcoin-cash-chapter-6-3](mastering-bitcoin-cash-chapter-6-3.md): Genesis block properties and block linking.
+- [mastering-bitcoin-cash-chapter-6-4](mastering-bitcoin-cash-chapter-6-4.md): Merkle tree fundamentals and transaction verification.
+- [mastering-bitcoin-cash-chapter-6-5](mastering-bitcoin-cash-chapter-6-5.md): Merkle path efficiency and validation.
+- [mastering-bitcoin-cash-chapter-6-6](mastering-bitcoin-cash-chapter-6-6.md): Simplified Payment Verification (SPV) and lightweight clients.
 - [mastering-bitcoin-cash-chapter-5-1](mastering-bitcoin-cash-chapter-5-1.md): Introduction to the Bitcoin Cash P2P network.
+- [mastering-bitcoin-cash-chapter-5-network-resilience](mastering-bitcoin-cash-chapter-5-network-resilience.md): Deep dive into network resilience.
 - [mastering-bitcoin-cash-chapter-5-2](mastering-bitcoin-cash-chapter-5-2.md): Node types and roles.
 - [mastering-bitcoin-cash-chapter-5-3](mastering-bitcoin-cash-chapter-5-3.md): Network discovery process.
 - [mastering-bitcoin-cash-chapter-5-4](mastering-bitcoin-cash-chapter-5-4.md): Blockchain synchronization.

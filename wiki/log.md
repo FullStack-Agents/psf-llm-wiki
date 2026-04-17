@@ -1,25 +1,3 @@
-# Wiki Log
+# LLM Wiki Log
 
-- 2026-04-17: Performed wiki audit and linting. Added concept pages: `sha-256.md`, `asic.md`, `mempool.md`. Fixed orphan links in `bitcoin-cash.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_11.md`. Created pages: `mastering-bitcoin-cash-chapter-5-network-resilience.md`, `bch-network-resilience.md`, `bch-peer-management.md`, `bchjs-network-commands.md`, `bch-node-configuration.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_10.md`. Created pages: `mastering-bitcoin-cash-chapter-5-10.md`, `network-communication-protocol.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_9.md`. Created pages: `mastering-bitcoin-cash-chapter-5-9.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_8.md`. Created pages: `mastering-bitcoin-cash-chapter-5-8.md`, `transaction-pools.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_7.md`. Created pages: `mastering-bitcoin-cash-chapter-5-7.md`. Updated `bloom-filters.md` and `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_6.md`. Created pages: `mastering-bitcoin-cash-chapter-5-6.md`, `bloom-filters.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_5.md`. Created pages: `mastering-bitcoin-cash-chapter-5-5.md`. Updated `bitcoin-cash-network.md` and `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_4.md`. Created pages: `mastering-bitcoin-cash-chapter-5-4.md`, `blockchain-synchronization.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_3.md`. Created pages: `mastering-bitcoin-cash-chapter-5-3.md`, `network-discovery.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md`. Created pages: `mastering-bitcoin-cash-chapter-5-2.md`. Updated `bitcoin-cash-network.md` and `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_1.md`. Created pages: `mastering-bitcoin-cash-chapter-5-1.md`, `bitcoin-cash-network.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_transactions_1.md`. Created pages: `mastering-bitcoin-cash-transactions-1.md`, `bitcoin-cash-transactions.md`, `blockchain-ledger.md`, `mining.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_transactions_2.md`. Created pages: `mastering-bitcoin-cash-transactions-2.md`, `transaction-broadcasting.md`, `transaction-validation.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_transactions_3.md`. Created pages: `mastering-bitcoin-cash-transactions-3.md`, `transaction-locktime.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_transactions_4.md`. Created pages: `mastering-bitcoin-cash-transactions-4.md`, `utxo.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_transactions_5.md`. Created pages: `mastering-bitcoin-cash-transactions-5.md`, `transaction-scripts.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_transactions_6.md`. Created pages: `mastering-bitcoin-cash-transactions-6.md`, `transaction-fees.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_transactions_7.md`. Created pages: `mastering-bitcoin-cash-transactions-7.md`, `transaction-chaining.md`, `orphan-transactions.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_transactions_8.md`. Created pages: `mastering-bitcoin-cash-transactions-8.md`, `transaction-script-language.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_transactions_9.md`. Created pages: `mastering-bitcoin-cash-transactions-9.md`, `standard-transaction-types.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_transactions_10.md`. Created pages: `mastering-bitcoin-cash-transactions-10.md`, `p2sh.md`. Updated `index.md`.
-- 2026-04-17: Ingested `mastering-bitcoin-cash_transactions_11.md`. Created pages: `mastering-bitcoin-cash-transactions-11.md`. Updated `index.md`.
+2026-04-17 - Performed wiki audit and linting. Removed duplicate Chapter 6 files. Updated index.md to fix broken links (removed `blockchain.md`) and add orphan pages (`double-entry-bookkeeping`, `chapter-2-11`, `chapter-5-network-resilience`).
