@@ -1,6 +1,6 @@
 # Transaction Broadcasting
 
-**Summary**: The process of transmitting a signed transaction to the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network.
+**Summary**: The process of transmitting a signed transaction to the [bitcoin-cash](bitcoin-cash.md) network.
 
 **Sources**: mastering-bitcoin-cash_transactions_2.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-Broadcasting requires delivering a transaction to any [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) node to ensure it is propagated and eventually included in the [blockchain](blockchain.md) (source: mastering-bitcoin-cash_transactions_2.md).
+Broadcasting requires delivering a transaction to any [bitcoin-cash](bitcoin-cash.md) node to ensure it is propagated and eventually included in the [blockchain](blockchain.md) (source: mastering-bitcoin-cash_transactions_2.md).
 
 Transactions can be transmitted over any secure or insecure network because they are digitally signed and contain no confidential information (source: mastering-bitcoin-cash_transactions_2.md). Examples of transmission methods include:
 - WiFi, Bluetooth, and NFC

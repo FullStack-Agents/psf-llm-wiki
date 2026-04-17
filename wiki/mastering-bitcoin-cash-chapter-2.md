@@ -1,6 +1,6 @@
-# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 2
+# Mastering [bitcoin-cash](bitcoin-cash.md) Chapter 2
 
-**Summary**: A technical overview of how [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) works, focusing on the interplay between users, wallets, transactions, miners, and the [blockchain](blockchain.md) to establish trust in a decentralized system.
+**Summary**: A technical overview of how [bitcoin-cash](bitcoin-cash.md) works, focusing on the interplay between users, wallets, transactions, miners, and the [blockchain](blockchain.md) to establish trust in a decentralized system.
 
 **Sources**: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_1.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_2.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_3.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_5.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_6.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_7.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_8.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_9.md, mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_10.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-This chapter provides a deeper technical dive into the operational mechanics of [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md). It describes the system as one where trust is not centralized but emerges from the interactions between three primary entities: users, transactions, and miners (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_1.md).
+This chapter provides a deeper technical dive into the operational mechanics of [bitcoin-cash](bitcoin-cash.md). It describes the system as one where trust is not centralized but emerges from the interactions between three primary entities: users, transactions, and miners (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_1.md).
 
 ## Core Interaction Model
 The network operates through a continuous cycle:
@@ -17,7 +17,7 @@ The network operates through a continuous cycle:
 3. **Miners** collect these transactions and use competitive computation to produce blocks.
 4. **The [blockchain](blockchain.md)** acts as the final, authoritative ledger that records these blocks permanently.
 
-This distributed consensus mechanism ensures that [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) can operate securely without a central trusted authority.
+This distributed consensus mechanism ensures that [bitcoin-cash](bitcoin-cash.md) can operate securely without a central trusted authority.
 
 ## Transaction Mechanics
 The chapter further details the structural "anatomy" of these transactions, explaining the role of inputs and outputs, the creation of a chain of ownership via digital signatures, and the derivation of miner fees from the difference between inputs and outputs (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_2.md).
@@ -51,7 +51,7 @@ The chapter introduces [[blockchain](blockchain.md)-explorers]([blockchain](bloc
 - [transaction-anatomy](transaction-anatomy.md)
 - [utxo](utxo.md)
 - [mining](mining.md)
-- [[blockchain](blockchain.md)]([blockchain](blockchain.md).md)
+- [blockchain](blockchain.md).md)
 - [decentralization](decentralization.md)
 - [forging-and-consensus](forging-and-consensus.md)
 - [[blockchain](blockchain.md)-explorers]([blockchain](blockchain.md)-explorers.md)

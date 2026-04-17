@@ -17,7 +17,7 @@ The server sits atop several critical pieces of [blockchain](blockchain.md) infr
 - **[Fulcrum](fulcrum-indexer.md) Indexer**: An [address](addresses.md) indexer tracking balances, transaction histories, and [utxo](utxo.md)s.
 - **[SLP](slp-token-protocol.md) Token Indexer**: Tracks all [SLP](slp-token-protocol.md) tokens on the [blockchain](blockchain.md).
 
-Front-end applications typically interact with `psf-bch-api` using libraries such as [bch-js]([bch-js](bch-js.md).md) or [bch-consumer](bch-consumer.md) (source: psf-bch-api.md).
+Front-end applications typically interact with `psf-bch-api` using libraries such as [bch-js](bch-js.md) or [bch-consumer](bch-consumer.md) (source: psf-bch-api.md).
 
 ## Access Control and Monetization
 
@@ -39,5 +39,5 @@ Verification is performed using integration tests provided by `[bch-js](bch-js.m
 
 - [cash-stack-layers](cash-stack-layers.md)
 - [permissionless-software-foundation](permissionless-software-foundation.md)
-- [bch-js]([bch-js](bch-js.md).md)
+- [bch-js](bch-js.md)
 - [x402-bch]([x402](x402-bch.md)-bch.md)

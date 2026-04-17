@@ -1,6 +1,6 @@
-# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 5 Part 2
+# Mastering [bitcoin-cash](bitcoin-cash.md) Chapter 5 Part 2
 
-**Summary**: Exploration of node types and their roles within the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network, including full nodes, lightweight (SPV) nodes, and mining nodes.
+**Summary**: Exploration of node types and their roles within the [bitcoin-cash](bitcoin-cash.md) network, including full nodes, lightweight (SPV) nodes, and mining nodes.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-A [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) node consists of several core functions: routing, [blockchain](blockchain.md) database management, mining, and wallet services. Every node must implement routing to participate in the network, which involves validating/propagating blocks and transactions and maintaining peer connections (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md).
+A [bitcoin-cash](bitcoin-cash.md) node consists of several core functions: routing, [blockchain](blockchain.md) database management, mining, and wallet services. Every node must implement routing to participate in the network, which involves validating/propagating blocks and transactions and maintaining peer connections (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md).
 
 ## Node Specializations
 

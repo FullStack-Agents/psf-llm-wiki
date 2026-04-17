@@ -19,4 +19,4 @@ The Cash Stack architecture is inspired by the OSI model to facilitate technical
 ## Related pages
 
 - [intro](intro.md)
-- [psf-bch-api]([psf-bch-api](psf-bch-api.md).md)
+- [psf-bch-api](psf-bch-api.md)

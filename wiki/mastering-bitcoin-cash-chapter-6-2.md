@@ -8,7 +8,7 @@
 
 ---
 
-A block is a container that aggregates transactions. A full 32MB [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) block can contain nearly 128,000 transactions (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_2.md).
+A block is a container that aggregates transactions. A full 32MB [bitcoin-cash](bitcoin-cash.md) block can contain nearly 128,000 transactions (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_2.md).
 
 ## Block Anatomy
 A block consists of the following components:

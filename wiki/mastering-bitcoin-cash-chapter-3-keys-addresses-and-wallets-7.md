@@ -21,7 +21,7 @@ Public keys have two primary representations:
 - **Uncompressed**: 520 bits, identified by the prefix `04`.
 - **Compressed**: 264 bits, identified by the prefix `02` (if $y$ is even) or `03` (if $y$ is odd). This format stores only the x-coordinate, reducing storage requirements by nearly 50%.
 
-**Crucial Note**: Even though they are derived from the same [private key](private-keys.md), compressed and uncompressed public keys result in different [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) addresses.
+**Crucial Note**: Even though they are derived from the same [private key](private-keys.md), compressed and uncompressed public keys result in different [bitcoin-cash](bitcoin-cash.md) addresses.
 
 ## Related pages
 

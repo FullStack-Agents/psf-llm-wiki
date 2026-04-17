@@ -1,4 +1,4 @@
-# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 8 Security 6
+# Mastering [bitcoin-cash](bitcoin-cash.md) Chapter 8 Security 6
 
 **Summary**: Discussion of cold storage solutions, detailing how physical storage and offline key generation eliminate network-based security threats.
 
@@ -9,10 +9,10 @@
 ---
 
 ## Cold Storage Overview
-"Cold storage" refers to the practice of keeping [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) keys offline. By generating keys on systems that have never been connected to the internet, users can dramatically reduce their attack surface and eliminate network-based threats entirely (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_6.md).
+"Cold storage" refers to the practice of keeping [bitcoin-cash](bitcoin-cash.md) keys offline. By generating keys on systems that have never been connected to the internet, users can dramatically reduce their attack surface and eliminate network-based threats entirely (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_6.md).
 
 ## Physical Security Solutions
-Because [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) keys are essentially long numbers, they can be transitioned from digital security to physical security. This makes security more intuitive for many users by storing keys in physical forms such as:
+Because [bitcoin-cash](bitcoin-cash.md) keys are essentially long numbers, they can be transitioned from digital security to physical security. This makes security more intuitive for many users by storing keys in physical forms such as:
 - Paper wallets.
 - Metal engravings (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_s6.md).
 

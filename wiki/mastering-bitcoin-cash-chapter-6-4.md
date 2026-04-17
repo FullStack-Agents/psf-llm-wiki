@@ -1,6 +1,6 @@
 # mastering-bitcoin-cash-chapter-6-4
 
-**Summary**: Explanation of Merkle trees, their construction, and their utility in efficient transaction verification in [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md).
+**Summary**: Explanation of Merkle trees, their construction, and their utility in efficient transaction verification in [bitcoin-cash](bitcoin-cash.md).
 
 **Sources**: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_4.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-Merkle trees (binary hash trees) are used in [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) to summarize and verify large sets of data, specifically all transactions within a block (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_4.md).
+Merkle trees (binary hash trees) are used in [bitcoin-cash](bitcoin-cash.md) to summarize and verify large sets of data, specifically all transactions within a block (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_4.md).
 
 ## Construction Process
 Merkle trees are built bottom-up using double-SHA256 hashing:

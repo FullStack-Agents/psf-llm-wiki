@@ -8,7 +8,7 @@
 
 ---
 
-[[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) supports advanced [address](addresses.md) types that allow for flexible spending conditions.
+[bitcoin-cash](bitcoin-cash.md) supports advanced [address](addresses.md) types that allow for flexible spending conditions.
 
 ### Pay-to-Script-Hash (P2SH)
 P2SH addresses (which historically began with "3") designate the beneficiary as the hash of a **script** rather than a [public key](addresses.md). This allows for the implementation of complex spending logic.

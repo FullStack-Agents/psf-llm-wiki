@@ -1,6 +1,6 @@
 # Transaction Chaining
 
-**Summary**: The relationship between parent and child transactions in [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md).
+**Summary**: The relationship between parent and child transactions in [bitcoin-cash](bitcoin-cash.md).
 
 **Sources**: mastering-bitcoin-cash_transactions_7.md
 

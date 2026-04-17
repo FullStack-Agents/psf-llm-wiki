@@ -1,6 +1,6 @@
 # [blockchain](blockchain.md) Synchronization
 
-**Summary**: The process by which a full node downloads and verifies missing blocks to catch up with the current state of the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network.
+**Summary**: The process by which a full node downloads and verifies missing blocks to catch up with the current state of the [bitcoin-cash](bitcoin-cash.md) network.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_4.md
 
@@ -26,6 +26,6 @@ Whether a node is missing one block or a million, the process remains identical:
 
 ## Related pages
 
-- [[blockchain](blockchain.md)]([blockchain](blockchain.md).md)
+- [blockchain](blockchain.md).md)
 - [bitcoin-cash-network](bitcoin-cash-network.md)
 - [mastering-bitcoin-cash-chapter-5-4](mastering-bitcoin-cash-chapter-5-4.md)

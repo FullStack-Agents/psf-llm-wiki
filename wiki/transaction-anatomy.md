@@ -1,6 +1,6 @@
 # Transaction Anatomy
 
-**Summary**: The structural composition of [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) transactions, including inputs, outputs, cryptographic signatures, and different transaction types.
+**Summary**: The structural composition of [bitcoin-cash](bitcoin-cash.md) transactions, including inputs, outputs, cryptographic signatures, and different transaction types.
 
 **Sources**: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_2.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-Transactions are the fundamental units of value transfer in the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) system, functioning as a chain of ownership where value moves from one [address](addresses.md) to another (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_2.md).
+Transactions are the fundamental units of value transfer in the [bitcoin-cash](bitcoin-cash.md) system, functioning as a chain of ownership where value moves from one [address](addresses.md) to another (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_2.md).
 
 ### Structure of a Transaction
 A transaction consists of two primary components, following a [double-entry-bookkeeping](double-entry-bookkeeping.md) model:

@@ -1,6 +1,6 @@
-# [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Transactions
+# [bitcoin-cash](bitcoin-cash.md) Transactions
 
-**Summary**: Overview of how value is transferred on the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network.
+**Summary**: Overview of how value is transferred on the [bitcoin-cash](bitcoin-cash.md) network.
 
 **Sources**: mastering-bitcoin-cash_transactions_1.md
 

@@ -1,6 +1,6 @@
 # minimal-slp-wallet
 
-**Summary**: A high-level JavaScript wallet engine for building web, mobile, and Node.js applications on [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) ([BCH](bitcoin-cash.md)), providing a simplified API for common wallet operations.
+**Summary**: A high-level JavaScript wallet engine for building web, mobile, and Node.js applications on [bitcoin-cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)), providing a simplified API for common wallet operations.
 
 **Sources**: minimal-slp-wallet.md
 
@@ -11,13 +11,13 @@
 `minimal-slp-wallet` is a JavaScript library maintained by the [Permissionless Software Foundation](permissionless-software-foundation.md) that provides a high-level API for creating wallets, sending/receiving [BCH](bitcoin-cash.md), and managing [SLP](slp-token-protocol.md) tokens and NFTs (source: minimal-slp-wallet.md).
 
 ### Role in the [Cash Stack](cash-stack-layers.md)
-It operates at the **Application Library** layer of the [Cash Stack](cash-stack-layers.md). It is positioned one level above interface libraries like [bch-js]([bch-js](bch-js.md).md). While `[bch-js](bch-js.md)` is a low-level tool requiring deep Bitcoin knowledge, `minimal-slp-wallet` simplifies these operations for developers (source: minimal-slp-wallet.md).
+It operates at the **Application Library** layer of the [Cash Stack](cash-stack-layers.md). It is positioned one level above interface libraries like [bch-js](bch-js.md). While `[bch-js](bch-js.md)` is a low-level tool requiring deep Bitcoin knowledge, `minimal-slp-wallet` simplifies these operations for developers (source: minimal-slp-wallet.md).
 
 ### Key Features
 - **High-Level API**: Simplifies common tasks such as sending [BCH](bitcoin-cash.md) (`wallet.send()`), checking balances, and listing tokens, reducing the need to manually build transactions (source: minimal-slp-wallet.md).
 - **Token Awareness**: Built-in support for all [SLP](slp-token-protocol.md) tokens and NFTs, including tools to retrieve metadata using IPFS CIDs and supporting specifications like PS002 and PS007 (source: minimal-slp-wallet.md).
-- **Dual Infrastructure Support**: Can connect to both Web 2 (via [psf-bch-api]([psf-bch-api](psf-bch-api.md).md) REST API) and Web 3 (via `ipfs-bch-wallet-consumer` JSON RPC) back ends (source: minimal-slp-wallet.md).
-- **Embedded [bch-js](bch-js.md)**: Includes an instance of [bch-js]([bch-js](bch-js.md).md), allowing developers to access low-level functions when fine-grained control is required (source: minimal-slp-wallet.md).
+- **Dual Infrastructure Support**: Can connect to both Web 2 (via [psf-bch-api](psf-bch-api.md) REST API) and Web 3 (via `ipfs-bch-wallet-consumer` JSON RPC) back ends (source: minimal-slp-wallet.md).
+- **Embedded [bch-js](bch-js.md)**: Includes an instance of [bch-js](bch-js.md), allowing developers to access low-level functions when fine-grained control is required (source: minimal-slp-wallet.md).
 - **Wallet Management**: Supports [HD wallet](digital-wallets.md) creation via mnemonics, mnemonic encryption for secure storage, and wallet optimization to consolidate [[utxo](utxo.md)s](utxo.md) (source: minimal-slp-wallet.md).
 
 ### Comparison: minimal-slp-wallet vs [bch-js](bch-js.md)
@@ -38,8 +38,8 @@ The wallet can be configured for different back-end environments:
 4. **Private Infrastructure (Web 2)**: Uses Bearer token authentication for private deployments (source: minimal-slp-wallet.md).
 
 ## Related pages
-- [bch-js]([bch-js](bch-js.md).md)
-- [psf-bch-api]([psf-bch-api](psf-bch-api.md).md)
+- [bch-js](bch-js.md)
+- [psf-bch-api](psf-bch-api.md)
 - [cash-stack-layers](cash-stack-layers.md)
 - [slp-token-protocol](slp-token-protocol.md)
 - [x402-bch]([x402](x402-bch.md)-bch.md)

@@ -1,4 +1,4 @@
-# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 5 Part 5
+# Mastering [bitcoin-cash](bitcoin-cash.md) Chapter 5 Part 5
 
 **Summary**: Detailed explanation of Simplified Payment Verification (SPV) nodes, their operational mechanism using block headers and Merkle paths, and their associated security trade-offs.
 
@@ -8,7 +8,7 @@
 
 ---
 
-Simplified Payment Verification (SPV) allows [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) clients to operate on resource-constrained devices (e.g., smartphones) without storing the entire [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_5.md).
+Simplified Payment Verification (SPV) allows [bitcoin-cash](bitcoin-cash.md) clients to operate on resource-constrained devices (e.g., smartphones) without storing the entire [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_5.md).
 
 ## How SPV Works
 

@@ -1,6 +1,6 @@
 # mastering-bitcoin-cash-chapter-6-3
 
-**Summary**: Details regarding the genesis block's properties and the process of block linking in [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) nodes.
+**Summary**: Details regarding the genesis block's properties and the process of block linking in [bitcoin-cash](bitcoin-cash.md) nodes.
 
 **Sources**: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_3.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-The genesis block was created in 2009 and is statically encoded into all [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) node software (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_3.md).
+The genesis block was created in 2009 and is statically encoded into all [bitcoin-cash](bitcoin-cash.md) node software (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_3.md).
 
 ## The Genesis Block
 - **Hash**: `000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f`

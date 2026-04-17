@@ -1,6 +1,6 @@
 # mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-8
 
-**Summary**: This document explains different types of [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) wallets, detailing the evolution from nondeterministic (JBOK) wallets to deterministic and Hierarchical Deterministic (HD) wallets.
+**Summary**: This document explains different types of [bitcoin-cash](bitcoin-cash.md) wallets, detailing the evolution from nondeterministic (JBOK) wallets to deterministic and Hierarchical Deterministic (HD) wallets.
 
 **Sources**: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_8.md
 

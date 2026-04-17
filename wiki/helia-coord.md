@@ -25,7 +25,7 @@ TBD
 - **Peer Discovery**: Automatic discovery of other peers within a subnetwork.
 - **End-to-End Encryption (E2EE)**: Secure communication using Elliptic Curve cryptography.
 - **Censorship Resistance**: Utilizes [Circuit Relays](circuit-relays.md) to tunnel through firewalls.
-- **Payments**: Integrates [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) (via `minimal-slp-wallet`) for peer-to-peer payments for services.
+- **Payments**: Integrates [bitcoin-cash](bitcoin-cash.md) (via `minimal-slp-wallet`) for peer-to-peer payments for services.
 
 ## Architecture
 

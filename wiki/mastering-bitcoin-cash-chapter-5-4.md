@@ -1,4 +1,4 @@
-# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 5 Part 4
+# Mastering [bitcoin-cash](bitcoin-cash.md) Chapter 5 Part 4
 
 **Summary**: Explanation of the [blockchain](blockchain.md) synchronization process for new or returning nodes, focusing on block height comparison and the `getblocks` / `inv` / `getdata` workflow.
 
@@ -25,7 +25,7 @@ To avoid overwhelming any single peer, the node distributes `getdata` requests a
 
 ## Related pages
 
-- [[blockchain](blockchain.md)]([blockchain](blockchain.md).md)
+- [blockchain](blockchain.md).md)
 - [bitcoin-cash-network](bitcoin-cash-network.md)
 - [network-discovery](network-discovery.md)
 - [mastering-bitcoin-cash-chapter-5-4](mastering-bitcoin-cash-chapter-5-4.md)

@@ -11,8 +11,8 @@
 ## Concept Overview
 A "root of trust" is a trusted core that serves as the foundation for an entire security system. In traditional architectures, security is extended outward in concentric circles, where each layer relies on the integrity of a more trusted inner layer via signatures and encryption (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_4.md).
 
-## Root of Trust in [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md)
-[[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) replaces centralized trusted cores with a decentralized consensus system. The root of trust in [BCH](bitcoin-cash.md) is the [genesis-block](genesis-block.md). By verifying the chain of blocks from the genesis block to the current tip, users can establish a trusted public ledger without needing to trust a third party (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_4.md).
+## Root of Trust in [bitcoin-cash](bitcoin-cash.md)
+[bitcoin-cash](bitcoin-cash.md) replaces centralized trusted cores with a decentralized consensus system. The root of trust in [BCH](bitcoin-cash.md) is the [genesis-block](genesis-block.md). By verifying the chain of blocks from the genesis block to the current tip, users can establish a trusted public ledger without needing to trust a third party (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_4.md).
 
 ## Implementation Guideline
 When designing [BCH](bitcoin-cash.md) applications, the [blockchain](blockchain.md) itself should be used as the root of trust. Trust should only be placed in a fully validated [blockchain](blockchain.md) rather than in peripheral software components (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_4.md).

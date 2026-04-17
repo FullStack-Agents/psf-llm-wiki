@@ -1,6 +1,6 @@
 # Standard Transaction Types
 
-**Summary**: The categorized set of transaction types accepted by the reference [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) client.
+**Summary**: The categorized set of transaction types accepted by the reference [bitcoin-cash](bitcoin-cash.md) client.
 
 **Sources**: mastering-bitcoin-cash_transactions_9.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-[[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) defines five standard transaction types to manage different spending conditions and use cases (source: mastering-bitcoin-cash_transactions_9.md).
+[bitcoin-cash](bitcoin-cash.md) defines five standard transaction types to manage different spending conditions and use cases (source: mastering-bitcoin-cash_transactions_9.md).
 
 ### Summary Table
 

@@ -52,5 +52,5 @@ The [Cash Stack](cash-stack-layers.md) consists of multiple interdependent servi
 - [bchn-full-node](bchn-full-node.md)
 - [fulcrum-indexer](fulcrum-indexer.md)
 - [slp-token-indexer](slp-token-indexer.md)
-- [psf-bch-api]([psf-bch-api](psf-bch-api.md).md)
+- [psf-bch-api](psf-bch-api.md)
 - [cash-stack-layers](cash-stack-layers.md)

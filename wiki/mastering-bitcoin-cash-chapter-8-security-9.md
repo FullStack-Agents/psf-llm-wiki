@@ -1,6 +1,6 @@
-# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 8 Security 9
+# Mastering [bitcoin-cash](bitcoin-cash.md) Chapter 8 Security 9
 
-**Summary**: Overview of multi-signature security for high-value [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) storage, emphasizing key distribution and corporate security policies.
+**Summary**: Overview of multi-signature security for high-value [bitcoin-cash](bitcoin-cash.md) storage, emphasizing key distribution and corporate security policies.
 
 **Sources**: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_9.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-For individuals or organizations managing large quantities of [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md), multi-signature addresses offer a high level of protection by requiring multiple private keys to authorize any transaction (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_9.md).
+For individuals or organizations managing large quantities of [bitcoin-cash](bitcoin-cash.md), multi-signature addresses offer a high level of protection by requiring multiple private keys to authorize any transaction (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_9.md).
 
 ## Corporate Security Policies
 In corporate settings, keys should be generated independently and held by different executives. This prevents a single point of failure or compromise by any one individual (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_9.md).

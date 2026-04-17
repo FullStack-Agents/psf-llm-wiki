@@ -1,6 +1,6 @@
 # [blockchain](blockchain.md) Ledger
 
-**Summary**: The global record of all transactions in the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network.
+**Summary**: The global record of all transactions in the [bitcoin-cash](bitcoin-cash.md) network.
 
 **Sources**: mastering-bitcoin-cash_transactions_1.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-The [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) [blockchain](blockchain.md) functions as a global double-entry bookkeeping ledger (source: mastering-bitcoin-cash_transactions_1.md), where each transaction becomes a public entry.
+The [bitcoin-cash](bitcoin-cash.md) [blockchain](blockchain.md) functions as a global double-entry bookkeeping ledger (source: mastering-bitcoin-cash_transactions_1.md), where each transaction becomes a public entry.
 
 ## Related pages
 

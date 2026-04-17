@@ -1,6 +1,6 @@
 # Transaction Fees
 
-**Summary**: The mechanism for compensating miners and preventing spam in [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md).
+**Summary**: The mechanism for compensating miners and preventing spam in [bitcoin-cash](bitcoin-cash.md).
 
 **Sources**: mastering-bitcoin-cash_transactions_6.md
 

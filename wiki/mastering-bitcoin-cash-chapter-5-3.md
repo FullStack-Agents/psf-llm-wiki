@@ -1,6 +1,6 @@
-# Mastering [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Chapter 5 Part 3
+# Mastering [bitcoin-cash](bitcoin-cash.md) Chapter 5 Part 3
 
-**Summary**: Detailed explanation of the network discovery process, handshake protocol, and peer discovery mechanisms in [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md).
+**Summary**: Detailed explanation of the network discovery process, handshake protocol, and peer discovery mechanisms in [bitcoin-cash](bitcoin-cash.md).
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_3.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-When a new node joins the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network, it must discover existing peers to participate. The geographic location of nodes is irrelevant to the network topology (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_3.md).
+When a new node joins the [bitcoin-cash](bitcoin-cash.md) network, it must discover existing peers to participate. The geographic location of nodes is irrelevant to the network topology (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_3.md).
 
 ## The Handshake Process
 
@@ -26,7 +26,7 @@ The peer acknowledges the connection with a `verack` (version acknowledgment) me
 ## Peer Discovery Mechanisms
 
 Nodes locate peers using several methods:
-1. **DNS Seeds**: DNS servers that provide lists of known [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) node IP addresses (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_3.md).
+1. **DNS Seeds**: DNS servers that provide lists of known [bitcoin-cash](bitcoin-cash.md) node IP addresses (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_3.md).
 2. **Direct IP Specification**: Manually specifying a known node's IP [address](addresses.md) (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_3.md).
 3. **addr Messages**: After connecting, nodes send `addr` messages containing their IP to neighbors, who forward them.
 4. **getaddr Messages**: Nodes can request the IP addresses of other peers from their connected neighbors to expand their peer list (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_3.md).

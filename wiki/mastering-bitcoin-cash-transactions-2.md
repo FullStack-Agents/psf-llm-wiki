@@ -1,6 +1,6 @@
 # mastering-bitcoin-cash-transactions-2
 
-**Summary**: Details on the creation and broadcasting process of [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) transactions, including the role of digital signatures and network propagation.
+**Summary**: Details on the creation and broadcasting process of [bitcoin-cash](bitcoin-cash.md) transactions, including the role of digital signatures and network propagation.
 
 **Sources**: mastering-bitcoin-cash_transactions_2.md
 
@@ -16,7 +16,7 @@ To become valid, a transaction must be signed by the owner(s) of the source fund
 
 ## Broadcasting and Propagation
 
-Broadcasting involves delivering a transaction to any [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) node for propagation and inclusion in the [blockchain](blockchain.md) (source: mastering-bitcoin-cash_transactions_2.md). 
+Broadcasting involves delivering a transaction to any [bitcoin-cash](bitcoin-cash.md) node for propagation and inclusion in the [blockchain](blockchain.md) (source: mastering-bitcoin-cash_transactions_2.md). 
 
 Because transactions are signed and contain no confidential information, they can be transmitted via any network:
 - WiFi

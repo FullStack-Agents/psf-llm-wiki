@@ -24,7 +24,7 @@ The value of SLP's loose coupling is evident when compared to historical token p
 ## Advantages of SLP
 
 ### 1. Reduced Platform Risk
-Because it is loosely coupled, SLP can be adapted to any [blockchain](blockchain.md) that supports a text field in transactions (e.g., [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md), eCash, Nexa, Radiant, AVAX X-chain, Qortal). This allows businesses to migrate their token ecosystem to a different [blockchain](blockchain.md) if the current platform becomes hostile or too expensive (source: why-slp.md).
+Because it is loosely coupled, SLP can be adapted to any [blockchain](blockchain.md) that supports a text field in transactions (e.g., [bitcoin-cash](bitcoin-cash.md), eCash, Nexa, Radiant, AVAX X-chain, Qortal). This allows businesses to migrate their token ecosystem to a different [blockchain](blockchain.md) if the current platform becomes hostile or too expensive (source: why-slp.md).
 
 ### 2. Mature Ecosystem
 Despite the risk of accidental token burning (which CashTokens avoids through miner validation), SLP has a mature infrastructure. Open-source tools like `[minimal-slp-wallet](minimal-slp-wallet.md)` and the PSF web wallet provide stable implementations that have functioned without significant burning issues for years (source: why-slp.md).

@@ -1,6 +1,6 @@
-# [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) Network
+# [bitcoin-cash](bitcoin-cash.md) Network
 
-**Summary**: The communication infrastructure of [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md), comprising the P2P network and extended protocols.
+**Summary**: The communication infrastructure of [bitcoin-cash](bitcoin-cash.md), comprising the P2P network and extended protocols.
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_1.md
 
@@ -21,7 +21,7 @@ The network consists of various node roles:
 - **Edge Routers**: Full nodes used by enterprises (exchanges, merchants) to facilitate service integration without mining or wallets (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md).
 
 ### Extended Network
-The "extended [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network" includes:
+The "extended [bitcoin-cash](bitcoin-cash.md) network" includes:
 - The primary P2P protocol.
 - **Stratum**: A protocol supporting mining and lightweight mobile wallets.
 - **Gateway Routing Servers**: Components that bridge the P2P network with extended protocols like Stratum (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_1.md).

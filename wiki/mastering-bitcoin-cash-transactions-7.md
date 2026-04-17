@@ -1,6 +1,6 @@
 # mastering-bitcoin-cash-transactions-7
 
-**Summary**: Explanation of transaction chaining, parent-child relationships, and the handling of orphan transactions in the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) network.
+**Summary**: Explanation of transaction chaining, parent-child relationships, and the handling of orphan transactions in the [bitcoin-cash](bitcoin-cash.md) network.
 
 **Sources**: mastering-bitcoin-cash_transactions_7.md
 
@@ -10,7 +10,7 @@
 
 ## Transaction Chaining
 
-Transactions in [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) form chains. A transaction that spends the outputs of a previous transaction is considered a **child**, while the transaction whose outputs are being spent is the **parent** (source: mastering-bitcoin-cash_transactions_7.md). 
+Transactions in [bitcoin-cash](bitcoin-cash.md) form chains. A transaction that spends the outputs of a previous transaction is considered a **child**, while the transaction whose outputs are being spent is the **parent** (source: mastering-bitcoin-cash_transactions_7.md). 
 
 In some cases, entire chains of interdependent transactions can be created simultaneously to support complex workflows (source: mastering-bitcoin-cash_transactions_7.md).
 

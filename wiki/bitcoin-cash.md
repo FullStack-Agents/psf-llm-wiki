@@ -12,7 +12,7 @@
 - Money transfer (source: intro.md).
 - Tokenization to create NFTs and fungible tokens (source: intro.md).
 
-While the focus is currently on BCH, the infrastructure may expand to others like eCash (XEC), AVAX X-Chain, and other [[utxo](utxo.md)](utxo.md)-based [blockchain](blockchain.md)s (source: intro.md).
+While the focus is currently on BCH, the infrastructure may expand to others like eCash (XEC), AVAX X-Chain, and other [utxo](utxo.md)-based [blockchain](blockchain.md)s (source: intro.md).
 
 ## Related pages
 

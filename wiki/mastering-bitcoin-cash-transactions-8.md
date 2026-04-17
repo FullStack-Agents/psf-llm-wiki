@@ -1,6 +1,6 @@
 # mastering-bitcoin-cash-transactions-8
 
-**Summary**: Introduction to the [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) transaction script language, its stack-based nature, and the intentional limitations placed on its design.
+**Summary**: Introduction to the [bitcoin-cash](bitcoin-cash.md) transaction script language, its stack-based nature, and the intentional limitations placed on its design.
 
 **Sources**: mastering-bitcoin-cash_transactions_8.md
 
@@ -10,9 +10,9 @@
 
 ## The Script Language
 
-[[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) utilizes a specific scripting system for all transactions. The language is **stack-based** and resembles **Forth**, designed specifically to be limited in scope and capable of running on simple hardware (source: mastering-bitcoin-cash_transactions_8.md).
+[bitcoin-cash](bitcoin-cash.md) utilizes a specific scripting system for all transactions. The language is **stack-based** and resembles **Forth**, designed specifically to be limited in scope and capable of running on simple hardware (source: mastering-bitcoin-cash_transactions_8.md).
 
-This language is used to write both the **locking script** (the encumbrance on a [[utxo](utxo.md)](utxo.md)) and the **unlocking script** used to spend that [[utxo](utxo.md)](utxo.md).
+This language is used to write both the **locking script** (the encumbrance on a [utxo](utxo.md)) and the **unlocking script** used to spend that [utxo](utxo.md).
 
 ## Execution Process
 

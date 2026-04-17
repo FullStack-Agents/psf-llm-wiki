@@ -14,10 +14,10 @@
 Within the [Cash Stack](cash-stack-layers.md), `bch-consumer` sits at the **Interface Library** layer. It is specifically used when `[minimal-slp-wallet](minimal-slp-wallet.md)` is configured with the `consumer-api` interface to communicate with `ipfs-bch-wallet-consumer` via JSON RPC (source: [minimal-slp-wallet](minimal-slp-wallet.md).md).
 
 ### Comparison with [bch-js](bch-js.md)
-While [bch-js]([bch-js](bch-js.md).md) is used for REST API interactions (Web 2), `bch-consumer` is the corresponding interface for the Web 3 (IPFS-based) back end (source: [minimal-slp-wallet](minimal-slp-wallet.md).md).
+While [bch-js](bch-js.md) is used for REST API interactions (Web 2), `bch-consumer` is the corresponding interface for the Web 3 (IPFS-based) back end (source: [minimal-slp-wallet](minimal-slp-wallet.md).md).
 
 ## Related pages
-- [minimal-slp-wallet]([minimal-slp-wallet](minimal-slp-wallet.md).md)
+- [minimal-slp-wallet](minimal-slp-wallet.md)
 - [ipfs-bch-wallet-consumer](ipfs-bch-wallet-consumer.md)
 - [cash-stack-layers](cash-stack-layers.md)
-- [bch-js]([bch-js](bch-js.md).md)
+- [bch-js](bch-js.md)

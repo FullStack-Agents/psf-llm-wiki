@@ -1,6 +1,6 @@
 # mastering-bitcoin-cash-chapter-2-how-bitcoin-cash-works-11
 
-**Summary**: This document explains the double-entry bookkeeping model used by [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) to manage transactions and ensure the conservation of value.
+**Summary**: This document explains the double-entry bookkeeping model used by [bitcoin-cash](bitcoin-cash.md) to manage transactions and ensure the conservation of value.
 
 **Sources**: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_11.md
 
@@ -8,7 +8,7 @@
 
 ---
 
-This source describes how [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) implements a distributed double-entry bookkeeping system. It emphasizes that funds are moved from inputs (debits) to outputs (credits), and that the total must balance, accounting for transaction fees.
+This source describes how [bitcoin-cash](bitcoin-cash.md) implements a distributed double-entry bookkeeping system. It emphasizes that funds are moved from inputs (debits) to outputs (credits), and that the total must balance, accounting for transaction fees.
 
 Key concepts include the role of [coinbase-transaction](coinbase-transaction.md) in minting new coins and the overall [auditability](auditability.md) provided by the transparent ledger.
 

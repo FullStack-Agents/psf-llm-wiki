@@ -1,6 +1,6 @@
 # mastering-bitcoin-cash-transactions-5
 
-**Summary**: Detailed breakdown of the structure of transaction inputs and outputs in [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md).
+**Summary**: Detailed breakdown of the structure of transaction inputs and outputs in [bitcoin-cash](bitcoin-cash.md).
 
 **Sources**: mastering-bitcoin-cash_transactions_5.md
 
@@ -15,7 +15,7 @@ A transaction output defines how much value is being transferred and the conditi
 ### Output Structure
 | Size | Field | Description |
 | :--- | :--- | :--- |
-| 8 bytes | Amount | [[bitcoin-cash](bitcoin-cash.md)](bitcoin-cash.md) value in satoshis (10^8 [BCH](bitcoin-cash.md)) |
+| 8 bytes | Amount | [bitcoin-cash](bitcoin-cash.md) value in satoshis (10^8 [BCH](bitcoin-cash.md)) |
 | 1–9 bytes (VarInt) | Locking-Script Size | Length of the following locking script in bytes |
 | Variable | Locking-Script | A script defining the conditions needed to spend the output |
 
@@ -23,13 +23,13 @@ A transaction output defines how much value is being transferred and the conditi
 
 ## Transaction Inputs
 
-Transaction inputs act as pointers to [utxo](utxo.md)s being spent. They reference specific [utxo](utxo.md)s using a transaction hash and an output index (source: mastering-bitcoin-cash_transactions_5.md). To successfully spend a [[utxo](utxo.md)](utxo.md), the input must provide an unlocking script that satisfies the requirements of the [[utxo](utxo.md)](utxo.md)'s locking script (source: mastering-bitcoin-cash_transactions_5.md).
+Transaction inputs act as pointers to [utxo](utxo.md)s being spent. They reference specific [utxo](utxo.md)s using a transaction hash and an output index (source: mastering-bitcoin-cash_transactions_5.md). To successfully spend a [utxo](utxo.md), the input must provide an unlocking script that satisfies the requirements of the [utxo](utxo.md)'s locking script (source: mastering-bitcoin-cash_transactions_5.md).
 
 ### Input Structure
 | Size | Field | Description |
 | :--- | :--- | :--- |
-| 32 bytes | Transaction Hash | Pointer to the transaction containing the [[utxo](utxo.md)](utxo.md) |
-| 4 bytes | Output Index | The index of the [[utxo](utxo.md)](utxo.md) to be spent (starts at 0) |
+| 32 bytes | Transaction Hash | Pointer to the transaction containing the [utxo](utxo.md) |
+| 4 bytes | Output Index | The index of the [utxo](utxo.md) to be spent (starts at 0) |
 | 1-9 bytes (VarInt) | Unlocking-Script Size | Length of the following unlocking script in bytes |
 | Variable | Unlocking-Script | A script that fulfills the conditions of the locking script |
 | 4 bytes | Sequence Number | Set to 0xFFFFFFFF (Tx-replacement feature currently disabled) |

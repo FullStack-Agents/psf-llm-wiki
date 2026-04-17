@@ -34,6 +34,6 @@ Once fully synced and running at the chain tip, it is recommended to set `EXIT_O
 
 - [bchn-full-node](bchn-full-node.md)
 - [fulcrum-indexer](fulcrum-indexer.md)
-- [psf-bch-api]([psf-bch-api](psf-bch-api.md).md)
+- [psf-bch-api](psf-bch-api.md)
 - [cash-stack-layers](cash-stack-layers.md)
 - [permissionless-software-foundation](permissionless-software-foundation.md)
