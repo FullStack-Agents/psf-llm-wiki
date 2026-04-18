@@ -137,6 +137,10 @@
 - [root-of-trust](root-of-trust.md): The foundational security principle where trust is placed in the smallest and least complex part of a system to ensure overall integrity.
 - [sha-256](sha-256.md): A cryptographic hash function used by [bitcoin-cash](bitcoin-cash.md) for proof-of-work and block hashing.
 - [simplified-payment-verification](simplified-payment-verification.md): A lightweight method for verifying transactions without needing the full [blockchain](blockchain.md)'s transaction data.
+- [slp-intro](slp-intro.md): Introduction to the Simple Ledger Protocol (SLP), covering token types (fungible and non-fungible), the protocol's design philosophy of loose coupling, and its distinct address format.
+- [simple-fungible-tokens](simple-fungible-tokens.md): A practical guide to creating and managing fungible SLP tokens using the `psf-slp-wallet` command-line interface (CLI).
+- [fungible-with-data](fungible-with-data.md): An advanced guide to creating SLP fungible tokens with rich metadata, utilizing Mutable Data Addresses (MDA) and IPFS for storing token icons and dynamic information.
+- [slp-data](slp-data.md): Overview of how data is attached to SLP tokens, distinguishing between mutable, immutable, and genesis data, and detailing the specifications and hosting mechanisms used.
 - [simple-ledger-protocol](simple-ledger-protocol.md): A token system for the Bitcoin Cash network based on a "colored coins" design, allowing the creation, issuance, and transfer of digital tokens utilizing the BCH blockchain as a public ledger.
 - [slp-genesis](slp-genesis.md): Detailed specification of the SLP Genesis transaction, defining token lauch properties, metadata, and initial supply.
 - [slp-mint](slp-mint.md): Detailed specification of the SLP MINT transaction, used to increase the token supply.
