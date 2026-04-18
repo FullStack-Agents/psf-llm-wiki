@@ -17,7 +17,7 @@ To ensure fund availability for heirs, users with significant holdings should im
 - **Basic Sharing**: Share access details with trusted relatives or specialized legal professionals (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_10.md).
 - **Advanced Arrangements**: Implement multi-signature setups with designated "digital asset executors" who can assist in recovering funds when necessary (source: mastering-bitcoin-cash_chapter-8-bitcoin-cash-security_10.md).
 
-This balanced approach ensures that funds remain secure during the user's lifetime while providing a legitimate path for相続 (inheritance) afterward.
+This balanced approach ensures that funds remain secure during the user's lifetime while providing a legitimate path for inheritance afterward.
 
 ## Related pages
 
