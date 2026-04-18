@@ -2,67 +2,69 @@
 
 **Summary**: Table of contents for the PSF LLM Wiki.
 
-**Last updated**: 2026-04-17
+**Last updated**: 2026-04-18
 
 ---
 
 ## Pages
 
-- [hash](hash.md): Comprehensive overview of hashing algorithms used in the Bitcoin Cash protocol, including SHA-256, RIPEMD-160, and MurmurHash.
-- [bitcoin-cash](bitcoin-cash.md): The primary [blockchain](blockchain.md) used by the [Cash Stack](cash-stack-layers.md) for money transfer and as the basis for tokenization and other web3 primitives.
-- [blockchain](blockchain.md): A public transaction ledger that records all transactions and prevents double-spending.
-- [utxo](utxo.md): Unspent Transaction Output; the fundamental unit of currency in [bitcoin-cash](bitcoin-cash.md).
+- [acquiring-bch](acquiring-bch.md): The various methods available for new users to obtain [bitcoin-cash](bitcoin-cash.md), ranging from free faucets to peer-to-peer exchanges.
+- [addresses](addresses.md): The alphanumeric strings used as identifiers for receiving [bitcoin-cash](bitcoin-cash.md). A [bitcoin-cash](bitcoin-cash.md) address functions as a digital fingerprint of a public key and serves as the beneficiary name on a transaction (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
+- [asic](asic.md): Application-Specific Integrated Circuits designed specifically for mining [bitcoin-cash](bitcoin-cash.md).
+- [auditability](auditability.md): The ability to trace the history of funds on the [bitcoin-cash](bitcoin-cash.md) [blockchain](blockchain.md) while maintaining user pseudonymity.
+- [bch-consumer](bch-consumer.md): A JavaScript library that provides a JSON RPC interface for interacting with the `ipfs-bch-wallet-consumer` back end.
+- [bch-js](bch-js.md): A JavaScript npm library for building web and mobile applications that interact with the [bitcoin-cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)) [blockchain](blockchain.md). It serves as the Interface Library layer in the [Cash Stack](cash-stack-layers.md).
 - [bch-network-resilience](bch-network-resilience.md): Analysis of the mechanisms that ensure the stability and availability of the [bitcoin-cash](bitcoin-cash.md) P2P network.
 - [bch-node-configuration](bch-node-configuration.md): Configuration options for controlling the behavior of a [bitcoin-cash](bitcoin-cash.md) node.
 - [bch-peer-management](bch-peer-management.md): How [bitcoin-cash](bitcoin-cash.md) nodes discover, maintain, and bootstrap connections to other peers.
+- [bchjs-network-commands](bchjs-network-commands.md): Documentation of network-related commands available in bchjs.
+- [bchn-full-node](bchn-full-node.md): The base layer of the [Cash Stack](cash-stack-layers.md), providing the essential [blockchain](blockchain.md) node software that validates transactions and blocks on the [bitcoin-cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)) network.
 - [base58check](base58check.md): A Base58 encoding format used in Bitcoin Cash to unambiguously encode data types via version bytes and ensure data integrity through a checksum.
-- [cashaddr](cashaddr.md): A Base32 encoding format used in Bitcoin Cash to provide a human-readable, error-resistant way to represent addresses and distinguish them from Bitcoin (BTC) addresses.
-- [addresses](addresses.md): The alphanumeric strings used as identifiers for receiving [bitcoin-cash](bitcoin-cash.md). A [bitcoin-cash](bitcoin-cash.md) address functions as a digital fingerprint of a public key and serves as the beneficiary name on a transaction (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
-- [transaction-ordering](transaction-ordering.md): Describes the rules governing the sequence of transactions within a block, transitioning from topological ordering to the current canonical lexicographical ordering.
-- [block-header](block-header.md): A fixed-width summary of a block used for identity, proof-of-work verification, and blockchain sequencing.
-- [block](block.md): A collection of transactions bundled together and committed to the blockchain, including the coinbase transaction and block header details.
-- [locking-script](locking-script.md): A script that defines the conditions under which funds in a Bitcoin Cash output can be spent.
-- [signatures](signatures.md): Cryptographic proofs generated using a private key to authorize the spending of funds in a Bitcoin Cash transaction.
-- [transaction-signing](transaction-signing.md): Overview of how Bitcoin Cash transactions are secured using asymmetric cryptography, including hash types, signature preimages, and the difference between ECDSA and Schnorr signatures.
-- [clients](clients.md): The different types of software implementations used to interact with the [bitcoin-cash](bitcoin-cash.md) network, varying by the level of control and trust.
+- [bitcoin-cash](bitcoin-cash.md): The primary [blockchain](blockchain.md) used by the [Cash Stack](cash-stack-layers.md) for money transfer and as the basis for tokenization and other web3 primitives.
 - [bitcoin-cash-network](bitcoin-cash-network.md): The communication infrastructure of [bitcoin-cash](bitcoin-cash.md), comprising the P2P network and extended protocols.
 - [bitcoin-cash-transactions](bitcoin-cash-transactions.md): Overview of how value is transferred on the [bitcoin-cash](bitcoin-cash.md) network.
-- [use-cases](use-cases.md): Examples of how [bitcoin-cash](bitcoin-cash.md) is utilized in retail, high-value trade, international payments, charity, and mining.
+- [blockchain](blockchain.md): A public transaction ledger that records all transactions and prevents double-spending.
 - [blockchain-data-structure](blockchain-data-structure.md): The fundamental organization of the [blockchain](blockchain.md) as a linked list of blocks.
 - [blockchain-explorers](blockchain-explorers.md): Web-based applications that provide a user-friendly interface to search and verify data on the [bitcoin-cash](bitcoin-cash.md) [blockchain](blockchain.md).
 - [blockchain-fork](blockchain-fork.md): A situation where different miners discover blocks simultaneously, temporarily creating multiple competing paths for the [blockchain](blockchain.md).
 - [blockchain-ledger](blockchain-ledger.md): The global record of all transactions in the [bitcoin-cash](bitcoin-cash.md) network.
 - [blockchain-synchronization](blockchain-synchronization.md): The process by which a full node downloads and verifies missing blocks to catch up with the current state of the [bitcoin-cash](bitcoin-cash.md) network.
-- [acquiring-bch](acquiring-bch.md): The various methods available for new users to obtain [bitcoin-cash](bitcoin-cash.md), ranging from free faucets to peer-to-peer exchanges.
-- [asic](asic.md): Application-Specific Integrated Circuits designed specifically for mining [bitcoin-cash](bitcoin-cash.md).
-- [auditability](auditability.md): The ability to trace the history of funds on the [bitcoin-cash](bitcoin-cash.md) [blockchain](blockchain.md) while maintaining user pseudonymity.
-- [bch-consumer](bch-consumer.md): A JavaScript library that provides a JSON RPC interface for interacting with the `ipfs-bch-wallet-consumer` back end.
-- [bch-js](bch-js.md): A JavaScript npm library for building web and mobile applications that interact with the [bitcoin-cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)) [blockchain](blockchain.md). It serves as the Interface Library layer in the [Cash Stack](cash-stack-layers.md).
-- [bchjs-network-commands](bchjs-network-commands.md): Documentation of network-related commands available in bchjs.
-- [bchn-full-node](bchn-full-node.md): The base layer of the [Cash Stack](cash-stack-layers.md), providing the essential [blockchain](blockchain.md) node software that validates transactions and blocks on the [bitcoin-cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)) network.
+- [block](block.md): A collection of transactions bundled together and committed to the blockchain, including the coinbase transaction and block header details.
+- [block-header](block-header.md): A fixed-width summary of a block used for identity, proof-of-work verification, and blockchain sequencing.
+- [block-level-validation-rules](block-level-validation-rules.md): Overview of the absolute consensus rules that define what transactions and blocks are permitted in the Bitcoin Cash blockchain, contrasting with network-level "standardness" rules.
 - [bloom-filters](bloom-filters.md): A probabilistic data structure used by SPV nodes to retrieve transactions while maintaining the privacy of the node's wallet addresses.
 - [byzantine-generals-problem](byzantine-generals-problem.md): A classic problem in distributed computing regarding how to achieve consensus in a network with potentially unreliable participants.
+- [cashaddr](cashaddr.md): A Base32 encoding format used in Bitcoin Cash to provide a human-readable, error-resistant way to represent addresses and distinguish them from Bitcoin (BTC) addresses.
 - [cash-stack-layers](cash-stack-layers.md): The layered architecture of the Cash Stack, inspired by the OSI model, focusing on the path data travels between an app and the [blockchain](blockchain.md).
 - [cash-stack-ports](cash-stack-ports.md): A comprehensive reference of the default network ports used by the various components of the [Cash Stack](cash-stack-layers.md) infrastructure.
+- [cashtoken-rationale](cashtoken-rationale.md): Documentation of the design decisions and trade-offs behind the CashTokens specification.
+- [cashtokens](cashtokens.md): Overview of the built-in CashTokens system on Bitcoin Cash, enabling fungible and non-fungible assets and contract-to-contract communication.
+- [cashtokens-intro](cashtokens-intro.md): Introduction to CashTokens, covering token types, dApp scalability, and opt-in support.
+- [cashtokens-spec](cashtokens-spec.md): Technical specification for Token Primitives, covering encoding, validation, and new VM opcodes.
 - [circuit-relays](circuit-relays.md): A mechanism in libp2p and IPFS that allows nodes behind firewalls or NATs to communicate by routing traffic through a public relay node.
+- [clients](clients.md): The different types of software implementations used to interact with the [bitcoin-cash](bitcoin-cash.md) network, varying by the level of control and trust.
 - [coinbase-transaction](coinbase-transaction.md): A special type of transaction that creates new [bitcoin-cash](bitcoin-cash.md) coins.
 - [cold-storage](cold-storage.md): The practice of keeping cryptocurrency private keys completely offline to protect them from digital attacks and unauthorized access.
 - [decentralization](decentralization.md): The architectural principle of operating a system without central servers or controlling authorities.
 - [decentralized-file-hosting](decentralized-file-hosting.md): Overview of decentralized file hosting using the PSF File Pinning Protocol (PSFFPP) and IPFS, bridging the Bitcoin Cash ledger with distributed storage.
 - [decentralized-file-storage](decentralized-file-storage.md): Concept page focusing on the technical and architectural aspects of decentralized storage, primarily using IPFS and the Cash Stack.
 - [digital-wallets](digital-wallets.md): Software or hardware used to store cryptographic keys for managing [bitcoin-cash](bitcoin-cash.md) and managing the construction of transactions.
+- [difficulty-adjustment-algorithm](difficulty-adjustment-algorithm.md): The mechanism used by Bitcoin Cash to adjust the mining target and difficulty to maintain a consistent average block time of 10 minutes regardless of changes in network hashing power.
 - [double-entry-bookkeeping](double-entry-bookkeeping.md): The accounting model used by [bitcoin-cash](bitcoin-cash.md) to ensure the integrity and conservation of coins during transfers.
 - [double-spending](double-spending.md): The challenge of ensuring that a digital asset cannot be spent more than once.
 - [forging-and-consensus](forging-and-consensus.md): The cryptographic process of creating a valid block (forging) and the mechanism by which the network reaches consensus on the authoritative chain.
 - [fulcrum-indexer](fulcrum-indexer.md): A [blockchain](blockchain.md) indexer that functions like a search engine for the [bitcoin-cash](bitcoin-cash.md) [blockchain](blockchain.md), tracking [address](addresses.md) balances, [utxo](utxo.md)s, and transaction histories.
+- [fungible-with-data](fungible-with-data.md): An advanced guide to creating SLP fungible tokens with rich metadata, utilizing Mutable Data Addresses (MDA) and IPFS for storing token icons and dynamic information.
 - [genesis-block](genesis-block.md): The first block in a [blockchain](blockchain.md), serving as the common ancestor for all subsequent blocks.
 - [google-leveldb](google-leveldb.md): A fast key-value storage library used by Bitcoin ABC for storing the [blockchain](blockchain.md).
+- [hash](hash.md): Comprehensive overview of hashing algorithms used in the Bitcoin Cash protocol, including SHA-256, RIPEMD-160, and MurmurHash.
 - [helia-coord](helia-coord.md): A JavaScript npm library that provides coordination between IPFS nodes, enabling discovery, subnetworks, and secure communication. It serves as the networking backbone for the Cash Stack's IPFS layer.
 - [intro](intro.md): Overview of the [Cash Stack](cash-stack-layers.md) framework for building [blockchain](blockchain.md)-based applications, focusing on [bitcoin-cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)) and the goals of the Permissionless Software Foundation (PSF).
 - [ipfs-bch-wallet-consumer](ipfs-bch-wallet-consumer.md): A Web 3 back-end infrastructure component that provides a JSON RPC interface for [bitcoin-cash](bitcoin-cash.md) wallet operations, often delivered via IPFS.
 - [ipfs-bch-wallet-service](ipfs-bch-wallet-service.md): A censorship-resistant microservice that provides wallet access to the [bitcoin-cash](bitcoin-cash.md) [blockchain](blockchain.md) by proxying the HTTP-based REST API of `psf-bch-api` over an IPFS-based JSON RPC.
 - [ipfs-file-pin-service](ipfs-file-pin-service.md): An optional Cash Stack component that provides paid IPFS file pinning, implementing the PSF File Pinning Protocol (PS010) to create censorship-resistant, redundant file storage.
 - [ipfs-service-provider](ipfs-service-provider.md): A production-ready boilerplate application that wraps the `helia-coord` library in a web server, providing REST API, JSON RPC endpoints, and user management. It serves as the foundational starting point for building IPFS-based services in the Cash Stack.
+- [locking-script](locking-script.md): A script that defines the conditions under which funds in a Bitcoin Cash output can be spent.
 - [mempool](mempool.md): The local storage on a node for unconfirmed transactions awaiting inclusion in a block.
 - [merkle-root](merkle-root.md): A cryptographic hash that summarizes all transactions within a block, allowing for efficient verification.
 - [merkle-tree](merkle-tree.md): A binary hash tree used to efficiently summarize and verify large sets of data, such as transactions in a block.
@@ -70,53 +72,47 @@
 - [mining](mining.md): The process of verifying transactions and adding them to the [blockchain](blockchain.md).
 - [monetary-policy](monetary-policy.md): The predetermined rules governing the creation and total supply of [bitcoin-cash](bitcoin-cash.md).
 - [multi-signature](multi-signature.md): A security mechanism that requires multiple independent private keys to authorize a transaction, eliminating single points of failure.
-- [p2p-network-messages](p2p-network-messages.md): Detailed specifications of the binary communication protocol used by Bitcoin Cash nodes to propagate block and transaction data.
-- [node-handshake](node-handshake.md): The process by which two Bitcoin Cash nodes establish a connection and verify compatibility before exchanging blockchain data.
 - [network-communication-protocol](network-communication-protocol.md): The message-based communication system used by [bitcoin-cash](bitcoin-cash.md) nodes to propagate blocks, transactions, and headers.
 - [network-discovery](network-discovery.md): The process by which [bitcoin-cash](bitcoin-cash.md) nodes locate and connect to each other to form a P2P network.
+- [network-level-validation-rules](network-level-validation-rules.md): Overview of "standardness" rules in Bitcoin Cash, which determine whether nodes relay a transaction to their peers, contrasting with absolute consensus rules.
+- [node-handshake](node-handshake.md): The process by which two Bitcoin Cash nodes establish a connection and verify compatibility before exchanging blockchain data.
 - [orphan-transactions](orphan-transactions.md): Child transactions that arrive at a node before their parent transactions.
+- [p2p-network-messages](p2p-network-messages.md): Detailed specifications of the binary communication protocol used by Bitcoin Cash nodes to propagate block and transaction data.
 - [p2sh](p2sh.md): Pay-to-Script-Hash; a method to simplify complex transactions by using a script hash instead of the full script.
 - [permissionless-software-foundation](permissionless-software-foundation.md): The organization that maintains the [Cash Stack](cash-stack-layers.md) and works to develop software for privacy, censorship resistance, and economic freedom.
 - [private-keys](private-keys.md): Cryptographic keys used to authorize transactions and prove ownership of [bitcoin-cash](bitcoin-cash.md). Keys come in pairs: a private key (secret) and a [public key](addresses.md) (shareable). The private key acts as the control mechanism for funds, similar to a PIN or signature on a check, and is used to generate the signatures required for all transactions (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
-- [difficulty-adjustment-algorithm](difficulty-adjustment-algorithm.md): The mechanism used by Bitcoin Cash to adjust the mining target and difficulty to maintain a consistent average block time of 10 minutes regardless of changes in network hashing power.
 - [proof-of-work](proof-of-work.md): A cryptographic system used by Bitcoin Cash to secure the network, determine block production, and achieve consensus via a Hashcash-like SHA-256 algorithm.
 - [psf-bch-api](psf-bch-api.md): A REST API server written in Node.js that provides a common web2 interface for developers to build [blockchain](blockchain.md)-based business applications by abstracting underlying [blockchain](blockchain.md) infrastructure.
 - [reducing-server-costs](reducing-server-costs.md): Analysis of how the Permissionless Software Foundation (PSF) reduced recurring cloud costs by 92% (from ~$50 to ~$4/month) by transitioning from a Web 2 to a Web 3 architecture using IPFS.
 - [root-of-trust](root-of-trust.md): The foundational security principle where trust is placed in the smallest and least complex part of a system to ensure overall integrity.
 - [sha-256](sha-256.md): A cryptographic hash function used by [bitcoin-cash](bitcoin-cash.md) for proof-of-work and block hashing.
 - [simplified-payment-verification](simplified-payment-verification.md): A lightweight method for verifying transactions without needing the full [blockchain](blockchain.md)'s transaction data.
-- [slp-intro](slp-intro.md): Introduction to the Simple Ledger Protocol (SLP), covering token types (fungible and non-fungible), the protocol's design philosophy of loose coupling, and its distinct address format.
+- [signatures](signatures.md): Cryptographic proofs generated using a private key to authorize the spending of funds in a Bitcoin Cash transaction.
 - [simple-fungible-tokens](simple-fungible-tokens.md): A practical guide to creating and managing fungible SLP tokens using the `psf-slp-wallet` command-line interface (CLI).
-- [fungible-with-data](fungible-with-data.md): An advanced guide to creating SLP fungible tokens with rich metadata, utilizing Mutable Data Addresses (MDA) and IPFS for storing token icons and dynamic information.
-- [slp-data](slp-data.md): Overview of how data is attached to SLP tokens, distinguishing between mutable, immutable, and genesis data, and detailing the specifications and hosting mechanisms used.
 - [simple-ledger-protocol](simple-ledger-protocol.md): A token system for the Bitcoin Cash network based on a "colored coins" design, allowing the creation, issuance, and transfer of digital tokens utilizing the BCH blockchain as a public ledger.
+- [slp-data](slp-data.md): Overview of how data is attached to SLP tokens, distinguishing between mutable, immutable, and genesis data, and detailing the specifications and hosting mechanisms used.
 - [slp-genesis](slp-genesis.md): Detailed specification of the SLP Genesis transaction, defining token lauch properties, metadata, and initial supply.
+- [slp-intro](slp-intro.md): Introduction to the Simple Ledger Protocol (SLP), covering token types (fungible and non-fungible), the protocol's design philosophy of loose coupling, and its distinct address format.
 - [slp-mint](slp-mint.md): Detailed specification of the SLP MINT transaction, used to increase the token supply.
-- [slp-send](slp-send.md): Detailed specification of the SLP SEND transaction, used for transferring tokens between addresses.
-- [slp-token-indexer](slp-token-indexer.md): A [blockchain](blockchain.md) indexer that tracks [SLP](simple-ledger-protocol.md) token transactions according to Type 1 and NFT1 specifications, providing the necessary data for token-related operations in the [Cash Stack](cash-stack-layers.md).
 - [slp-nft-1](slp-nft-1.md): Specification for the NFT1 protocol, an extension of SLP Token Type 1 that enables "grouped NFTs" by allowing multiple individual NFT child tokens to be associated with a single Group ID.
 - [slp-postage-protocol](slp-postage-protocol.md): Specification for the Simple Ledger Postage Protocol, allowing SLP token senders to pay for transaction fees using SLP tokens instead of native BCH.
+- [slp-send](slp-send.md): Detailed specification of the SLP SEND transaction, used for transferring tokens between addresses.
+- [slp-token-indexer](slp-token-indexer.md): A [blockchain](blockchain.md) indexer that tracks [SLP](simple-ledger-protocol.md) token transactions according to Type 1 and NFT1 specifications, providing the necessary data for token-related operations in the [Cash Stack](cash-stack-layers.md).
 - [slp-token-type-1](slp-token-type-1.md): Detailed specification of the SLP Permissionless Token Type (Type 1), covering its transaction formats (GENESIS, MINT, SEND, COMMIT), consensus rules, and validation security models.
 - [standard-transaction-types](standard-transaction-types.md): The categorized set of transaction types accepted by the reference [bitcoin-cash](bitcoin-cash.md) client.
 - [technical-architecture](technical-architecture.md): The overarching structural design of [bitcoin-cash](bitcoin-cash.md) that integrates the [blockchain](blockchain.md), consensus mechanisms, and cryptographic verification to create a robust, decentralized currency.
+- [token-examples](token-examples.md): High-level usage examples of CashTokens, including identity tokens, sealed voting, and multithreaded covenants.
 - [transaction-anatomy](transaction-anatomy.md): The structural composition of [bitcoin-cash](bitcoin-cash.md) transactions, including inputs, outputs, cryptographic signatures, and different transaction types.
 - [transaction-broadcasting](transaction-broadcasting.md): The process of transmitting a signed transaction to the [bitcoin-cash](bitcoin-cash.md) network.
 - [transaction-chaining](transaction-chaining.md): The relationship between parent and child transactions in [bitcoin-cash](bitcoin-cash.md).
 - [transaction-fees](transaction-fees.md): The mechanism for compensating miners and preventing spam in [bitcoin-cash](bitcoin-cash.md).
 - [transaction-locktime](transaction-locktime.md): The mechanism used to delay the validity of a [bitcoin-cash](bitcoin-cash.md) transaction.
+- [transaction-ordering](transaction-ordering.md): Describes the rules governing the sequence of transactions within a block, transitioning from topological ordering to the current canonical lexicographical ordering.
 - [transaction-pools](transaction-pools.md): The temporary storage mechanisms (mempools and orphan pools) used by nodes to manage unconfirmed transactions.
 - [transaction-process](transaction-process.md): The mechanism by which [bitcoin-cash](bitcoin-cash.md) is transferred from sender to recipient, including signing, propagation, and confirmation.
-- [script](script.md): A detailed technical overview of the Bitcoin Cash scripting language, its execution model, validation rules, and a comprehensive list of operation codes (opcodes).
 - [transaction-scripts](transaction-scripts.md): The locking and unlocking scripts used to secure and spend [bitcoin-cash](bitcoin-cash.md) outputs.
-- [block-level-validation-rules](block-level-validation-rules.md): Overview of the absolute consensus rules that define what transactions and blocks are permitted in the Bitcoin Cash blockchain, contrasting with network-level "standardness" rules.
-- [network-level-validation-rules](network-level-validation-rules.md): Overview of "standardness" rules in Bitcoin Cash, which determine whether nodes relay a transaction to their peers, contrasting with absolute consensus rules.
+- [transaction-signing](transaction-signing.md): Overview of how Bitcoin Cash transactions are secured using asymmetric cryptography, including hash types, signature preimages, and the difference between ECDSA and Schnorr signatures.
 - [transaction-validation](transaction-validation.md): Overview of the transaction validation process in Bitcoin Cash, categorized by script execution, block-level rules, and network-level rules.
-
-
-
+- [use-cases](use-cases.md): Examples of how [bitcoin-cash](bitcoin-cash.md) is utilized in retail, high-value trade, international payments, charity, and mining.
+- [utxo](utxo.md): Unspent Transaction Output; the fundamental unit of currency in [bitcoin-cash](bitcoin-cash.md).
 - [x402-bch](x402-bch.md): A protocol for facilitating per-call payments for API access using [bitcoin-cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)).
-- [cashtokens](cashtokens.md): Overview of the built-in CashTokens system on Bitcoin Cash, enabling fungible and non-fungible assets and contract-to-contract communication.
-- [cashtokens-intro](cashtokens-intro.md): Introduction to CashTokens, covering token types, dApp scalability, and opt-in support.
-- [cashtokens-spec](cashtokens-spec.md): Technical specification for Token Primitives, covering encoding, validation, and new VM opcodes.
-- [cashtoken-rationale](cashtoken-rationale.md): Documentation of the design decisions and trade-offs behind the CashTokens specification.
-- [token-examples](token-examples.md): High-level usage examples of CashTokens, including identity tokens, sealed voting, and multithreaded covenants.
