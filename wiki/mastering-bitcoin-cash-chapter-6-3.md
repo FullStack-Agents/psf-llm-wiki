@@ -22,6 +22,6 @@ Nodes maintain the [blockchain](blockchain.md) by validating the "previous block
 
 ## Related pages
 - [genesis-block](genesis-block.md)
-- [[blockchain](blockchain.md)-data-structure]([blockchain](blockchain.md)-data-structure.md)
+- [data-structure](data-structure.md)
 - [mastering-bitcoin-cash-chapter-6-1](mastering-bitcoin-cash-chapter-6-1.md)
 - [mastering-bitcoin-cash-chapter-6-2](mastering-bitcoin-cash-chapter-6-2.md)

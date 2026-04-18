@@ -27,6 +27,6 @@ Beyond simple public-key ownership, the scripting system allows for more complex
 - [utxo](utxo.md)
 - [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
 - [bitcoin-cash](bitcoin-cash.md)
-- [blockchain](blockchain.md).md)
+- [blockchain](blockchain.md)
 - [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)
 - [mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10](mastering-bitcoin-cash-chapter-3-keys-addresses-and-wallets-10.md)

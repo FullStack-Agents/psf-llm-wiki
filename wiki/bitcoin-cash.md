@@ -1,4 +1,4 @@
-#  (BCH)
+# Bitcoin Cash (BCH)
 
 **Summary**: The primary [blockchain](blockchain.md) used by the [Cash Stack](cash-stack-layers.md) for money transfer and as the basis for tokenization and other web3 primitives.
 
@@ -8,11 +8,19 @@
 
 ---
 
- (BCH) is the primary [blockchain](blockchain.md) focused on by the [Cash Stack](cash-stack-layers.md) framework (source: intro.md). It is used for:
+Bitcoin Cash (BCH) is the primary [blockchain](blockchain.md) focused on by the [Cash Stack](cash-stack-layers.md) framework (source: intro.md). It is used for:
 - Money transfer (source: intro.md).
 - Tokenization to create NFTs and fungible tokens (source: intro.md).
 
 While the focus is currently on BCH, the infrastructure may expand to others like eCash (XEC), AVAX X-Chain, and other [utxo](utxo.md)-based [blockchain](blockchain.md)s (source: intro.md).
+
+## Core Concepts
+
+The security and operation of Bitcoin Cash rely on several fundamental principles:
+- **[Root of Trust](root-of-trust.md)**: The genesis block serves as the foundational point of trust.
+- **[Mining](mining.md)**: The process of validating transactions and securing the network.
+- **[ASIC](asic.md)**: Specialized hardware used for efficient mining.
+- **[Cold Storage](cold-storage.md)**: Methods for securing private keys offline.
 
 ## Related pages
 

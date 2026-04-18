@@ -33,5 +33,5 @@ Nodes requesting [blockchain](blockchain.md) updates follow a specific request-r
 ## Related pages
 
 - [bitcoin-cash-network](bitcoin-cash-network.md)
-- [[blockchain](blockchain.md)-synchronization]([blockchain](blockchain.md)-synchronization.md)
+- [synchronization](synchronization.md)
 - [mastering-bitcoin-cash-chapter-5-10](mastering-bitcoin-cash-chapter-5-10.md)

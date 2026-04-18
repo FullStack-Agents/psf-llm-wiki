@@ -25,7 +25,7 @@ To avoid overwhelming any single peer, the node distributes `getdata` requests a
 
 ## Related pages
 
-- [blockchain](blockchain.md).md)
+- [blockchain](blockchain.md)
 - [bitcoin-cash-network](bitcoin-cash-network.md)
 - [network-discovery](network-discovery.md)
 - [mastering-bitcoin-cash-chapter-5-4](mastering-bitcoin-cash-chapter-5-4.md)

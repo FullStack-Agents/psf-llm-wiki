@@ -22,4 +22,4 @@ A **merkle path** (or authentication path) consists of the minimal set of hashes
 - [merkle-root](merkle-root.md)
 - [mastering-bitcoin-cash-chapter-6-4](mastering-bitcoin-cash-chapter-6-4.md)
 - [mastering-bitcoin-cash-chapter-6-5](mastering-bitcoin-cash-chapter-6-5.md)
-- [[blockchain](blockchain.md)-data-structure]([blockchain](blockchain.md)-data-structure.md)
+- [data-structure](data-structure.md)

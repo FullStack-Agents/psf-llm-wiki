@@ -11,5 +11,5 @@
 Google's LevelDB is used by Bitcoin ABC to store the [blockchain](blockchain.md) data locally on nodes (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_1.md).
 
 ## Related pages
-- [[blockchain](blockchain.md)-data-structure]([blockchain](blockchain.md)-data-structure.md)
+- [data-structure](data-structure.md)
 - [mastering-bitcoin-cash-chapter-6-1](mastering-bitcoin-cash-chapter-6-1.md)

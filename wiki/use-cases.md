@@ -14,7 +14,7 @@
 - **Retail Payments**: Used for everyday purchases, such as coffee at local cafés.
 - **High-Value Transactions**: Used by luxury retailers and gallery owners for expensive assets, though users should be mindful of consensus attack risks.
 - **International Services**: Facilitates payments to international contractors, bypassing traditional wire transfer delays and high fees.
-- **Charitable Donations**: Allows organizations to receive international aid and distribute it quickly, using the [blockchain](blockchain.md).md) for transparency and accountability.
+- **Charitable Donations**: Allows organizations to receive international aid and distribute it quickly, using the [blockchain](blockchain.md) for transparency and accountability.
 - **International Trade**: Streamlines B2B transactions, such as purchasing electronics internationally.
 - **Mining Operations**: Provides an income stream for individuals building mining rigs, which simultaneously increases network security through [mining](mining.md).
 
@@ -22,5 +22,5 @@
 
 - [bitcoin-cash](bitcoin-cash.md)
 - [mining](mining.md)
-- [blockchain](blockchain.md).md)
+- [blockchain](blockchain.md)
 - [mastering-bitcoin-cash-chapter-1](mastering-bitcoin-cash-chapter-1.md)

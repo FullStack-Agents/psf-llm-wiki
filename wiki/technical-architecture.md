@@ -11,7 +11,7 @@
 The technical architecture of [bitcoin-cash](bitcoin-cash.md) is designed to solve the fundamental problems of digital currency by integrating several key components into a single, cohesive system (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_10.md).
 
 ### Core Components
-- **The Ledger**: The [blockchain](blockchain.md).md) acts as a public, immutable ledger recording every transaction.
+- **The Ledger**: The [blockchain](blockchain.md) acts as a public, immutable ledger recording every transaction.
 - **Consensus**: The [proof-of-work](proof-of-work.md) mechanism prevents [double-spending](double-spending.md) without the need for central authorities.
 - **Issuance & Security**: [mining](mining.md) secures the network and controls the currency issuance according to a fixed schedule, with difficulty adjustments ensuring constant block times.
 - **Verification**: Cryptographic signatures prove ownership and facilitate transactions without requiring identity disclosure.
@@ -23,7 +23,7 @@ The technical architecture of [bitcoin-cash](bitcoin-cash.md) is designed to sol
 ## Related pages
 
 - [bitcoin-cash](bitcoin-cash.md)
-- [blockchain](blockchain.md).md)
+- [blockchain](blockchain.md)
 - [proof-of-work](proof-of-work.md)
 - [mining](mining.md)
 - [decentralization](decentralization.md)

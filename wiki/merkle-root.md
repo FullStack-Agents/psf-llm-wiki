@@ -19,4 +19,4 @@ Because the Merkle Root is part of the block header, any change to a single tran
 ## Related pages
 - [mastering-bitcoin-cash-chapter-6-2](mastering-bitcoin-cash-chapter-6-2.md)
 - [mastering-bitcoin-cash-chapter-6-4](mastering-bitcoin-cash-chapter-6-4.md)
-- [[blockchain](blockchain.md)-data-structure]([blockchain](blockchain.md)-data-structure.md)
+- [data-structure](data-structure.md)

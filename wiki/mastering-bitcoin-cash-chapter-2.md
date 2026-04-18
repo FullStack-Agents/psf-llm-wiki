@@ -41,7 +41,7 @@ The chapter also addresses the role of [digital-wallets](digital-wallets.md) in 
 The chapter explains the concept of "forging" a block and how the network achieves consensus. It details the requirement of solving a PoW puzzle and the use of the "longest chain" rule to resolve conflicts and maintain a single, authoritative [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_9.md).
 
 ## Visibility and Verification
-The chapter introduces [[blockchain](blockchain.md)-explorers]([blockchain](blockchain.md)-explorers.md) as the primary tools for users to interact with the ledger, providing a transparent way to verify transactions, balances, and block details without needing to run a full node (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_10.md).
+The chapter introduces [blockchain-explorers](blockchain-explorers.md) as the primary tools for users to interact with the ledger, providing a transparent way to verify transactions, balances, and block details without needing to run a full node (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_10.md).
 
 ## Related pages
 
@@ -51,7 +51,7 @@ The chapter introduces [[blockchain](blockchain.md)-explorers]([blockchain](bloc
 - [transaction-anatomy](transaction-anatomy.md)
 - [utxo](utxo.md)
 - [mining](mining.md)
-- [blockchain](blockchain.md).md)
+- [blockchain](blockchain.md)
 - [decentralization](decentralization.md)
 - [forging-and-consensus](forging-and-consensus.md)
-- [[blockchain](blockchain.md)-explorers]([blockchain](blockchain.md)-explorers.md)
+- [blockchain-explorers](blockchain-explorers.md)

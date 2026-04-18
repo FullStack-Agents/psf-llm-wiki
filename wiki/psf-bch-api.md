@@ -40,4 +40,4 @@ Verification is performed using integration tests provided by `[bch-js](bch-js.m
 - [cash-stack-layers](cash-stack-layers.md)
 - [permissionless-software-foundation](permissionless-software-foundation.md)
 - [bch-js](bch-js.md)
-- [x402-bch]([x402](x402-bch.md)-bch.md)
+- [x402-bch](x402-bch.md)

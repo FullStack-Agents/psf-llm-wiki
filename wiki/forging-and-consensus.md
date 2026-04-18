@@ -27,6 +27,6 @@ Consensus is the process by which all nodes in the decentralized network agree o
 
 - [mining](mining.md)
 - [proof-of-work](proof-of-work.md)
-- [blockchain](blockchain.md).md)
+- [blockchain](blockchain.md)
 - [decentralization](decentralization.md)
 - [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md)

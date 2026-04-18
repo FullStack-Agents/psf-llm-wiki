@@ -16,12 +16,12 @@ The [blockchain](blockchain.md) is an ordered, back-linked list of blocks contai
 - **Tip**: The most recently added block in the chain.
 
 ## Block Identification and Linking
-Each block is uniquely identified by a SHA256 cryptographic hash of its header. A block references its parent via the "previous block hash" field. While a block has only one parent, it can have multiple children during a [[blockchain](blockchain.md)-fork]([blockchain](blockchain.md)-fork.md) (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_1.md).
+Each block is uniquely identified by a SHA256 cryptographic hash of its header. A block references its parent via the "previous block hash" field. While a block has only one parent, it can have multiple children during a [fork](fork.md) (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_1.md).
 
 ## Immutability
 The parent-child relationship ensures immutability. Because each block contains the hash of its parent, any change to a parent block changes its hash, which cascades through all subsequent child blocks. This makes changing deep history computationally infeasible (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_1.md).
 
 ## Related pages
-- [[blockchain](blockchain.md)-data-structure]([blockchain](blockchain.md)-data-structure.md)
-- [[blockchain](blockchain.md)-fork]([blockchain](blockchain.md)-fork.md)
+- [data-structure](data-structure.md)
+- [fork](fork.md)
 - [google-leveldb](google-leveldb.md)

@@ -27,10 +27,10 @@ The 80-byte header includes:
 ## Block Identification
 Blocks are identified in two ways:
 - **Block Hash**: A unique cryptographic fingerprint derived from the header. This is the only truly unique identifier.
-- **Block Height**: The position in the chain. Note that during [[blockchain](blockchain.md)-forks]([blockchain](blockchain.md)-fork.md), multiple blocks can exist at the same height (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_2.md).
+- **Block Height**: The position in the chain. Note that during [blockchain-forks](blockchain-fork.md), multiple blocks can exist at the same height (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_2.md).
 
 ## Related pages
-- [[blockchain](blockchain.md)-data-structure]([blockchain](blockchain.md)-data-structure.md)
+- [data-structure](data-structure.md)
 - [merkle-root](merkle-root.md)
-- [[blockchain](blockchain.md)-fork]([blockchain](blockchain.md)-fork.md)
+- [fork](fork.md)
 - [mastering-bitcoin-cash-chapter-6-1](mastering-bitcoin-cash-chapter-6-1.md)

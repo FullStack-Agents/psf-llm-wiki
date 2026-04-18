@@ -26,11 +26,11 @@ Each block built on top of a block containing a transaction adds one "confirmati
 ### Validation and Trust
 Recipients can independently verify that a transaction is well-formed, uses previously unspent inputs ([utxo](utxo.md)), and includes sufficient fees. For small-value transactions, merchants may accept "zero confirmation" transactions, as the risk is considered comparable to certain traditional payment methods (source: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_4.md).
 
-The confirmation process is critical as it prevents [double-spending](double-spending.md) and ensures the overall integrity of the [blockchain](blockchain.md).md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_9.md).
+The confirmation process is critical as it prevents [double-spending](double-spending.md) and ensures the overall integrity of the [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_9.md).
 
 ## Related pages
 
-- [blockchain](blockchain.md).md)
+- [blockchain](blockchain.md)
 - [mining](mining.md)
 - [private-keys](private-keys.md)
 - [double-spending](double-spending.md)

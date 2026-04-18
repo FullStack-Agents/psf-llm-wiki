@@ -32,7 +32,7 @@ It operates at the **Application Library** layer of the [Cash Stack](cash-stack-
 
 ### Configuration and Connectivity
 The wallet can be configured for different back-end environments:
-1. **[x402](x402-bch.md) Pay-Per-Call (Web 2)**: Uses [x402-bch]([x402](x402-bch.md)-bch.md) for automatic micro-payments.
+1. **[x402](x402-bch.md) Pay-Per-Call (Web 2)**: Uses [x402-bch](x402-bch.md) for automatic micro-payments.
 2. **Free Community Servers (Web 3)**: Connects to community-provided `ipfs-bch-wallet-consumer` instances.
 3. **Free Public REST API (Web 2)**: Connects to the public `[psf-bch-api](psf-bch-api.md)` (rate-limited).
 4. **Private Infrastructure (Web 2)**: Uses Bearer token authentication for private deployments (source: minimal-slp-wallet.md).
@@ -42,6 +42,6 @@ The wallet can be configured for different back-end environments:
 - [psf-bch-api](psf-bch-api.md)
 - [cash-stack-layers](cash-stack-layers.md)
 - [slp-token-protocol](slp-token-protocol.md)
-- [x402-bch]([x402](x402-bch.md)-bch.md)
+- [x402-bch](x402-bch.md)
 - [utxo](utxo.md)
 - [permissionless-software-foundation](permissionless-software-foundation.md)

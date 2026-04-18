@@ -1,4 +1,4 @@
-# [blockchain](blockchain.md) Ledger
+# Blockchain Ledger
 
 **Summary**: The global record of all transactions in the [bitcoin-cash](bitcoin-cash.md) network.
 
@@ -14,3 +14,4 @@ The [bitcoin-cash](bitcoin-cash.md) [blockchain](blockchain.md) functions as a g
 
 - [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
 - [mastering-bitcoin-cash-transactions-1](mastering-bitcoin-cash-transactions-1.md)
+- [blockchain](blockchain.md)

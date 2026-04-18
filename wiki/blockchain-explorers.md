@@ -1,10 +1,10 @@
-# [blockchain](blockchain.md) Explorers
+# Blockchain Explorers
 
 **Summary**: Web-based applications that provide a user-friendly interface to search and verify data on the [bitcoin-cash](bitcoin-cash.md) [blockchain](blockchain.md).
 
 **Sources**: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_10.md
 
-**Last updated**: 2026-04-16
+**Last updated**: 2026-04-17
 
 ---
 
@@ -24,7 +24,7 @@ Commonly used explorers include:
 
 ## Related pages
 
-- [blockchain](blockchain.md).md)
+- [blockchain](blockchain.md)
 - [transaction-process](transaction-process.md)
 - [addresses](addresses.md)
 - [mastering-bitcoin-cash-chapter-2](mastering-bitcoin-cash-chapter-2.md)

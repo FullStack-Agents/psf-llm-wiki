@@ -19,4 +19,4 @@ A  (Unspent Transaction Output) is an indivisible chunk of currency locked to a 
 
 - [mastering-bitcoin-cash-transactions-4](mastering-bitcoin-cash-transactions-4.md)
 - [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
-- [[blockchain](blockchain.md)-ledger]([blockchain](blockchain.md)-ledger.md)
+- [ledger](ledger.md)

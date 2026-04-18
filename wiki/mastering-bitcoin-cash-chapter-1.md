@@ -12,7 +12,7 @@ This chapter introduces [bitcoin-cash](bitcoin-cash.md) as a decentralized, peer
 
 It covers the fundamental mechanisms of [mining](mining.md), the concept of [decentralization](decentralization.md), and the strict [monetary-policy](monetary-policy.md) that governs the coin's issuance. Ownership of [BCH](bitcoin-cash.md) is managed through cryptographic keys stored in [digital-wallets](digital-wallets.md), where the possession of a [private key](private-keys.md) is the sole requirement for spending funds.
 
-It also explores the history of digital currency, detailing the challenges of authenticity and [double-spending](double-spending.md) that hindered early centralized efforts, and how [bitcoin-cash](bitcoin-cash.md) solves these through its combination of a P2P network, the [blockchain](blockchain.md).md), and [transaction-scripts](transaction-scripts.md).
+It also explores the history of digital currency, detailing the challenges of authenticity and [double-spending](double-spending.md) that hindered early centralized efforts, and how [bitcoin-cash](bitcoin-cash.md) solves these through its combination of a P2P network, the [blockchain](blockchain.md), and [transaction-scripts](transaction-scripts.md).
 
 Finally, it discusses the origins of the system, starting with [Satoshi](utxo.md) Nakamoto's 2008 whitepaper, the use of [proof-of-work](proof-of-work.md) to solve the [byzantine-generals-problem](byzantine-generals-problem.md), the diverse [use-cases](use-cases.md), the technical implementations via various [clients](clients.md), the practical steps for new users including managing [addresses](addresses.md), the various ways to [acquiring-bch](acquiring-bch.md), the lifecycle of a [transaction-process](transaction-process.md), and the broader [technical-architecture](technical-architecture.md) that ensures the network's robustness.
 
@@ -36,7 +36,7 @@ Finally, it discusses the origins of the system, starting with [Satoshi](utxo.md
 - [mining](mining.md)
 - [monetary-policy](monetary-policy.md)
 - [decentralization](decentralization.md)
-- [blockchain](blockchain.md).md)
+- [blockchain](blockchain.md)
 - [double-spending](double-spending.md)
 - [transaction-scripts](transaction-scripts.md)
 - [digital-wallets](digital-wallets.md)

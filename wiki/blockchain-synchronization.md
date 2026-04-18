@@ -26,6 +26,6 @@ Whether a node is missing one block or a million, the process remains identical:
 
 ## Related pages
 
-- [blockchain](blockchain.md).md)
+- [blockchain](blockchain.md)
 - [bitcoin-cash-network](bitcoin-cash-network.md)
 - [mastering-bitcoin-cash-chapter-5-4](mastering-bitcoin-cash-chapter-5-4.md)

@@ -22,6 +22,6 @@ The primary benefit of Merkle trees is the efficiency of verification. To verify
 
 ## Related pages
 - [merkle-root](merkle-root.md)
-- [[blockchain](blockchain.md)-data-structure]([blockchain](blockchain.md)-data-structure.md)
+- [data-structure](data-structure.md)
 - [mastering-bitcoin-cash-chapter-6-2](mastering-bitcoin-cash-chapter-6-2.md)
 - [mastering-bitcoin-cash-chapter-6-4](mastering-bitcoin-cash-chapter-6-4.md)
