@@ -16,6 +16,6 @@ The genesis block is the first block of the [blockchain](blockchain.md). It is t
 - **Implementation**: Statically encoded in the software of every [bitcoin-cash](bitcoin-cash.md) node (source: mastering-bitcoin-cash_chapter-6-the-blockchain_3.md).
 
 ## Related pages
-- [data-structure](data-structure.md)
+- [data-structure](blockchain-data-structure.md)
 - [mastering-bitcoin-cash-chapter-6-1](mastering-bitcoin-cash-chapter-6-1.md)
 - [mastering-bitcoin-cash-chapter-6-3](mastering-bitcoin-cash-chapter-6-3.md)

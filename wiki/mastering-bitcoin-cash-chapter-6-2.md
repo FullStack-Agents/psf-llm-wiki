@@ -30,7 +30,7 @@ Blocks are identified in two ways:
 - **Block Height**: The position in the chain. Note that during [blockchain-forks](blockchain-fork.md), multiple blocks can exist at the same height (source: mastering-bitcoin-cash_chapter-6-the-blockchain_2.md).
 
 ## Related pages
-- [data-structure](data-structure.md)
+- [data-structure](blockchain-data-structure.md)
 - [merkle-root](merkle-root.md)
-- [fork](fork.md)
+- [fork](blockchain-fork.md)
 - [mastering-bitcoin-cash-chapter-6-1](mastering-bitcoin-cash-chapter-6-1.md)

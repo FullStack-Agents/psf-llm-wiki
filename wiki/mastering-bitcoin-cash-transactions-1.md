@@ -22,5 +22,5 @@ The lifecycle of a transaction consists of several stages:
 ## Related pages
 
 - [bitcoin-cash-transactions](bitcoin-cash-transactions.md)
-- [ledger](ledger.md)
+- [ledger](blockchain-ledger.md)
 - [mining](mining.md)

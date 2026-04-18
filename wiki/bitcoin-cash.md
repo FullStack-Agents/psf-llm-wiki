@@ -21,7 +21,7 @@ The security and operation of Bitcoin Cash rely on several fundamental principle
 - **[Mining](mining.md)**: The process of validating transactions and securing the network.
 - **[ASIC](asic.md)**: Specialized hardware used for efficient mining.
 - **[Cold Storage](cold-storage.md)**: Methods for securing private keys offline.
-- **[Hard Fork](hard-fork.md)**: Protocol updates that change network rules.
+- **[Hard Fork](blockchain-fork.md)**: Protocol updates that change network rules.
 - **[Proof of Work](proof-of-work.md)**: The consensus mechanism securing the chain.
 - **[UTXO](utxo.md)**: The model for tracking coin ownership.
 

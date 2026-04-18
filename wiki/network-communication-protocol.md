@@ -29,5 +29,5 @@ To reduce bandwidth, SPV nodes avoid requesting full blocks. Instead, they use `
 ## Related pages
 
 - [bitcoin-cash-network](bitcoin-cash-network.md)
-- [synchronization](synchronization.md)
+- [synchronization](blockchain-synchronization.md)
 - [mastering-bitcoin-cash-chapter-5-10](mastering-bitcoin-cash-chapter-5-10.md)
