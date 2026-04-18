@@ -16,6 +16,11 @@
 - [bch-node-configuration](bch-node-configuration.md): Configuration options for controlling the behavior of a [bitcoin-cash](bitcoin-cash.md) node.
 - [bch-peer-management](bch-peer-management.md): How [bitcoin-cash](bitcoin-cash.md) nodes discover, maintain, and bootstrap connections to other peers.
 - [addresses](addresses.md): The alphanumeric strings used as identifiers for receiving [bitcoin-cash](bitcoin-cash.md). A [bitcoin-cash](bitcoin-cash.md) address functions as a digital fingerprint of a public key and serves as the beneficiary name on a transaction (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
+- [transaction-ordering](transaction-ordering.md): Describes the rules governing the sequence of transactions within a block, transitioning from topological ordering to the current canonical lexicographical ordering.
+- [block-header](block-header.md): A fixed-width summary of a block used for identity, proof-of-work verification, and blockchain sequencing.
+- [block](block.md): A collection of transactions bundled together and committed to the blockchain, including the coinbase transaction and block header details.
+- [locking-script](locking-script.md): A script that defines the conditions under which funds in a Bitcoin Cash output can be spent.
+- [transaction-signing](transaction-signing.md): Overview of how Bitcoin Cash transactions are secured using asymmetric cryptography, including hash types, signature preimages, and the difference between ECDSA and Schnorr signatures.
 - [clients](clients.md): The different types of software implementations used to interact with the [bitcoin-cash](bitcoin-cash.md) network, varying by the level of control and trust.
 - [bitcoin-cash-network](bitcoin-cash-network.md): The communication infrastructure of [bitcoin-cash](bitcoin-cash.md), comprising the P2P network and extended protocols.
 - [bitcoin-cash-transactions](bitcoin-cash-transactions.md): Overview of how value is transferred on the [bitcoin-cash](bitcoin-cash.md) network.

@@ -2,13 +2,20 @@
 
 **Summary**: A binary hash tree used to efficiently summarize and verify large sets of data, such as transactions in a block.
 
-**Sources**: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_4.md, mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_5.md
+**Sources**: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_4.md, mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_5.md, merkle-tree.md
 
-**Last updated**: 2026-04-17
+**Last updated**: 2026-04-18
 
 ---
 
 A Merkle Tree is a data structure where leaf nodes (transaction hashes) are recursively paired and hashed until a single root is reached.
+
+## Purpose in Bitcoin Cash
+In Bitcoin Cash, the transactions in a [block](block.md) are organized into a Merkle Tree. The resulting **Merkle Root** is a single hash representing all transactions in that block and is stored in the [block-header](block-header.md). This ensures that any change to a single transaction will change the Merkle Root and, consequently, the block hash.
+
+### Key Advantages
+- **Efficient Updates**: When mining a block, new transactions can be added without re-hashing the entire dataset. Only a small number of hashes on the path to the root need to be recalculated.
+- **Partial Block Transfer**: Merkle Trees allow a node to verify that a specific transaction exists in a block without needing to download the entire block (by using a Merkle Path).
 
 ## Technical Implementation in [BCH](bitcoin-cash.md)
 - **Hashing Algorithm**: Double-SHA256 (SHA256 applied twice).
@@ -20,6 +27,5 @@ A **merkle path** (or authentication path) consists of the minimal set of hashes
 
 ## Related pages
 - [merkle-root](merkle-root.md)
-- [mastering-bitcoin-cash-chapter-6-4](mastering-bitcoin-cash-chapter-6-4.md)
-- [mastering-bitcoin-cash-chapter-6-5](mastering-bitcoin-cash-chapter-6-5.md)
-- [data-structure](data-structure.md)
+- [block](block.md)
+- [block-header](block-header.md)

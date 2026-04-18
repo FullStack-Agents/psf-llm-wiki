@@ -2,7 +2,7 @@
 
 **Summary**: Append-only record of wiki operations.
 
-**Last updated**: 2026-04-17
+**Last updated**: 2026-04-18
 
 ---
 
@@ -22,3 +22,9 @@
 2026-04-17: Ingested blockchain.md. Updated blockchain.md, sha-256.md, and genesis-block.md.
 2026-04-17: Ingested memory-pool.md. Updated mempool.md and blockchain.md.
 2026-04-17: Ingested transaction.md. Created transaction.md and updated transaction-validation.md.
+- 2026-04-18: Ingested `locking-script.md`. Created `locking-script.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `transaction-signing.md`. Created `transaction-signing.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `block.md`. Created `block.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `block-header.md`. Created `block-header.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `merkle-tree.md`. Updated `merkle-tree.md`. Updated `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `transaction-ordering.md`. Created `transaction-ordering.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
