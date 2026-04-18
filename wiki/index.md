@@ -116,10 +116,7 @@
 
 - [x402-bch](x402-bch.md): A protocol for facilitating per-call payments for API access using [bitcoin-cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)).
 - [cashtokens](cashtokens.md): Overview of the built-in CashTokens system on Bitcoin Cash, enabling fungible and non-fungible assets and contract-to-contract communication.
-- [cashtoken-rationale](cashtoken-rationale.md): Documentation of the design decisions and trade-offs behind the CashTokens specification.
-- [bcmr-examples](bcmr-examples.md): Practical examples of BCMR implementations for fungible tokens, NFT collections, dApps, and asset migrations.
-- [bcmr-spec](bcmr-spec.md): Specification for Bitcoin Cash Metadata Registries (BCMR), enabling authenticated metadata for tokens and identities.
+- [cashtokens-intro](cashtokens-intro.md): Introduction to CashTokens, covering token types, dApp scalability, and opt-in support.
+- [cashtokens-spec](cashtokens-spec.md): Technical specification for Token Primitives, covering encoding, validation, and new VM opcodes.
 - [cashtoken-rationale](cashtoken-rationale.md): Documentation of the design decisions and trade-offs behind the CashTokens specification.
 - [token-examples](token-examples.md): High-level usage examples of CashTokens, including identity tokens, sealed voting, and multithreaded covenants.
-- [cashtokens-spec](cashtokens-spec.md): Technical specification for Token Primitives, covering encoding, validation, and new VM opcodes.
-- [cashtokens-intro](cashtokens-intro.md): Introduction to CashTokens, covering token types, dApp scalability, and opt-in support.
