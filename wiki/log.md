@@ -60,3 +60,5 @@
 2026-04-18: Ingested cashtokens-spec.md. Created cashtokens-spec.md wiki page. Updated index.md.
 2026-04-18: Ingested token-examples.md. Created token-examples.md wiki page. Updated index.md.
 2026-04-18: Ingested cashtoken-rationale.md. Created cashtoken-rationale.md wiki page. Updated index.md.
+2026-04-18: Ingested bcmr-spec.md. Created bcmr-spec.md wiki page. Updated index.md.
+2026-04-18: Ingested bcmr-examples.md. Created bcmr-examples.md wiki page. Updated index.md.
