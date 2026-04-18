@@ -8,7 +8,7 @@
 
 ---
 
-A [blockchain](blockchain.md) is a sequential record of [blocks](blockchain-data-structure.md), where each block contains a set of [transactions](bitcoin-cash-transactions.md). The state of the network is derived by executing these transactions in order.
+A [blockchain](blockchain.md) is a sequential record of [blocks](blockchain-data-structure.md), where each block contains a set of [transactions](bitcoin-cash-transactions.md). The state of the network is derived by executing these transactions in order. This process creates the overall [blockchain-ledger](blockchain-ledger.md).
 
 ## Structure and Security
 - **Cryptographic Chaining**: Each block includes the [hash](hash.md) of the previous block. This ensures that any modification to a past block would require rebuilding all subsequent blocks, making the history immutable provided sufficient work is required. This is conceptually similar to Git commits.
@@ -43,3 +43,4 @@ The first block in the chain, with a hard-coded hash: `000000000019D6689C085AE16
 - [coinbase-transaction](coinbase-transaction.md)
 - [mempool](mempool.md)
 - [utxo](utxo.md)
+- [blockchain-ledger](blockchain-ledger.md)

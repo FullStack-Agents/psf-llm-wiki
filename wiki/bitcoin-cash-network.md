@@ -15,7 +15,7 @@ The network uses a flat topology where all participants are equal peers, removin
 
 ## Node Types
 The network consists of various node roles:
-- **Full Nodes**: Maintain the complete [blockchain](blockchain.md) for authoritative verification (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md).
+- **Full Nodes**: Maintain the complete [blockchain](blockchain.md) for authoritative verification (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md). Full nodes often handle [blockchain-synchronization](blockchain-synchronization.md) to stay up to date.
 - **Lightweight (SPV) Nodes**: Use Simplified Payment Verification (SPV) and only store a subset of the [blockchain](blockchain.md) (block headers). This is ideal for resource-constrained devices like smartphones, as it reduces the required storage by approximately 1,000x (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md, mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_5.md).
 - **Mining Nodes**: Specialized nodes that solve PoW to create blocks; can be full or lightweight pool participants (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md).
 - **Edge Routers**: Full nodes used by enterprises (exchanges, merchants) to facilitate service integration without mining or wallets (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_2.md).
@@ -30,3 +30,6 @@ The "extended [bitcoin-cash](bitcoin-cash.md) network" includes:
 
 - [decentralization](decentralization.md)
 - [mastering-bitcoin-cash-chapter-5-1](mastering-bitcoin-cash-chapter-5-1.md)
+- [blockchain-synchronization](blockchain-synchronization.md)
+- [cash-stack-ports](cash-stack-ports.md)
+- [blockchain-synchronization](blockchain-synchronization.md)
