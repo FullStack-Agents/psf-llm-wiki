@@ -21,6 +21,31 @@ The security and operation of Bitcoin Cash rely on several fundamental principle
 - **[Mining](mining.md)**: The process of validating transactions and securing the network.
 - **[ASIC](asic.md)**: Specialized hardware used for efficient mining.
 - **[Cold Storage](cold-storage.md)**: Methods for securing private keys offline.
+- **[Hard Fork](hard-fork.md)**: Protocol updates that change network rules.
+- **[Proof of Work](proof-of-work.md)**: The consensus mechanism securing the chain.
+- **[UTXO](utxo.md)**: The model for tracking coin ownership.
+
+## Network and Infrastructure
+
+- **[Bitcoin Cash Network](bitcoin-cash-network.md)**: Overview of the P2P network.
+- **[BCH Node Configuration](bch-node-configuration.md)**: How to set up and run a node.
+- **[BCHN Full Node](bchn-full-node.md)**: The primary software implementation.
+- **[Blockchain Explorers](blockchain-explorers.md)**: Tools for auditing the ledger.
+
+## Transactions and Scripts
+
+- **[Transaction Process](transaction-process.md)**: How payments are created and verified.
+- **[Transaction Anatomy](transaction-anatomy.md)**: Structure of a BCH transaction.
+- **[Script](script.md)**: The programmable language for locking and unlocking funds.
+- **[Standard Transaction Types](standard-transaction-types.md)**: Common ways to send coins.
+- **[Transaction Validation](transaction-validation.md)**: Rules for accepting blocks and txs.
+
+## Advanced Concepts and Tokens
+
+- **[SLP Token Protocol](slp-token-protocol.md)**: Layer 2 tokens on BCH.
+- **[SLP Token Indexer](slp-token-indexer.md)**: How tokens are tracked.
+- **[Permissionless Software Foundation](permissionless-software-foundation.md)**: The organization driving these initiatives.
+
 
 ## Related pages
 
