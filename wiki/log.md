@@ -42,6 +42,8 @@
 - 2026-04-18: Ingested `addresses.md`. Updated `addresses.md`. Updated `log.md`. Moved source to `processed/`.
 - 2026-04-18: Ingested `base58check.md`. Created `base58check.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
 - 2026-04-18: Ingested `cashaddr.md`. Created `cashaddr.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `spv.md`. Updated `simplified-payment-verification.md`. Updated `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `bloom-filter.md`. Updated `bloom-filters.md`. Updated `log.md`. Moved source to `processed/`.
 
 
 
