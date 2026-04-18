@@ -137,7 +137,11 @@
 - [root-of-trust](root-of-trust.md): The foundational security principle where trust is placed in the smallest and least complex part of a system to ensure overall integrity.
 - [sha-256](sha-256.md): A cryptographic hash function used by [bitcoin-cash](bitcoin-cash.md) for proof-of-work and block hashing.
 - [simplified-payment-verification](simplified-payment-verification.md): A lightweight method for verifying transactions without needing the full [blockchain](blockchain.md)'s transaction data.
-- [slp-token-indexer](slp-token-indexer.md): A [blockchain](blockchain.md) indexer that tracks [SLP](slp-token-protocol.md) token transactions according to Type 1 and NFT1 specifications, providing the necessary data for token-related operations in the [Cash Stack](cash-stack-layers.md).
+- [simple-ledger-protocol](simple-ledger-protocol.md): A token system for the Bitcoin Cash network based on a "colored coins" design, allowing the creation, issuance, and transfer of digital tokens utilizing the BCH blockchain as a public ledger.
+- [slp-genesis](slp-genesis.md): Detailed specification of the SLP Genesis transaction, defining token lauch properties, metadata, and initial supply.
+- [slp-mint](slp-mint.md): Detailed specification of the SLP MINT transaction, used to increase the token supply.
+- [slp-send](slp-send.md): Detailed specification of the SLP SEND transaction, used for transferring tokens between addresses.
+- [slp-token-indexer](slp-token-indexer.md): A [blockchain](blockchain.md) indexer that tracks [SLP](simple-ledger-protocol.md) token transactions according to Type 1 and NFT1 specifications, providing the necessary data for token-related operations in the [Cash Stack](cash-stack-layers.md).
 - [slp-token-protocol](slp-token-protocol.md): An analysis of the Simple Ledger Protocol (SLP), highlighting its design philosophy of loose coupling to the [blockchain](blockchain.md), which reduces platform risk and increases adaptability compared to other token protocols.
 - [standard-transaction-types](standard-transaction-types.md): The categorized set of transaction types accepted by the reference [bitcoin-cash](bitcoin-cash.md) client.
 - [technical-architecture](technical-architecture.md): The overarching structural design of [bitcoin-cash](bitcoin-cash.md) that integrates the [blockchain](blockchain.md), consensus mechanisms, and cryptographic verification to create a robust, decentralized currency.

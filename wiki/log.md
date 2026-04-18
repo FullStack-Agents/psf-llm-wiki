@@ -44,6 +44,10 @@
 - 2026-04-18: Ingested `cashaddr.md`. Created `cashaddr.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
 - 2026-04-18: Ingested `spv.md`. Updated `simplified-payment-verification.md`. Updated `log.md`. Moved source to `processed/`.
 - 2026-04-18: Ingested `bloom-filter.md`. Updated `bloom-filters.md`. Updated `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `slp.md`. Created `simple-ledger-protocol.md`. Updated `slp-token-protocol.md`, `index.md`, and `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `genesis.md`. Created `slp-genesis.md`. Updated `simple-ledger-protocol.md` and `index.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `send.md`. Created `slp-send.md`. Updated `simple-ledger-protocol.md`, `index.md`, and `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `mint.md`. Created `slp-mint.md`. Updated `simple-ledger-protocol.md` and `index.md`. Moved source to `processed/`.
 
 
 

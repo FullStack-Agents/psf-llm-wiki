@@ -38,6 +38,7 @@ The [slp-token-indexer](slp-token-indexer.md) provides operators with tools to m
 
 ## Related pages
 
+- [simple-ledger-protocol](simple-ledger-protocol.md)
 - [slp-token-indexer](slp-token-indexer.md)
 - [bitcoin-cash](bitcoin-cash.md)
 - [cash-stack-layers](cash-stack-layers.md)
