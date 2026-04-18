@@ -20,6 +20,7 @@
 - [block-header](block-header.md): A fixed-width summary of a block used for identity, proof-of-work verification, and blockchain sequencing.
 - [block](block.md): A collection of transactions bundled together and committed to the blockchain, including the coinbase transaction and block header details.
 - [locking-script](locking-script.md): A script that defines the conditions under which funds in a Bitcoin Cash output can be spent.
+- [signatures](signatures.md): Cryptographic proofs generated using a private key to authorize the spending of funds in a Bitcoin Cash transaction.
 - [transaction-signing](transaction-signing.md): Overview of how Bitcoin Cash transactions are secured using asymmetric cryptography, including hash types, signature preimages, and the difference between ECDSA and Schnorr signatures.
 - [clients](clients.md): The different types of software implementations used to interact with the [bitcoin-cash](bitcoin-cash.md) network, varying by the level of control and trust.
 - [bitcoin-cash-network](bitcoin-cash-network.md): The communication infrastructure of [bitcoin-cash](bitcoin-cash.md), comprising the P2P network and extended protocols.
@@ -125,7 +126,8 @@
 - [p2sh](p2sh.md): Pay-to-Script-Hash; a method to simplify complex transactions by using a script hash instead of the full script.
 - [permissionless-software-foundation](permissionless-software-foundation.md): The organization that maintains the [Cash Stack](cash-stack-layers.md) and works to develop software for privacy, censorship resistance, and economic freedom.
 - [private-keys](private-keys.md): Cryptographic keys used to authorize transactions and prove ownership of [bitcoin-cash](bitcoin-cash.md). Keys come in pairs: a private key (secret) and a [public key](addresses.md) (shareable). The private key acts as the control mechanism for funds, similar to a PIN or signature on a check, and is used to generate the signatures required for all transactions (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
-- [proof-of-work](proof-of-work.md): A cryptographic algorithm used to achieve network consensus and prevent double-spending through distributed "elections."
+- [difficulty-adjustment-algorithm](difficulty-adjustment-algorithm.md): The mechanism used by Bitcoin Cash to adjust the mining target and difficulty to maintain a consistent average block time of 10 minutes regardless of changes in network hashing power.
+- [proof-of-work](proof-of-work.md): A cryptographic system used by Bitcoin Cash to secure the network, determine block production, and achieve consensus via a Hashcash-like SHA-256 algorithm.
 - [psf-bch-api](psf-bch-api.md): A REST API server written in Node.js that provides a common web2 interface for developers to build [blockchain](blockchain.md)-based business applications by abstracting underlying [blockchain](blockchain.md) infrastructure.
 - [reducing-server-costs](reducing-server-costs.md): Analysis of how the Permissionless Software Foundation (PSF) reduced recurring cloud costs by 92% (from ~$50 to ~$4/month) by transitioning from a Web 2 to a Web 3 architecture using IPFS.
 - [root-of-trust](root-of-trust.md): The foundational security principle where trust is placed in the smallest and least complex part of a system to ensure overall integrity.

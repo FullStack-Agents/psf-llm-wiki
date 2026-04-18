@@ -31,7 +31,12 @@
 - 2026-04-18: Ingested `script.md`. Created `script.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
 - 2026-04-18: Ingested `transaction-validation.md`. Updated `transaction-validation.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
 - 2026-04-18: Ingested `block-level-validation-rules.md`. Created `block-level-validation-rules.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
-- 2026-04-18: Ingested `network-level-validation-rules.md`. Created `network-level-validation-rules.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `proof-of-work.md`. Updated `proof-of-work.md` and `index.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `difficulty-adjustment-algorithm.md`. Created `difficulty-adjustment-algorithm.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `mining.md`. Updated `mining.md`. Updated `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `keys.md`. Updated `private-keys.md`. Updated `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `signatures.md`. Created `signatures.md`. Updated `index.md` and `log.md`. Moved source to `processed/`.
+- 2026-04-18: Ingested `multisignature.md`. Updated `multi-signature.md`. Updated `log.md`. Moved source to `processed/`.
 
 
 
