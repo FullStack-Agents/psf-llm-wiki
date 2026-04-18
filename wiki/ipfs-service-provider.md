@@ -1,14 +1,5 @@
 # ipfs-service-provider
 
-TBD
-
-TBD
-
-TBD
-
----
-
-
 **Summary**: A production-ready boilerplate application that wraps the `helia-coord` library in a web server, providing REST API, JSON RPC endpoints, and user management. It serves as the foundational starting point for building IPFS-based services in the Cash Stack.
 
 **Sources**: ipfs-service-provider.md

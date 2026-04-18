@@ -1,14 +1,5 @@
 # helia-coord
 
-TBD
-
-TBD
-
-TBD
-
----
-
-
 **Summary**: A JavaScript npm library that provides coordination between IPFS nodes, enabling discovery, subnetworks, and secure communication. It serves as the networking backbone for the Cash Stack's IPFS layer.
 
 **Sources**: helia-coord.md

@@ -1,14 +1,5 @@
 # Circuit Relays
 
-TBD
-
-TBD
-
-TBD
-
----
-
-
 **Summary**: A mechanism in libp2p and IPFS that allows nodes behind firewalls or NATs to communicate by routing traffic through a public relay node.
 
 **Sources**: helia-coord.md, circuit-relay.md

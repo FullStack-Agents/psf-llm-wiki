@@ -1,14 +1,5 @@
 # ipfs-bch-wallet-service
 
-TBD
-
-TBD
-
-TBD
-
----
-
-
 **Summary**: A censorship-resistant microservice that provides wallet access to the [bitcoin-cash](bitcoin-cash.md) [blockchain](blockchain.md) by proxying the HTTP-based REST API of `psf-bch-api` over an IPFS-based JSON RPC.
 
 **Sources**: ipfs-bch-wallet-service.md

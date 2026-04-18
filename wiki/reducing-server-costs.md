@@ -1,14 +1,5 @@
 # Reducing Server Costs
 
-TBD
-
-TBD
-
-TBD
-
----
-
-
 **Summary**: Analysis of how the Permissionless Software Foundation (PSF) reduced recurring cloud costs by 92% (from ~$50 to ~$4/month) by transitioning from a Web 2 to a Web 3 architecture using IPFS.
 
 **Sources**: reducing-server-costs.md
