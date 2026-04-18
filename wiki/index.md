@@ -115,3 +115,6 @@
 
 
 - [x402-bch](x402-bch.md): A protocol for facilitating per-call payments for API access using [bitcoin-cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)).
+- [cashtokens](cashtokens.md): Overview of the built-in CashTokens system on Bitcoin Cash, enabling fungible and non-fungible assets and contract-to-contract communication.
+- [cashtokens-spec](cashtokens-spec.md): Technical specification for Token Primitives, covering encoding, validation, and new VM opcodes.
+- [cashtokens-intro](cashtokens-intro.md): Introduction to CashTokens, covering token types, dApp scalability, and opt-in support.
