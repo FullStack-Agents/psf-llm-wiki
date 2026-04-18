@@ -15,6 +15,8 @@
 - [bch-network-resilience](bch-network-resilience.md): Analysis of the mechanisms that ensure the stability and availability of the [bitcoin-cash](bitcoin-cash.md) P2P network.
 - [bch-node-configuration](bch-node-configuration.md): Configuration options for controlling the behavior of a [bitcoin-cash](bitcoin-cash.md) node.
 - [bch-peer-management](bch-peer-management.md): How [bitcoin-cash](bitcoin-cash.md) nodes discover, maintain, and bootstrap connections to other peers.
+- [base58check](base58check.md): A Base58 encoding format used in Bitcoin Cash to unambiguously encode data types via version bytes and ensure data integrity through a checksum.
+- [cashaddr](cashaddr.md): A Base32 encoding format used in Bitcoin Cash to provide a human-readable, error-resistant way to represent addresses and distinguish them from Bitcoin (BTC) addresses.
 - [addresses](addresses.md): The alphanumeric strings used as identifiers for receiving [bitcoin-cash](bitcoin-cash.md). A [bitcoin-cash](bitcoin-cash.md) address functions as a digital fingerprint of a public key and serves as the beneficiary name on a transaction (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
 - [transaction-ordering](transaction-ordering.md): Describes the rules governing the sequence of transactions within a block, transitioning from topological ordering to the current canonical lexicographical ordering.
 - [block-header](block-header.md): A fixed-width summary of a block used for identity, proof-of-work verification, and blockchain sequencing.
@@ -120,6 +122,8 @@
 - [mining](mining.md): The process of verifying transactions and adding them to the [blockchain](blockchain.md).
 - [monetary-policy](monetary-policy.md): The predetermined rules governing the creation and total supply of [bitcoin-cash](bitcoin-cash.md).
 - [multi-signature](multi-signature.md): A security mechanism that requires multiple independent private keys to authorize a transaction, eliminating single points of failure.
+- [p2p-network-messages](p2p-network-messages.md): Detailed specifications of the binary communication protocol used by Bitcoin Cash nodes to propagate block and transaction data.
+- [node-handshake](node-handshake.md): The process by which two Bitcoin Cash nodes establish a connection and verify compatibility before exchanging blockchain data.
 - [network-communication-protocol](network-communication-protocol.md): The message-based communication system used by [bitcoin-cash](bitcoin-cash.md) nodes to propagate blocks, transactions, and headers.
 - [network-discovery](network-discovery.md): The process by which [bitcoin-cash](bitcoin-cash.md) nodes locate and connect to each other to form a P2P network.
 - [orphan-transactions](orphan-transactions.md): Child transactions that arrive at a node before their parent transactions.
