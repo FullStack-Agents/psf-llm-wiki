@@ -58,3 +58,5 @@
 
 2026-04-18: Ingested cashtokens-intro.md. Created cashtokens-intro.md and cashtokens.md wiki pages. Updated index.md.
 2026-04-18: Ingested cashtokens-spec.md. Created cashtokens-spec.md wiki page. Updated index.md.
+2026-04-18: Ingested token-examples.md. Created token-examples.md wiki page. Updated index.md.
+2026-04-18: Ingested cashtoken-rationale.md. Created cashtoken-rationale.md wiki page. Updated index.md.
