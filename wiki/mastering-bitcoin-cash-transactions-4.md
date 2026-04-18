@@ -10,7 +10,7 @@
 
 ## What is a [utxo](utxo.md)?
 
-An [Unspent Transaction Output](utxo.md) ([utxo](utxo.md)) is an indivisible chunk of currency locked to specific owners and recognized as a currency unit by the entire network (source: mastering-bitcoin-cash_transactions_4.md). When a user receives [bitcoin-cash](bitcoin-cash.md), it is recorded as a [utxo](utxo.md) in the [blockchain](blockchain.md).
+An [Unspent Transaction Output](utxo.md) ([utxo](utxo.md)) is an indivisible chunk of currency locked to specific owners and recognized as a currency unit by the entire network (source: mastering-bitcoin-cash_transactions_4.md). When a user receives bitcoin-cash, it is recorded as a utxo in the [blockchain](blockchain.md).
 
 ## Account-less Model
 

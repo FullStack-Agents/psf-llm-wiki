@@ -8,7 +8,7 @@
 
 ---
 
-Digital wallets are used to store the cryptographic keys required to prove ownership of [bitcoin-cash](bitcoin-cash.md). The [private-keys](private-keys.md) stored within the wallet are the essential requirement to unlock and spend bitcoins (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_1.md). 
+Digital wallets are used to store the cryptographic keys required to prove ownership of [bitcoin-cash](bitcoin-cash.md). The [private-keys](private-keys.md) stored within the wallet are the essential requirement to unlock and spend bitcoins (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_1.md). 
 
 Wallets are independent of the [bitcoin-cash](bitcoin-cash.md) protocol and can be generated without an internet connection or [blockchain](blockchain.md) access (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
 

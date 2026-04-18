@@ -8,10 +8,10 @@
 
 ---
 
-The Merkle Root is a field in the 80-byte block header. It serves as a cryptographic summary of all transactions included in that block (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_2.md).
+The Merkle Root is a field in the 80-byte block header. It serves as a cryptographic summary of all transactions included in that block (source: mastering-bitcoin-cash_chapter-6-the-blockchain_2.md).
 
 ## Construction and Merkle Trees
-The root is the final result of a [merkle-tree](merkle-tree.md) structure, built bottom-up by recursively hashing pairs of transactions using double-SHA256 (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_4.md).
+The root is the final result of a [merkle-tree](merkle-tree.md) structure, built bottom-up by recursively hashing pairs of transactions using double-SHA256 (source: mastering-bitcoin-cash_chapter-6-the-blockchain_4.md).
 
 ## Role in Block Identification
 Because the Merkle Root is part of the block header, any change to a single transaction in the block would change the Merkle Root, which in turn changes the overall block hash.

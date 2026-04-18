@@ -8,9 +8,9 @@
 
 ---
 
-[bitcoin-cash](bitcoin-cash.md) uses scripts to manage the ownership and transfer of funds. The transaction script is a decentralized transaction verification system and is one of the four fundamental innovations that enable [bitcoin-cash](bitcoin-cash.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_3.md). 
+[bitcoin-cash](bitcoin-cash.md) uses scripts to manage the ownership and transfer of funds. The transaction script is a decentralized transaction verification system and is one of the four fundamental innovations that enable [bitcoin-cash](bitcoin-cash.md) (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_3.md). 
 
-It provides the cryptographic means to ensure that only the legitimate owner of a digital asset can authorize its transfer, addressing the challenge of authenticity (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_3.md).
+It provides the cryptographic means to ensure that only the legitimate owner of a digital asset can authorize its transfer, addressing the challenge of authenticity (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_3.md).
 
 ### Locking Scripts
 Every transaction output contains a **locking script**. This script specifies the conditions that must be met for the output to be spent in the future (source: mastering-bitcoin-cash_transactions_5.md).

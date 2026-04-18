@@ -10,12 +10,12 @@ The address is created by applying a cryptographic hash function to the public k
 
 ---
 
-A [bitcoin-cash](bitcoin-cash.md) address is a long string of letters and numbers used to receive funds. These addresses typically start with 'q' or 'p' and may optionally include a `bitcoincash:` prefix (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_7.md).
+A [bitcoin-cash](bitcoin-cash.md) address is a long string of letters and numbers used to receive funds. These addresses typically start with 'q' or 'p' and may optionally include a `bitcoincash:` prefix (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_7.md).
 
 ### Key Features
 - **Format**: Addresses are often displayed as strings or as QR codes for easy scanning via smartphones.
 - **Flexibility**: While typically corresponding to public keys, addresses can also represent scripts, allowing for flexible transaction destinations (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md).
-- **Privacy**: Unlike email addresses, users can create new [BCH](bitcoin-cash.md) addresses as frequently as desired. These new addresses can all direct funds into the same wallet, enhancing the user's privacy (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_7.md).
+- **Privacy**: Unlike email addresses, users can create new [BCH](bitcoin-cash.md) addresses as frequently as desired. These new addresses can all direct funds into the same wallet, enhancing the user's privacy (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_7.md).
 - **Advanced Types (P2SH)**: Some addresses (historically starting with "3") are Pay-to-Script-Hash addresses, where the beneficiary is a script rather than a public key, enabling multi-signature (multi-sig) requirements (source: mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_10.md).
 
 ## Related pages

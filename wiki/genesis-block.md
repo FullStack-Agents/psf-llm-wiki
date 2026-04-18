@@ -8,12 +8,12 @@
 
 ---
 
-The genesis block is the first block of the [blockchain](blockchain.md). It is the starting point from which the "height" of all other blocks is measured (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_1.md).
+The genesis block is the first block of the [blockchain](blockchain.md). It is the starting point from which the "height" of all other blocks is measured (source: mastering-bitcoin-cash_chapter-6-the-blockchain_1.md).
 
 ## Technical Details
 - **Hash**: `000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f`
-- **Coinbase Message**: Contains the text "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks," providing a timestamp and historical context (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_3.md).
-- **Implementation**: Statically encoded in the software of every [bitcoin-cash](bitcoin-cash.md) node (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_3.md).
+- **Coinbase Message**: Contains the text "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks," providing a timestamp and historical context (source: mastering-bitcoin-cash_chapter-6-the-blockchain_3.md).
+- **Implementation**: Statically encoded in the software of every [bitcoin-cash](bitcoin-cash.md) node (source: mastering-bitcoin-cash_chapter-6-the-blockchain_3.md).
 
 ## Related pages
 - [data-structure](data-structure.md)

@@ -8,10 +8,10 @@
 
 ---
 
-Simplified Payment Verification (SPV) allows nodes to validate transactions without downloading entire blocks, enabling lightweight clients to operate on devices with limited storage and bandwidth (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_6.md).
+Simplified Payment Verification (SPV) allows nodes to validate transactions without downloading entire blocks, enabling lightweight clients to operate on devices with limited storage and bandwidth (source: mastering-bitcoin-cash_chapter-6-the-blockchain_6.md).
 
 ## SPV Node Architecture
-SPV nodes do not store the full [blockchain](blockchain.md). Instead, they store only the **block headers** (80 bytes each). This drastically reduces the storage requirement compared to full nodes (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_6.md).
+SPV nodes do not store the full [blockchain](blockchain.md). Instead, they store only the **block headers** (80 bytes each). This drastically reduces the storage requirement compared to full nodes (source: mastering-bitcoin-cash_chapter-6-the-blockchain_6.md).
 
 ## Verification Workflow
 When an SPV node needs to verify a transaction, it performs the following steps:
@@ -19,10 +19,10 @@ When an SPV node needs to verify a transaction, it performs the following steps:
 2. **Data Retrieval**: A peer finds a matching transaction and sends a `merkleblock` message.
 3. **Path Validation**: This message includes the block header and a [merkle-path](merkle-tree.md) that links the transaction to the [merkle-root](merkle-root.md).
 4. **Root Verification**: The SPV node uses the merkle path to verify that the transaction is indeed included in the block.
-5. **Chain Verification**: The node uses the block header to confirm the block is part of the canonical [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_6.md).
+5. **Chain Verification**: The node uses the block header to confirm the block is part of the canonical [blockchain](blockchain.md) (source: mastering-bitcoin-cash_chapter-6-the-blockchain_6.md).
 
 ## Efficiency
-The amount of data required for verification is less than a kilobyte (block header + merkle path), whereas a full block can be 1MB or larger. This is what makes [BCH](bitcoin-cash.md) wallets viable on mobile phones (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_6.md).
+The amount of data required for verification is less than a kilobyte (block header + merkle path), whereas a full block can be 1MB or larger. This is what makes [BCH](bitcoin-cash.md) wallets viable on mobile phones (source: mastering-bitcoin-cash_chapter-6-the-blockchain_6.md).
 
 ## Related pages
 - [merkle-tree](merkle-tree.md)

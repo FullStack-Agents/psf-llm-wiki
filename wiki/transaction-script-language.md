@@ -11,7 +11,7 @@
 The [bitcoin-cash](bitcoin-cash.md) script language is a Forth-like, stack-based language used to implement the conditions required to spend [utxo](utxo.md)s (source: mastering-bitcoin-cash_transactions_8.md).
 
 ### Operation
-The language operates by pushing data (constants) onto a stack and using operators to manipulate that data. For instance, `OP_ADD` pops two values and pushes their sum (source: mastering-bitcoin-cash_transactions_8.md). Both [transaction-scripts](transaction-scripts.md) (locking and unlocking) are written in this language.
+The language operates by pushing data (constants) onto a stack and using operators to manipulate that data. For instance, `OP_ADD` pops two values and pushes their sum (source: mastering-bitcoin-cash_transactions_8.md). Both transaction-scripts (locking and unlocking) are written in this language.
 
 ### Key Constraints
 To maintain network security and predictability, the language is designed with specific limitations:

@@ -8,7 +8,7 @@
 
 ---
 
-There are several ways for individuals to acquire their first [bitcoin-cash](bitcoin-cash.md), each with different trade-offs regarding convenience, privacy, and accessibility (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_8.md).
+There are several ways for individuals to acquire their first [bitcoin-cash](bitcoin-cash.md), each with different trade-offs regarding convenience, privacy, and accessibility (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_8.md).
 
 ### Methods of Acquisition
 - **Free Faucets**: Some services, such as free.bitcoin.com, provide small amounts of [BCH](bitcoin-cash.md) to new users upon registration.

@@ -8,7 +8,7 @@
 
 ---
 
-The **BCHN Full Node** ([bitcoin-cash](bitcoin-cash.md) Node) is the bottom-most layer of the [Cash Stack](cash-stack-layers.md) (source: bchn-full-node.md). While various full node implementations exist, the [Cash Stack](cash-stack-layers.md) prioritizes BCHN because it is the software most commonly used by miners (source: bchn-full-node.md).
+The **BCHN Full Node** ([bitcoin-cash](bitcoin-cash.md) Node) is the bottom-most layer of the [Cash Stack](cash-stack-layers.md) (source: bchn-full-node.md). While various full node implementations exist, the Cash Stack prioritizes BCHN because it is the software most commonly used by miners (source: bchn-full-node.md).
 
 ## Role in the [Cash Stack](cash-stack-layers.md)
 

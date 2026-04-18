@@ -8,7 +8,7 @@
 
 ---
 
-The technical architecture of [bitcoin-cash](bitcoin-cash.md) is designed to solve the fundamental problems of digital currency by integrating several key components into a single, cohesive system (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_10.md).
+The technical architecture of [bitcoin-cash](bitcoin-cash.md) is designed to solve the fundamental problems of digital currency by integrating several key components into a single, cohesive system (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_10.md).
 
 ### Core Components
 - **The Ledger**: The [blockchain](blockchain.md) acts as a public, immutable ledger recording every transaction.
@@ -18,7 +18,7 @@ The technical architecture of [bitcoin-cash](bitcoin-cash.md) is designed to sol
 
 ### Architectural Properties
 - **Transparency vs. Pseudonymity**: The system is transparent because all transactions are public, yet pseudonymous because addresses are not inherently tied to real-world identities.
-- **Censorship Resistance**: Because the network is [decentralization](decentralization.md) and has no single point of failure, it is resistant to shutdown attempts or censorship (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_10.md).
+- **Censorship Resistance**: Because the network is [decentralization](decentralization.md) and has no single point of failure, it is resistant to shutdown attempts or censorship (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_10.md).
 
 ## Related pages
 

@@ -17,7 +17,7 @@ Although both are described as "pools," they serve fundamentally different purpo
 | Feature | Transaction Pool (Mempool) | [utxo](utxo.md) Pool |
 | :--- | :--- | :--- |
 | **Contents** | Unconfirmed transactions (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_9.md) | Confirmed unspent outputs (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_9.md) |
-| **Persistence** | Volatile (RAM), starts empty on boot (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_9.md) | Persistent (Database), contains all historical [utxo](utxo.md)s (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_9.md) |
+| **Persistence** | Volatile (RAM), starts empty on boot (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_9.md) | Persistent (Database), contains all historical utxos (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_9.md) |
 | **Network State** | Local perspective (varies by node) (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_9.md) | Network consensus (consistent across nodes) (source: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_9.md) |
 | **Lifecycle** | Temporary (until mined or discarded) | Long-term (until spent) |
 

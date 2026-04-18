@@ -8,11 +8,11 @@
 
 ---
 
-The **Fulcrum Indexer** is a critical component of the [Cash Stack](cash-stack-layers.md) that complements the [BCHN](bchn-full-node.md) [Full Node](bchn-full-node.md) (source: fulcrum-indexer.md). While the full node tracks transactions, it does not track high-level data such as [address](addresses.md) balances or [utxo](utxo.md)s; Fulcrum fills this gap by crawling the [blockchain](blockchain.md) and indexing this metadata into a database (source: fulcrum-indexer.md).
+The **Fulcrum Indexer** is a critical component of the [Cash Stack](cash-stack-layers.md) that complements the [BCHN](bchn-full-node.md) [Full Node](bchn-full-node.md) (source: fulcrum-indexer.md). While the full node tracks transactions, it does not track high-level data such as address balances or utxos; Fulcrum fills this gap by crawling the blockchain and indexing this metadata into a database (source: fulcrum-indexer.md).
 
 ## Technical Implementation
 
-Fulcrum implements the [Electrum protocol](https://electrumx.readthedocs.io/en/latest/protocol.html) (source: fulcrum-indexer.md). To make this data accessible to web2 applications, the Permissionless Software Foundation (PSF) provides Docker containers that wrap the Electrum protocol into a REST API, which then interfaces with [psf-bch-api](psf-bch-api.md) (source: fulcrum-indexer.md).
+Fulcrum implements the [Electrum protocol](https://electrumx.readthedocs.io/en/latest/protocol.html) (source: fulcrum-indexer.md). To make this data accessible to web2 applications, the Permissionless Software Foundation (PSF) provides Docker containers that wrap the Electrum protocol into a REST API, which then interfaces with psf-bch-api (source: fulcrum-indexer.md).
 
 ## Deployment and Requirements
 

@@ -8,7 +8,7 @@
 
 ---
 
-[bitcoin-cash](bitcoin-cash.md) provides innovative solutions to global economic challenges by enabling trustless and efficient value transfer across various sectors (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_5.md).
+[bitcoin-cash](bitcoin-cash.md) provides innovative solutions to global economic challenges by enabling trustless and efficient value transfer across various sectors (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_5.md).
 
 ### Practical Applications
 - **Retail Payments**: Used for everyday purchases, such as coffee at local cafés.

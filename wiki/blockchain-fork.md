@@ -8,7 +8,7 @@
 
 ---
 
-A fork occurs when a block has multiple children. This happens when different miners discover blocks at nearly the same time (source: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_1.md). Eventually, the network converges on a single canonical chain.
+A fork occurs when a block has multiple children. This happens when different miners discover blocks at nearly the same time (source: mastering-bitcoin-cash_chapter-6-the-blockchain_1.md). Eventually, the network converges on a single canonical chain.
 
 ## Related pages
 - [data-structure](data-structure.md)

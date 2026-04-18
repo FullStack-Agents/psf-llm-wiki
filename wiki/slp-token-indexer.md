@@ -23,7 +23,7 @@ To prevent real-time transaction processing from being stalled by large blocks (
 ## Deployment and Operation
 
 ### Requirements and Syncing
-The [SLP](slp-token-protocol.md) indexer requires a fully synced [bchn-full-node](bchn-full-node.md) to operate (source: slp-indexer-software.md). A full sync from [SLP](slp-token-protocol.md) Genesis can take **two to three weeks** (source: slp-indexer-software.md). 
+The [SLP](slp-token-protocol.md) indexer requires a fully synced [bchn-full-node](bchn-full-node.md) to operate (source: slp-indexer-software.md). A full sync from SLP Genesis can take **two to three weeks** (source: slp-indexer-software.md). 
 
 To accelerate this, users can download a pre-synced database snapshot from `fullstack.cash/cashstrap` and restore it into the `current/` directory of the LevelDB storage (source: slp-indexer-software.md).
 

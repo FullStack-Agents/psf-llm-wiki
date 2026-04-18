@@ -8,7 +8,7 @@
 
 ---
 
-This chapter introduces [bitcoin-cash](bitcoin-cash.md) as a decentralized, peer-to-peer electronic cash system that allows for the transfer of digital value across the Internet, functioning similarly to conventional currencies for the buying and selling of goods (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_1.md). 
+This chapter introduces [bitcoin-cash](bitcoin-cash.md) as a decentralized, peer-to-peer electronic cash system that allows for the transfer of digital value across the Internet, functioning similarly to conventional currencies for the buying and selling of goods (source: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-(BCH)_1.md). 
 
 It covers the fundamental mechanisms of [mining](mining.md), the concept of [decentralization](decentralization.md), and the strict [monetary-policy](monetary-policy.md) that governs the coin's issuance. Ownership of [BCH](bitcoin-cash.md) is managed through cryptographic keys stored in [digital-wallets](digital-wallets.md), where the possession of a [private key](private-keys.md) is the sole requirement for spending funds.
 
