@@ -32,7 +32,7 @@ The service acts as a proxy between the [blockchain](blockchain.md) backend and 
 - **Source**: This service is a major fork of [ipfs-service-provider](ipfs-service-provider.md), inheriting its networking and authentication infrastructure.
 - **Consumer**: The primary client for this service is [ipfs-bch-wallet-consumer](ipfs-bch-wallet-consumer.md), which provides a localized HTTP interface for front-end applications.
 
-## Related Pages
+## Related pages
 - [ipfs-service-provider](ipfs-service-provider.md)
 - [ipfs-bch-wallet-consumer](ipfs-bch-wallet-consumer.md)
 - [psf-bch-api](psf-bch-api.md)

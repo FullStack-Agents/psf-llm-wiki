@@ -45,7 +45,7 @@ The PSF introduced an **IPFS networking layer** between the API and the front-en
 - **Decentralized Resilience**: The network is a mesh of community-run `ipfs-bch-wallet-service` instances. If one goes offline, applications can switch to another provider on the IPFS subnetwork.
 - **Accessibility**: Lowers the financial threshold for hobbyists and entrepreneurs to launch [blockchain](blockchain.md) services.
 
-## Related Pages
+## Related pages
 - [cash-stack-layers](cash-stack-layers.md)
 - [ipfs-bch-wallet-service](ipfs-bch-wallet-service.md)
 - [ipfs-bch-wallet-consumer](ipfs-bch-wallet-consumer.md)

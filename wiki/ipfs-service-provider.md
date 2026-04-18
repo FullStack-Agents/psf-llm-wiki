@@ -48,7 +48,7 @@ Following **Clean Architecture**, the project is structured into:
 - **Entities**: Business logic validation.
 - **Use Cases**: Application-specific business rules.
 
-## Related Pages
+## Related pages
 - [helia-coord](helia-coord.md)
 - [circuit-relays](circuit-relays.md)
 - [ipfs-bch-wallet-consumer](ipfs-bch-wallet-consumer.md)

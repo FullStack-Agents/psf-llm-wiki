@@ -48,7 +48,7 @@ The "self-healing" nature of the network is maintained by:
 - `manageAnnouncement()`: Broadcasting the node's presence.
 - `managePeers()`: Restoring disconnected peer connections.
 
-## Related Pages
+## Related pages
 - [minimal-slp-wallet](minimal-slp-wallet.md)
 - [circuit-relays](circuit-relays.md)
 - [bitcoin-cash](bitcoin-cash.md)

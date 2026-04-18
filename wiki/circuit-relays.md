@@ -37,7 +37,7 @@ To successfully operate a Circuit Relay, the following network configuration is 
 - **Configuration**: The `ENABLE_CIRCUIT_RELAY` environment variable must be set to `1`.
 - **Web Access**: To provide network access to browser-based IPFS nodes, the relay must be available over secure websockets, requiring a registered domain name with an SSL certificate.
 
-## Related Pages
+## Related pages
 - [helia-coord](helia-coord.md)
 - [ipfs-service-provider](ipfs-service-provider.md)
 - [network-discovery](network-discovery.md)
