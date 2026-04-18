@@ -88,7 +88,7 @@ When the user asks you to lint or audit the wiki:
 - Identify concepts mentioned in pages that lack their own page
 - Flag claims that may be outdated based on newer sources
 - Verify page format compliance using the following checklist:
-    - [ ] **Headers**: Page contains `**Summary**:`, `**Sources**:`, and `**Last updated**:` in the top section.
+    - [ ] **Headers**: Page contains `**Summary**:`, `**Sources**:`, and `**Last updated**:` each as a distinct field in the top section (not necessarily on the same line).
     - [ ] **Separator**: A horizontal rule (`---`) separates metadata from the main content.
     - [ ] **Footer**: Page contains a `## Related pages` section at the end.
     - [ ] **Naming**: Filename is lowercase with hyphens (e.g. `my-concept.md`).
