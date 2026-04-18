@@ -146,7 +146,9 @@
 - [slp-mint](slp-mint.md): Detailed specification of the SLP MINT transaction, used to increase the token supply.
 - [slp-send](slp-send.md): Detailed specification of the SLP SEND transaction, used for transferring tokens between addresses.
 - [slp-token-indexer](slp-token-indexer.md): A [blockchain](blockchain.md) indexer that tracks [SLP](simple-ledger-protocol.md) token transactions according to Type 1 and NFT1 specifications, providing the necessary data for token-related operations in the [Cash Stack](cash-stack-layers.md).
-- [slp-token-protocol](slp-token-protocol.md): An analysis of the Simple Ledger Protocol (SLP), highlighting its design philosophy of loose coupling to the [blockchain](blockchain.md), which reduces platform risk and increases adaptability compared to other token protocols.
+- [slp-nft-1](slp-nft-1.md): Specification for the NFT1 protocol, an extension of SLP Token Type 1 that enables "grouped NFTs" by allowing multiple individual NFT child tokens to be associated with a single Group ID.
+- [slp-postage-protocol](slp-postage-protocol.md): Specification for the Simple Ledger Postage Protocol, allowing SLP token senders to pay for transaction fees using SLP tokens instead of native BCH.
+- [slp-token-type-1](slp-token-type-1.md): Detailed specification of the SLP Permissionless Token Type (Type 1), covering its transaction formats (GENESIS, MINT, SEND, COMMIT), consensus rules, and validation security models.
 - [standard-transaction-types](standard-transaction-types.md): The categorized set of transaction types accepted by the reference [bitcoin-cash](bitcoin-cash.md) client.
 - [technical-architecture](technical-architecture.md): The overarching structural design of [bitcoin-cash](bitcoin-cash.md) that integrates the [blockchain](blockchain.md), consensus mechanisms, and cryptographic verification to create a robust, decentralized currency.
 - [transaction-anatomy](transaction-anatomy.md): The structural composition of [bitcoin-cash](bitcoin-cash.md) transactions, including inputs, outputs, cryptographic signatures, and different transaction types.
