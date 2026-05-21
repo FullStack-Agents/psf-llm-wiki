@@ -4,7 +4,7 @@
 
 **Sources**: cashaddr.md
 
-**Last updated**: 2026-04-18
+**Last updated**: 2026-05-21
 
 ---
 
@@ -34,11 +34,47 @@ The version byte in CashAddr is bit-mapped into three parts:
 2. **Address Type**:
    - `0b000`: P2PKH
    - `0b001`: P2SH
-3. **Data Size**: The last 3 bits indicate the size of the data payload (e.g., `0b000` for 20 bytes), allowing the node to verify the address length (source: cashaddr.md).
+3. **Data Size**: The last 3 bits indicate the size of the data payload, allowing the node to verify the address length.
+
+| Size bits | Data size (bytes) |
+| --------- | ----------------- |
+| 0b000     | 20                |
+| 0b001     | 24                |
+| 0b010     | 28                |
+| 0b011     | 32                |
+| 0b100     | 40                |
+| 0b101     | 48                |
+
+(source: cashaddr.md)
 
 **Common Legacy Version Bytes**:
 - **P2PKH**: Version byte `0` (starts with `q` in the payload).
 - **P2SH**: Version byte `5` (starts with `p` in the payload).
+
+### Base32 Symbol Chart
+
+| Value | Char | Value | Char |
+| ----- | ---- | ------| ---- |
+| 0     | q    | 16    | s    |
+| 1     | p    | 17    | 3    |
+| 2     | z    | 18    | j    |
+| 3     | r    | 19    | n    |
+| 4     | y    | 20    | 5    |
+| 5     | 9    | 21    | 4    |
+| 6     | x    | 22    | k    |
+| 7     | 8    | 23    | h    |
+| 8     | g    | 24    | c    |
+| 9     | f    | 25    | e    |
+| 10    | 2    | 26    | 6    |
+| 11    | t    | 27    | m    |
+| 12    | v    | 28    | u    |
+| 13    | d    | 29    | a    |
+| 14    | w    | 30    | 7    |
+| 15    | 0    | 31    | l    |
+
+(source: cashaddr.md)
+
+Uppercase characters are valid (enabling efficient QR encoding), but any mixture of lowercase and uppercase must be rejected (source: cashaddr.md).
 
 ## Checksum
 CashAddr uses a 40-bit BCH code defined over the finite field GF(2^5). This provides a high degree of security, capable of detecting up to 6 errors in the address or 8 errors in a row (source: cashaddr.md).

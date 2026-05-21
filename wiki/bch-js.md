@@ -2,9 +2,9 @@
 
 **Summary**: A JavaScript npm library for building web and mobile applications that interact with the [bitcoin-cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)) [blockchain](blockchain.md). It serves as the Interface Library layer in the [Cash Stack](cash-stack-layers.md).
 
-**Sources**: bch-js.md, [psf-bch-api](psf-bch-api.md)
+**Sources**: bch-js.md, psf-bch-api.md
 
-**Last updated**: 2026-04-17
+**Last updated**: 2026-05-21
 
 ---
 
@@ -25,6 +25,28 @@ It sits at the **Interface Library** layer of the [Cash Stack](cash-stack-layers
 1. **[x402](x402-bch.md) Pay-Per-Call**: Uses [x402-bch](x402-bch.md) to handle micro-payments per API call automatically using a WIF [private key](private-keys.md).
 2. **Free Public Server**: Rate-limited access via a public server.
 3. **Private Infrastructure**: Uses Bearer token authentication for private `[psf-bch-api](psf-bch-api.md)` deployments.
+
+Constructor options (source: bch-js.md):
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| `restURL` | string | — | REST API server URL for API calls |
+| `bearerToken` | string | `''` | Bearer token for authentication |
+| `wif` | string | `''` | Private key in WIF format for x402 payments |
+| `paymentAmountSats` | number | `20000` | Default satoshis for x402 payments |
+| `bchServerURL` | string | `'https://bch.fullstack.cash'` | BCH server for broadcasting x402 payments |
+
+### Important Constants (source: bch-js.md)
+
+| Constant | Value | Description |
+|----------|-------|-------------|
+| Dust limit | 546 satoshis | Minimum output value; SLP outputs use this |
+| BIP44 coin type (BCH) | 145 | Derivation path: `m/44'/145'/0'/0/0` |
+| BIP44 coin type (SLP) | 245 | Derivation path: `m/44'/245'/0'/0/0` |
+| Typical fee | 250–550 satoshis | Depends on inputs/outputs count |
+
+### Code Examples
+Working code examples for wallet creation, sending BCH, SLP token operations, and NFTs are available at the [psf-js-examples repository](https://github.com/Permissionless-Software-Foundation/psf-js-examples). Full API reference documentation is at [bchjs.fullstack.cash](https://bchjs.fullstack.cash/) (source: bch-js.md).
 
 ## Related pages
 - [psf-bch-api](psf-bch-api.md)

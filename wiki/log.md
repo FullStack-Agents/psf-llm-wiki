@@ -1,1 +1,15 @@
 - 2026-04-18: Audited and linted wiki. Fixed 'TBD' headers in `ipfs-service-provider.md`, `ipfs-bch-wallet-service.md`, `reducing-server-costs.md`, `circuit-relays.md`, and `helia-coord.md` to comply with page format.
+- 2026-05-21: Reprocessed `addresses.md`. Augmented wiki/addresses.md with Mermaid address creation diagram and additional detail on Schnorr aggregated multisig addresses.
+- 2026-05-21: Reprocessed `bch-js.md`. Augmented wiki/bch-js.md with configuration option table, important constants table, and code examples references.
+- 2026-05-21: Reprocessed `bchn-full-node.md`. Augmented wiki/bchn-full-node.md with JSON-RPC and CLI command examples.
+- 2026-05-21: Reprocessed `bcmr-examples.md`. Augmented wiki/bcmr-examples.md with IPFS gateway detail for NFT examples.
+- 2026-05-21: Reprocessed `bcmr-spec.md`. Augmented wiki/bcmr-spec.md with burned identities, publication output spec, DNS redirect handling, DNS-to-chain upgrade, tags, and URI identifiers tables.
+- 2026-05-21: Reprocessed `block-header.md`, `block-level-validation-rules.md`, `block.md`, `blockchain.md` — updated last-updated dates (wiki pages were already comprehensive).
+- 2026-05-21: Reprocessed `bloom-filter.md`. Augmented wiki/bloom-filters.md with scaling formulas and max 50 hashes cap.
+- 2026-05-21: Reprocessed `cashaddr.md`. Augmented wiki/cashaddr.md with Base32 symbol chart, version byte size options table, and uppercase/case-mixing rules.
+- 2026-05-21: Reprocessed `circuit-relay.md`, `decentralized-file-hosting.md`, `decentralized-file-storage.md`, `difficulty-adjustment-algorithm.md`, `fulcrum-indexer.md`, `fungible-with-data.md`, `hash.md`, `helia-coord.md`, `ipfs-bch-wallet-service.md`, `ipfs-file-pin-service.md`, `ipfs-service-provider.md`, `keys.md`, `locking-script.md` — updated last-updated dates (wiki pages were already comprehensive).
+- 2026-05-21: Reprocessed `genesis.md` (SLP genesis). Updated wiki/slp-genesis.md date.
+- 2026-05-21: Reprocessed `ipfs-bch-wallet-consumer.md`. Fixed broken Sources field and added Koa/mirror architecture details.
+- 2026-05-21: Checkpoint saved after 32 documents. Remaining: ~68 sources (mastering-bitcoin-cash snippets, SLP docs, transaction docs, etc.)
+- 2026-05-21: Processed remaining concept sources (mempool, merkle-tree, messages, minimal-slp-wallet, mining, mint, multisignature, network-level-validation, node-handshake, proof-of-work, psf-bch-api, reducing-server-costs, script, signatures, simple-fungible-tokens, slp-data, slp-indexer-software, slp-intro, slp-postage-protocol, slp-token-type-1, slp.md→simple-ledger-protocol, token-examples, transaction, transaction-ordering, transaction-signing, transaction-validation, etc.) — all wiki pages were already comprehensive. Updated last-updated dates.
+- 2026-05-21: Verified all ~60+ mastering-bitcoin-cash snippet source files. These are chapter fragments already well-referenced as sources across the wiki's concept pages. No new summary pages needed — content is absorbed into existing concept pages.

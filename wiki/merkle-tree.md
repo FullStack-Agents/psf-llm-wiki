@@ -4,7 +4,7 @@
 
 **Sources**: mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_4.md, mastering-bitcoin-cash_chapter-6-the-[blockchain](blockchain.md)_5.md, merkle-tree.md
 
-**Last updated**: 2026-04-18
+**Last updated**: 2026-05-21
 
 ---
 

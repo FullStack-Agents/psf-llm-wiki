@@ -4,7 +4,7 @@
 
 **Sources**: keys.md, mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_1.md, mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md
 
-**Last updated**: 2026-04-18
+**Last updated**: 2026-05-21
 
 ---
 

@@ -4,7 +4,7 @@
 
 **Sources**: mastering-bitcoin-cash_chapter-5-the-bitcoin-cash-network_6.md, bloom-filter.md
 
-**Last updated**: 2026-04-18
+**Last updated**: 2026-05-21
 
 ---
 
@@ -20,7 +20,7 @@ A Bloom filter allows a node to send a "compressed" representation of its intere
 A Bloom filter is essentially a large bit-string. Data is added by hashing it with a series of hash operations, using the outputs as indices to set bits in the array (source: bloom-filter.md).
 - **Hash Function**: Bitcoin uses the 32-bit Murmur Hash version 3.
 - **Seed Calculation**: The seed for each hash operation is calculated as `hash_number * 0xFBA4C795 + tweak`, where the tweak (nonce) is chosen randomly by the filter creator (source: bloom-filter.md).
-- **Scaling**: The size of the filter ($S$) and number of hash operations are calculated based on a target false-positive probability ($P$) and the expected number of items to store ($N$).
+- **Scaling**: The size of the filter ($S$) and number of hash operations are calculated based on a target false-positive probability ($P$) and the expected number of items to store ($N$). Formulas: $S = (-1 / \log(2)^2 \times N \times \log(P)) / 8$ bits; hash count = $S \times 8 / N \times \log(2)$, capped at 50 (source: bloom-filter.md).
 
 #### Probabilistic Nature
 - **False Positives**: A peer might send a transaction that the node doesn't actually care about because the bits happened to overlap. This can lead to a "positive feedback loop" where unwanted data is automatically inserted, increasing future false positives (source: bloom-filter.md).
