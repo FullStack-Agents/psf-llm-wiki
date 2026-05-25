@@ -8,7 +8,15 @@
 
 ---
 
-CashTokens are digital assets that can be created and used on the global, decentralized [bitcoin-cash](bitcoin-cash.md) network. They are designed to be counterfeit-proof, verifiable by wallets, and compatible with non-token-aware software (source: cashtokens-intro.md).
+CashTokens are digital assets that can be created and used on the global, decentralized [bitcoin-cash](bitcoin-cash.md) network. Issued by any person, organization, or decentralized application, they are designed to be counterfeit-proof, verifiable by wallets, and safe from accidental destruction (source: cashtokens.org/docs/intro.md).
+
+## Contract-Issued Commitments
+
+Before CashTokens, Bitcoin Cash contracts could only issue commitments through transaction signatures (requiring a private key) or data signatures (via `OP_CHECKDATASIG`). Because contracts cannot hold private keys, they relied on trusted external entities for verifiable messages. CashTokens solves this by providing a commitment primitive usable directly by contracts, enabling **decentralized oracles** and cross-contract communication without increasing validation costs (source: CHIP-2022-02-CashTokens).
+
+## Cross-Contract Interfaces
+
+Using NFTs as authenticated commitments, contracts can create **impersonation-proof messages** read by other contracts. This allows behavior to be broken into smaller, coordinating contracts — reducing transaction sizes. Covenants can communicate over **public interfaces**, allowing diverse ecosystems of compatible covenants to work together even when developed separately. Critically, this is achieved within Bitcoin Cash's stateless UTXO model, retaining its >1000x efficiency advantage over account-based models (source: CHIP-2022-02-CashTokens).
 
 ## Token Types
 

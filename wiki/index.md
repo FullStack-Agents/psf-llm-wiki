@@ -2,7 +2,7 @@
 
 **Summary**: Table of contents for the PSF LLM Wiki.
 
-**Last updated**: 2026-04-18
+**Last updated**: 2026-05-25
 
 ---
 
@@ -19,6 +19,8 @@
 - [bch-peer-management](bch-peer-management.md): How [bitcoin-cash](bitcoin-cash.md) nodes discover, maintain, and bootstrap connections to other peers.
 - [bchjs-network-commands](bchjs-network-commands.md): Documentation of network-related commands available in bchjs.
 - [bchn-full-node](bchn-full-node.md): The base layer of the [Cash Stack](cash-stack-layers.md), providing the essential [blockchain](blockchain.md) node software that validates transactions and blocks on the [bitcoin-cash](bitcoin-cash.md) ([BCH](bitcoin-cash.md)) network.
+- [bcmr-examples](bcmr-examples.md): Practical examples of BCMR implementations for fungible tokens, NFT collections, dApp metadata, and asset migrations.
+- [bcmr-spec](bcmr-spec.md): Technical specification for Bitcoin Cash Metadata Registries, a standard for sharing authenticated metadata about tokens, identities, and contract systems.
 - [base58check](base58check.md): A Base58 encoding format used in Bitcoin Cash to unambiguously encode data types via version bytes and ensure data integrity through a checksum.
 - [bitcoin-cash](bitcoin-cash.md): The primary [blockchain](blockchain.md) used by the [Cash Stack](cash-stack-layers.md) for money transfer and as the basis for tokenization and other web3 primitives.
 - [bitcoin-cash-network](bitcoin-cash-network.md): The communication infrastructure of [bitcoin-cash](bitcoin-cash.md), comprising the P2P network and extended protocols.
@@ -37,10 +39,12 @@
 - [cashaddr](cashaddr.md): A Base32 encoding format used in Bitcoin Cash to provide a human-readable, error-resistant way to represent addresses and distinguish them from Bitcoin (BTC) addresses.
 - [cash-stack-layers](cash-stack-layers.md): The layered architecture of the Cash Stack, inspired by the OSI model, focusing on the path data travels between an app and the [blockchain](blockchain.md).
 - [cash-stack-ports](cash-stack-ports.md): A comprehensive reference of the default network ports used by the various components of the [Cash Stack](cash-stack-layers.md) infrastructure.
+- [cashtoken-alternatives](cashtoken-alternatives.md): Prior art and alternative token systems considered during the design of CashTokens, including colored coin systems and SLP.
 - [cashtoken-rationale](cashtoken-rationale.md): Documentation of the design decisions and trade-offs behind the CashTokens specification.
-- [cashtokens](cashtokens.md): Overview of the built-in CashTokens system on Bitcoin Cash, enabling fungible and non-fungible assets and contract-to-contract communication.
-- [cashtokens-intro](cashtokens-intro.md): Introduction to CashTokens, covering token types, dApp scalability, and opt-in support.
-- [cashtokens-spec](cashtokens-spec.md): Technical specification for Token Primitives, covering encoding, validation, and new VM opcodes.
+- [cashtoken-stakeholders](cashtoken-stakeholders.md): Ecosystem stakeholder responses and public statements of support for the CashTokens upgrade.
+- [cashtokens](cashtokens.md): Overview of the built-in CashTokens system on Bitcoin Cash, enabling fungible and non-fungible assets, cross-contract communication, and decentralized applications. Activated May 2023.
+- [cashtokens-intro](cashtokens-intro.md): Introduction to CashTokens covering token types, contract-issued commitments, cross-contract interfaces, dApp scalability, and opt-in support.
+- [cashtokens-spec](cashtokens-spec.md): Technical specification for Token Primitives covering deployment/activation, token encoding (prefix format, bitfield, PATFOs), validation algorithm, six new VM opcodes with codepoints, supply definitions, CashAddress token support, SIGHASH_UTXOS, and BIP69 sorting.
 - [circuit-relays](circuit-relays.md): A mechanism in libp2p and IPFS that allows nodes behind firewalls or NATs to communicate by routing traffic through a public relay node.
 - [clients](clients.md): The different types of software implementations used to interact with the [bitcoin-cash](bitcoin-cash.md) network, varying by the level of control and trust.
 - [coinbase-transaction](coinbase-transaction.md): A special type of transaction that creates new [bitcoin-cash](bitcoin-cash.md) coins.
@@ -101,7 +105,7 @@
 - [slp-token-type-1](slp-token-type-1.md): Detailed specification of the SLP Permissionless Token Type (Type 1), covering its transaction formats (GENESIS, MINT, SEND, COMMIT), consensus rules, and validation security models.
 - [standard-transaction-types](standard-transaction-types.md): The categorized set of transaction types accepted by the reference [bitcoin-cash](bitcoin-cash.md) client.
 - [technical-architecture](technical-architecture.md): The overarching structural design of [bitcoin-cash](bitcoin-cash.md) that integrates the [blockchain](blockchain.md), consensus mechanisms, and cryptographic verification to create a robust, decentralized currency.
-- [token-examples](token-examples.md): High-level usage examples of CashTokens, including identity tokens, sealed voting, and multithreaded covenants.
+- [token-examples](token-examples.md): High-level usage examples of CashTokens including identity tokens, covenant tracking, depository child covenants, voting strategies, sealed voting, and multithreaded covenants.
 - [transaction-anatomy](transaction-anatomy.md): The structural composition of [bitcoin-cash](bitcoin-cash.md) transactions, including inputs, outputs, cryptographic signatures, and different transaction types.
 - [transaction-broadcasting](transaction-broadcasting.md): The process of transmitting a signed transaction to the [bitcoin-cash](bitcoin-cash.md) network.
 - [transaction-chaining](transaction-chaining.md): The relationship between parent and child transactions in [bitcoin-cash](bitcoin-cash.md).

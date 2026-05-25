@@ -2,13 +2,13 @@
 
 **Summary**: Documentation of the design decisions and trade-offs made in the CashTokens specification, explaining the "why" behind the technical implementation.
 
-**Sources**: cashtoken-rationale.md
+**Sources**: CHIP-2022-02-CashTokens (cashtokens.org/docs/spec/chip.md, rationale.md, alternatives.md)
 
-**Last updated**: 2026-04-18
+**Last updated**: 2026-05-25
 
 ---
 
-The CashTokens specification is based on several key architectural insights designed to balance flexibility for decentralized applications (dApps) with the stability and performance of the Bitcoin Cash network (source: cashtoken-rationale.md).
+The CashTokens specification is based on several key architectural insights designed to balance flexibility for decentralized applications (dApps) with the stability and performance of the Bitcoin Cash network (source: CHIP-2022-02-CashTokens rationale.md).
 
 ## Key Design Decisions
 
@@ -48,10 +48,35 @@ The spec recommends `SIGHASH_UTXOS` for multi-entity transactions to protect lig
 By creating specific "token-aware" address types (`2` and `3`), the protocol prevents users from accidentally sending tokens to addresses that cannot support them, avoiding potential loss of funds (source: cashtoken-rationale.md).
 
 ### Supply Limits
-Fungible token supply is capped at the maximum VM number (`9223372036854775807`). This prevents denial-of-service vulnerabilities in DEX covenants that might fail to validate excessively large amounts and simplifies UI display by avoiding arbitrary-precision arithmetic (source: cashtoken-rationale.md).
+Fungible token supply is capped at the maximum VM number (`9223372036854775807`). This prevents denial-of-service vulnerabilities in DEX covenants that might fail to validate excessively large amounts and simplifies UI display by avoiding arbitrary-precision arithmetic (source: CHIP-2022-02-CashTokens rationale.md).
+
+### Zero-Length Commitments
+Support for zero-length commitments saves bytes in many constructions, eliminating the need for padding in covenants that commit to single VM numbers (like counters). It also avoids a class of vulnerability where a covenant requiring a commitment of `0` (an empty stack item) could become permanently frozen if zero-length was unsupported (source: CHIP-2022-02-CashTokens rationale.md).
+
+### Exclusion of Cloneable Capability
+A "cloneable" capability was considered (to allow duplicating an NFT's commitment) but excluded because more byte-efficient strategies already exist (e.g., certification tokens), and a cloneable capability would encourage inefficient designs that duplicate commitment data in the UTXO set (source: CHIP-2022-02-CashTokens rationale.md).
+
+### Avoiding Proof-of-Work for Token Data Compression
+Some prior proposals required hashing preimages until category IDs match patterns for data compression. CashTokens avoids this because it complicates covenant-managed token creation and presents privacy risks for key material. Category IDs should be predictable before creation to enable ecosystems of mutually-aware contracts (source: CHIP-2022-02-CashTokens rationale.md).
+
+## Prior Art & Alternatives
+
+CashTokens builds on and differs from several prior token systems on Bitcoin (see [cashtoken-alternatives](cashtoken-alternatives.md) for full details):
+
+- **PMv3** (2021): Precursor proposal withdrawn in favor of CashTokens
+- **Bitauth** (2016): Identity resolution protocol; CashTokens' use of TXIDs as category IDs and transferable capabilities are derived from Bitauth
+- **Colored Coins**: Various systems (Mastercoin, Open Assets, EPOBC) that focused on fungible tokens. CashTokens uniquely separates fungible and non-fungible primitives
+- **OP_CHECKCOLORVERIFY** (2013): VM-focused colored coin approach, but token units would have used satoshis, losing monetary time value
+- **Freimarkets** (2013): Comprehensive proposal but too many changes for practical deployment
+- **OP_GROUP** (2017): Similar to OP_CHECKCOLORVERIFY
+- **SLP** (2018): Most widespread token system on BCH; application-layer (not consensus-validated). CashTokens is network-validated and enables cross-contract interfaces
+- **Unforgeable Groups**: Contributed the output prefix codepoint strategy adopted by CashTokens
+(source: CHIP-2022-02-CashTokens alternatives.md)
 
 ## Related pages
 
 - [cashtokens-spec](cashtokens-spec.md)
 - [cashtokens](cashtokens.md)
 - [token-examples](token-examples.md)
+- [cashtoken-alternatives](cashtoken-alternatives.md)
+- [cashtoken-stakeholders](cashtoken-stakeholders.md)
