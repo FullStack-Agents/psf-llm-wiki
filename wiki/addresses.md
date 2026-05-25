@@ -6,7 +6,7 @@ The address is created by applying a cryptographic hash function to the public k
 
 **Sources**: mastering-bitcoin-cash_chapter-1-What-is-Bitcoin-Cash-([BCH](bitcoin-cash.md))_7.md, mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_2.md, mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_3.md, mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_6.md, mastering-bitcoin-cash_chapter-3-keys-addresses-and-wallets_10.md, addresses.md
 
-**Last updated**: 2026-04-18
+**Last updated**: 2026-05-21
 
 ---
 
@@ -23,10 +23,25 @@ To ensure addresses are received and interpreted correctly, they are typically e
 - **Pay to Public Key Hash (P2PKH)**: Encodes the hash of the public key (`RIPEMD-160(SHA-256(publicKey))`).
     - Base58Check starts with `1`.
     - CashAddr starts with `q` (source: addresses.md).
+
+    The creation process follows this flow:
+    \`\`\`mermaid
+    graph LR
+    PrivK["Private Key"] ==>PubK[Public key]
+    PubK == SHA256 and RIPEMD160 ==> PubKH[Public Key Hash]
+    PubKH ==> Address
+    Address ==> PubKH
+    style PubK fill:#F06,stroke:#333,stroke-width:2px;
+    style PrivK fill:#B06,stroke:#333,stroke-width:8px;
+    style PubKH fill:#0F6,stroke:#333,stroke-width:2px;
+    style Address fill:#0F6,stroke:#333,stroke-width:2px;
+    \`\`\`
+    (source: addresses.md)
+
 - **Pay to Script Hash (P2SH)**: Encodes the redeem script hash (`RIPEMD-160(redeemScript)`).
     - Base58Check starts with `3`.
     - CashAddr starts with `p` (source: addresses.md).
-- **Multisig Addresses**: Often these are actually P2SH addresses for redeem scripts that perform multisignature validation. With the introduction of Schnorr signatures, n-of-n multisig can also be performed using aggregated keys, which may result in an address that looks like a standard P2PKH (source: addresses.md).
+- **Multisig Addresses**: Often these are actually P2SH addresses for redeem scripts that perform multisignature validation. With the introduction of Schnorr signatures, n-of-n multisig can also be performed using aggregated keys, which may result in an address that looks like a standard P2PKH (source: addresses.md). With Schnorr aggregation, only a single signature is produced regardless of the number of parties, reducing transaction size and cost. This technique is newer and not as widely implemented as the P2SH method (source: addresses.md).
 
 ### Key Features
 - **Format**: Addresses are often displayed as strings or as QR codes for easy scanning via smartphones.

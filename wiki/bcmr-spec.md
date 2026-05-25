@@ -47,6 +47,7 @@ OP_RETURN <'BCMR'> <sha256_hash> [<uri> <uri> ...]
 - The SHA-256 hash is in `OP_SHA256` byte order (matching `OP_HASH256` output order, which is little-endian)
 - URIs without a protocol prefix default to HTTPS; without a file path, assume the Well-Known URI
 - Example: `https://example.com/.well-known/bitcoin-cash-metadata-registry.json` is encoded as `<'example.com'>` — i.e. `0x0b6578616d706c652e636f6d`
+- **IPFS**: Must use `ipfs://` prefix. Registry hash verification is done client-side, so gateways are untrusted.
 - Clients must support HTTPS and IPFS protocols at minimum
 - Every transaction can have zero or **one** metadata registry publication output (the first matching output at the lowest index is definitive) (source: BCMR CHIP).
 
@@ -59,9 +60,26 @@ BCMRs use an extensible JSON schema to map identities to their history (source: 
 - **Identity Snapshots**: Metadata is organized into snapshots associated with specific timestamps. A snapshot can include a name, description, and token-specific data (symbol, decimals, category).
 - **Gradual Migration**: Using the `migrated` property, snapshots can define a transition period between two sets of metadata (source: BCMR CHIP).
 
-### Tags and URIs
-- **Tags**: Allow classification of identities (e.g., `stablecoin`, `exchange`, `organization`).
-- **URI Identifiers**: Standardized keys like `icon`, `web`, `blog`, and `support` point to authenticated resources. All URIs must be fully qualified (absolute) (source: BCMR CHIP).
+### Tags
+Tags classify identities by characteristics. Standard tags include: `individual`, `organization`, `token`, `wallet`, `exchange`, `stablecoin`, `utility-token`, `security-token`, `collectable`, `deflationary`, `governance`, `decentralized-exchange`. Tags can also represent external certifications (audited, endorsed) (source: BCMR CHIP).
+
+### URI Identifiers
+Standardized URI keys for identity metadata (source: BCMR CHIP):
+
+| Identifier | Description |
+| ---------- | ----------- |
+| `icon` | Square static icon (SVG recommended, or AVIF/WebP/PNG) |
+| `icon-intro` | Square animated intro icon (plays once, non-looping) |
+| `image` | Static image of the asset |
+| `web` | Website offering info about the identity |
+| `blog` | Blog or news source |
+| `chat` | Community chatroom |
+| `forum` | Community forum |
+| `support` | User-facing support |
+| `migrate` | Guidance for migrating from a previous token category |
+| `registry` | Primary-source registry URI |
+
+All URIs must be fully qualified (absolute). Custom identifiers follow pattern `/^[-a-z0-9]+$/` (e.g. `discord`, `github`, `telegram`, `twitter`).
 
 ## Token and NFT Integration
 

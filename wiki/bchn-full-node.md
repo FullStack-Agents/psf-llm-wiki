@@ -4,7 +4,7 @@
 
 **Sources**: bchn-full-node.md
 
-**Last updated**: 2026-04-17
+**Last updated**: 2026-05-21
 
 ---
 
@@ -28,6 +28,18 @@ The full node serves as the source of truth for the [blockchain](blockchain.md).
 The BCHN Full Node can be interacted with via two primary methods:
 1. **Command Line**: Using `bitcoin-cli` inside the container for manual administrative tasks (source: bchn-full-node.md).
 2. **JSON-RPC**: A programmatic interface (typically on port 8332) used by other [Cash Stack](cash-stack-layers.md) components to communicate with the node (source: bchn-full-node.md).
+
+Example JSON-RPC call via curl (source: bchn-full-node.md):
+```bash
+curl --data-binary '{"jsonrpc":"1.0","id":"curltext","method":"getnetworkinfo","params":[]}' \
+  -H 'content-type:text/plain;' http://bitcoin:password@127.0.0.1:8332/
+```
+
+Example CLI access inside the container (source: bchn-full-node.md):
+```bash
+docker exec -it bchn-main bash
+bitcoin-cli -conf=/data/bitcoin.conf getnetworkinfo
+```
 
 ## Related pages
 

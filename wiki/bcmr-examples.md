@@ -4,7 +4,7 @@
 
 **Sources**: bcmr-examples.md
 
-**Last updated**: 2026-04-18
+**Last updated**: 2026-05-21
 
 ---
 
@@ -20,7 +20,7 @@ The `fungible-token.json` example demonstrates how an issuer manages a single fu
 ### NFT Art Collections
 The `art-collection.json` example shows how to manage a collection of **sequential NFTs**.
 - **Mapping**: Each NFT's commitment (a VM number) maps to a specific index in the registry.
-- **Content Delivery**: Metadata for each NFT (e.g., `Example #0`) includes an icon published via **IPFS**, ensuring data integrity and availability (source: bcmr-examples.md).
+- **Content Delivery**: Metadata for each NFT (e.g., `Example #0`) includes an icon published via **IPFS**, ensuring data integrity and availability. Clients may download icons directly from IPFS or via HTTP gateways (e.g., CloudFlare's `cf-ipfs.com`) (source: bcmr-examples.md).
 
 ### Decentralized Application (dApp) Metadata
 The `decentralized-application.json` example illustrates the use of **parsable NFTs** to support complex dApp logic, such as crowdfunding.
