@@ -39,6 +39,11 @@
 - [cashaddr](cashaddr.md): A Base32 encoding format used in Bitcoin Cash to provide a human-readable, error-resistant way to represent addresses and distinguish them from Bitcoin (BTC) addresses.
 - [cash-stack-layers](cash-stack-layers.md): The layered architecture of the Cash Stack, inspired by the OSI model, focusing on the path data travels between an app and the [blockchain](blockchain.md).
 - [cash-stack-ports](cash-stack-ports.md): A comprehensive reference of the default network ports used by the various components of the [Cash Stack](cash-stack-layers.md) infrastructure.
+- [cashscript-faq](cashscript-faq.md): Essential developer Q&A and troubleshooting for CashScript on Bitcoin Cash, covering SDK gotchas, language clarifications, and CashTokens specifics.
+- [cashscript-language](cashscript-language.md): Reference for the CashScript smart contract language covering types, operators, built-in functions, global variables, token capabilities, and common patterns.
+- [cashscript-multi-contract](cashscript-multi-contract.md): Production-grade patterns for multi-contract CashScript systems including Main+Sidecar, Function Contracts, Input Position Pinning, and deployment checklists.
+- [cashscript-sdk](cashscript-sdk.md): JavaScript/TypeScript SDK reference for CashScript covering contract instantiation, transaction building, token integration, debugging, and deployment.
+- [cashscript-security](cashscript-security.md): Security patterns and vulnerability prevention for CashScript including 5-point covenant validation, output limiting, minting authority, and cross-contract trust.
 - [cashtoken-alternatives](cashtoken-alternatives.md): Prior art and alternative token systems considered during the design of CashTokens, including colored coin systems and SLP.
 - [cashtoken-rationale](cashtoken-rationale.md): Documentation of the design decisions and trade-offs behind the CashTokens specification.
 - [cashtoken-stakeholders](cashtoken-stakeholders.md): Ecosystem stakeholder responses and public statements of support for the CashTokens upgrade.
