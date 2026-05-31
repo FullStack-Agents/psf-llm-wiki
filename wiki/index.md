@@ -36,6 +36,8 @@
 - [block-level-validation-rules](block-level-validation-rules.md): Overview of the absolute consensus rules that define what transactions and blocks are permitted in the Bitcoin Cash blockchain, contrasting with network-level "standardness" rules.
 - [bloom-filters](bloom-filters.md): A probabilistic data structure used by SPV nodes to retrieve transactions while maintaining the privacy of the node's wallet addresses.
 - [byzantine-generals-problem](byzantine-generals-problem.md): A classic problem in distributed computing regarding how to achieve consensus in a network with potentially unreliable participants.
+- [cauldron-api](cauldron-api.md): REST API documentation for the Riften Labs Indexer powering Cauldron DEX, covering pools, prices, tokens, transactions, BCMR metadata, oracle feeds, and the Moria lending protocol.
+- [cauldron-intro](cauldron-intro.md): Introduction to Cauldron DEX, a decentralized exchange on Bitcoin Cash for swapping and providing liquidity to native CashTokens, developed by Riften Labs.
 - [cashaddr](cashaddr.md): A Base32 encoding format used in Bitcoin Cash to provide a human-readable, error-resistant way to represent addresses and distinguish them from Bitcoin (BTC) addresses.
 - [cash-stack-layers](cash-stack-layers.md): The layered architecture of the Cash Stack, inspired by the OSI model, focusing on the path data travels between an app and the [blockchain](blockchain.md).
 - [cash-stack-ports](cash-stack-ports.md): A comprehensive reference of the default network ports used by the various components of the [Cash Stack](cash-stack-layers.md) infrastructure.
