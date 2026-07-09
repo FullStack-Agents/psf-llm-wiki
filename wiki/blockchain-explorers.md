@@ -4,7 +4,7 @@
 
 **Sources**: mastering-bitcoin-cash_chapter-2-how-bicoin-cash-works_10.md
 
-**Last updated**: 2026-04-17
+**Last updated**: 2026-07-09
 
 ---
 
@@ -21,6 +21,7 @@ Explorers allow users to perform several critical tasks:
 Commonly used explorers include:
 - **Explorer by Bitcoin.com**: `https://explorer.bitcoin.com/bch`
 - **Blockchair**: `https://blockchair.com/bitcoin-cash/blocks`
+- **BCH Explorer**: `https://bchexplorer.cash`
 
 ## Related pages
 
